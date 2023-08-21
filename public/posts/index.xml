@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>⭐️ The Great SummerEmacs Blog ⭐️</title>
-    <link>https://summeremacs.github.io/</link>
-    <description>Recent content on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <title>Posts on ⭐️ The Great SummerEmacs Blog ⭐️</title>
+    <link>https://summeremacs.github.io/posts/</link>
+    <description>Recent content in Posts on ⭐️ The Great SummerEmacs Blog ⭐️</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 SummerEmacs</copyright>
-    <lastBuildDate>Mon, 21 Aug 2023 11:09:25 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About - All that&#39;s interesting</title>
-      <link>https://summeremacs.github.io/about/</link>
-      <pubDate>Mon, 21 Aug 2023 11:09:25 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/about/</guid>
-      <description>This is a test of the about page.</description>
-      
-    </item>
-    
+    <lastBuildDate>Mon, 21 Aug 2023 11:09:25 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://summeremacs.github.io/posts/my-first-post/</link>
