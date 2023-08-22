@@ -10,6 +10,14 @@ You're reading my blog.
 
 Ok, so what? Well, I made a huge fuss about /never/ making a blog. But after /over a year of being bothered about it/, I finally did! Good job guys! 🤣
 
-So, why? Well, it's because uploading =org= files in raw format to my [[https://www.github.com/summeremacs][Github account]] was looking kinda shoddy. And, as many people know, I do NOT like to look shoddy.
+So, why? Well, it's because uploading =org= files in raw format to my [[https://www.github.com/summeremacs][Github account]] was looking kinda shoddy. And, as many people know, I do /NOT/ like to look shoddy.
 
+So, it was prompted by a few comments online (like [[https://lobste.rs/s/2hswwc/how_i_came_use_emacs_other_things][here for instance]]) which just made me hide my face in my hands 🤦🏼‍♀️ and say ok...screw it. I'll make a blog. But I didn't wanna pay for a Squarespace or something like that because anyone with 1/4 of a brain can do that and "make a blog". Instead, since I was posting about Emacs stuff (mostly), I wanted it to be where I can get geek cred: 👩🏼‍💻 on Github. So, I had to set up [[https://gohugo.io][Hugo]] and also [[https://github.com/masasam/emacs-easy-hugo][easy-hugo]] for [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs]] (yes, I linked to a Mac 🍏 version. Bite me! 😀), and then I had to look through tons of bad themes to find a good one and figure out how to set that up, and boy was that not easy to do!
 
+Eventually, I "made it work".
+
+I haven't finished. I do have a DNS to tie to it but I don't think that I'll bother for now. I just want it to park stuff I've already written and maybe will write about every few months or year or so. We'll see.
+
+At least it doesn't look as shoddy 🗑️ as before.
+
+Summer ⭐️
