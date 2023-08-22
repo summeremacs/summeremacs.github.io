@@ -3,12 +3,8 @@ title: "How I Use Emacs"
 date: 2023-05-04T12:06:16+02:00
 draft: false
 author: "Summer Emacs"
-cover:
- image: img/pink-emacs-icon/.png
- alt: 'Emacs Pink Icon'
- caption: 'Your forever friend.'
 tags: ["emacs","tutorial"]
-categories: ["emacs"]
+# categories: ["emacs"]
 ---
 
 
