@@ -1,10 +1,6 @@
 +++
-title = """
-  "80s Movies Watch List"
-  """
-author = ["""
-  "Summer Emacs"
-  """]
+title = 60s, 70s, 80s Movies Watch List
+author = ["Summer Emacs"]
 date = 2023-08-22T09:09:44+02:00
 draft = false
 +++
