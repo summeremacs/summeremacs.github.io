@@ -3,9 +3,14 @@ title: "How I Use Emacs"
 date: 2023-05-04T12:06:16+02:00
 draft: false
 author: "Summer Emacs"
+cover:
+ image: img/pink-emacs-icon/.png
+ alt: 'Emacs Pink Icon'
+ caption: 'Your forever friend.'
+tags: ["emacs","tutorial"]
+categories: ["emacs"]
 ---
-#+DOWNLOADED: file:/Users/summer/Documents/site/summeremacs/public/posts/how-i-use-emacs/pink-emacs-icon.png @ 2023-08-22 02:03:27
-[[file:../../../../sync/org/images/2023-08-22_02-03-27_pink-emacs-icon.png]]
+
 
 * An explanation of how I use Emacs
 - I'm honoured that you all have invited me to share my thoughts, and I especially appreciate the $50,000 advanced speakers' fee.
