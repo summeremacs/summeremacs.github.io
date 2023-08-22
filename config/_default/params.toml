@@ -18,7 +18,7 @@ enableCodeCopy = true
 disableImageOptimization = false
 
 defaultBackgroundImage = "/img/ocean.jpg"
-defaultFeaturedImage = "/img/ocean.jpg"
+# defaultFeaturedImage = "/img/ocean.jpg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -71,7 +71,7 @@ smartTOCHideUnfocusedChildren = false
   showAuthorsBadges = true 
   showWordCount = false
   showSummary = true
-  sharingLinks = [ "twitter", "reddit", "facebook", "email"]
+  sharingLinks = [ "reddit", "facebook", "email"]
 
   
 [list]
@@ -79,8 +79,8 @@ smartTOCHideUnfocusedChildren = false
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background
   layoutBackgroundHeaderSpace = false
-  showBreadcrumbs = false
-  showSummary = false
+  showBreadcrumbs = true
+  showSummary = true
   showViews = true
   showLikes = true
   showTableOfContents = true
