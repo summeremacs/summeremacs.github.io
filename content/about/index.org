@@ -2,6 +2,14 @@
 title: "About - All that's interesting"
 date: 2023-08-21T11:09:25+02:00
 draft: false
+tags: ["info"]
 ---
-This is a test of the about page.
-Making this an org page.
+
+* Hi there!
+You're reading my blog.
+
+Ok, so what? Well, I made a huge fuss about /never/ making a blog. But after /over a year of being bothered about it/, I finally did! Good job guys! 🤣
+
+So, why? Well, it's because uploading =org= files in raw format to my [[https://www.github.com/summeremacs][Github account]] was looking kinda shoddy. And, as many people know, I do NOT like to look shoddy.
+
+
