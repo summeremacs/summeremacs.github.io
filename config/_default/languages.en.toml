@@ -10,13 +10,13 @@ title = "⭐️ The Great SummerEmacs Blog ⭐️"
   dateFormat = "2 January 2006"
   logo = "img/emacs_icon_profile.png"
   # secondaryLogo = "PATH"
-  description = "⭐️ The Great SummerEmacs Blog ⭐️"
+  # description = "⭐️ The Great SummerEmacs Blog ⭐️"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
   name = "SummerEmacs"
   image = "img/emacs_icon_profile.png"
-  headline = "⭐️ The Great SummerEmacs Blog ⭐️"
+  # headline = "⭐️ The Great SummerEmacs Blog ⭐️"
   bio = "Just an Emacs Girl. 🙃"
   links = [
     { mastodon = "https://fashionsocial.host/@summeremacs" },
