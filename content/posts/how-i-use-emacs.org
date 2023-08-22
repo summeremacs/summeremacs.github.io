@@ -7,6 +7,9 @@ tags: ["emacs","tutorial"]
 # categories: ["emacs"]
 ---
 
+#+caption: Emacs in Pink is your Friend.
+#+attr_html: alt: A Pink Emacs Icon. :width 200
+[[/img/pink-emacs-icon.png]]
 
 * An explanation of how I use Emacs
 - I'm honoured that you all have invited me to share my thoughts, and I especially appreciate the $50,000 advanced speakers' fee.
