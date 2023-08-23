@@ -1,12 +1,8 @@
 ---
-title: 60s, 70s, 80s Movies Watch List
-author: ["Summer Emacs"]
-date: 2023-08-22T09:09:44+02:00
-draft: false
----
-
----
-
+title = "60s, 70s, 80s Movies Watch List"
+author = ["Summer Emacs"]
+date = 2023-08-22T09:09:44+02:00
+draft = false
 ---
 
 My current (mostly 80s) movies/shows watch list. Now, i've seen a few of these already, but the goal is to 1) see it together with my GF and 2) to _also_ watch it together with our BFFs. Some of them have been seen by my GF or one of my BFFs - they remain unchecked until we've all seen it together. Usually, we dress up in 80s fashion and makeup for a weekend night or day and watch a few of them back to back. It's a fun 80s retro party that way. 🙃
@@ -14,23 +10,30 @@ My current (mostly 80s) movies/shows watch list. Now, i've seen a few of these a
 This list will continue being updated as time goes on. Also: any of my friends online can suggest things for me to put on the list. It can be 70s and 60s too, btw. It just started as an 80s list at first. 🙃
 
 
+## 90s Movies {#90s-movies}
+
+-   [X] Home Alone
+-   [ ] Robin Hood: Men in Tights (1993)
+
+
 ## 80s Movies {#80s-movies}
 
 -   [X] A Fish Called Wanda
 -   [ ] A Land Before Time
 -   [ ] After Hours
--   [ ] Baby's Day Out.
+-   [ ] Amadeus
+-   [ ] Baby's Day Out
 -   [X] Back to the Future (1, 2, &amp; 3)
 -   [X] Beethoven
 -   [X] Better Off Dead
 -   [ ] Beverly Hills Cop (1 &amp; 2)
+-   [ ] Big
 -   [ ] Bill &amp; Ted (1 &amp; 2)
 -   [X] Blade Runner
--   [ ] Blazing Saddles (1974)
 -   [X] Brazil
--   [ ] Brothers Lionheart (1977)
 -   [ ] Buckaroo Banzai
 -   [X] Clue
+-   [ ] Coming to America
 -   [ ] Conan the Barbarian
 -   [X] Dark Crystal
 -   [X] Dead Poets Society
@@ -40,19 +43,19 @@ This list will continue being updated as time goes on. Also: any of my friends o
 -   [ ] Dune
 -   [ ] Dutch
 -   [X] E.T.
+-   [ ] Fanny and Alexander
 -   [ ] Fast Times at Ridgemont High
 -   [X] Ferris Bueller's Day Off
 -   [ ] Field of Dreams
 -   [X] Flashdance
 -   [X] Footloose
+-   [ ] Full Metal Jacket
 -   [X] Ghostbusters
 -   [X] Heathers
--   [ ] High Anxiety (1977)
 -   [ ] Highlander
 -   [ ] History of the World, Part I (1981)
--   [X] Home Alone
 -   [ ] Killer Klowns from Outer Space
--   [ ] Kung Fury
+-   [ ] Kung Fury (It's made in 80s style apparently)
 -   [X] Legend
 -   [X] Liquid Sky
 -   [X] Little Shop of Horrors
@@ -61,21 +64,21 @@ This list will continue being updated as time goes on. Also: any of my friends o
 -   [ ] Mrs. Doubtfire
 -   [ ] National Lampoon's Vacation
 -   [X] Neverending Story
+-   [ ] One Crazy Summer
 -   [X] Planes, Trains and Automobiles
 -   [ ] Poltergeist
 -   [X] Pretty in Pink
 -   [X] Purple Rain
 -   [ ] Raiders of the Lost Ark
+-   [ ] Rain Man
 -   [X] Real Genius
 -   [ ] Repo Man
 -   [X] Risky Business
--   [ ] Robin Hood: Men in Tights (1993)
 -   [ ] Robocop
 -   [ ] Ronia, the Robber's Daughter (1984)
 -   [ ] Saint Elmo's Fire
 -   [ ] She's Having a Baby
 -   [ ] Short Circuit
--   [ ] Silent Movie (1976)
 -   [X] Sixteen Candles
 -   [ ] Some Kind of Wonderful
 -   [X] Spaceballs (1987)
@@ -89,11 +92,12 @@ This list will continue being updated as time goes on. Also: any of my friends o
 -   [ ] The Last Unicorn
 -   [X] The Lost Boys
 -   [X] The Princess Bride
--   [X] The Producers (1967)
+-   [ ] The Right Stuff
 -   [X] The Shining
 -   [X] The Terminator
--   [ ] The Twelve Chairs (1970)
+-   [ ] This is Spinal Tap
 -   [X] Time Bandits
+-   [ ] Tootsie
 -   [X] Top Gun
 -   [ ] Total Recall
 -   [ ] Trading Places
@@ -101,30 +105,28 @@ This list will continue being updated as time goes on. Also: any of my friends o
 -   [ ] Twins
 -   [ ] Uncle Buck
 -   [ ] Valley Girl
+-   [ ] Wall Street
 -   [X] War Games
 -   [X] Weird Science
 -   [ ] When Harry Met Sally
 -   [X] Willow
 -   [ ] Working 9 to 5
 -   [X] Working Girl
+
+
+## 70s Movies {#70s-movies}
+
+-   [ ] Blazing Saddles (1974)
+-   [ ] Brothers Lionheart (1977)
+-   [ ] High Anxiety (1977)
+-   [ ] Silent Movie (1976)
+-   [ ] The Twelve Chairs (1970)
 -   [X] Young Frankenstein (1974)
--   [ ] Repo Man
--   [ ] Desperately Seeking Susan
--   [ ] E.T.
--   [ ] Clue
--   [ ] The Right Stuff
--   [ ] Big
--   [ ] Tootsie
--   [ ] Rain Man
--   [ ] The Shining
--   [ ] Fanny and Alexander
--   [ ] Wall Street
--   [ ] One Crazy Summer
--   [ ] Amadeus
--   [ ] This is Spinal Tap
--   [ ] Full Metal Jacket
--   [ ] Coming to America
--   [ ]
+
+
+## 60s Movies {#60s-movies}
+
+-   [X] The Producers (1967)
 
 
 ## Shows {#shows}
