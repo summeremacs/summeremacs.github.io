@@ -10,6 +10,7 @@ My current (mostly 80s) movies/shows watch list. Now, i've seen a few of these a
 
 This list will continue being updated as time goes on. Also: any of my friends online can suggest things for me to put on the list. It can be 70s and 60s too, btw. It just started as an 80s list at first. 🙃
 
+Feel free to contact me to add stuff to this list!
 
 ## 90s Movies {#90s-movies}
 
