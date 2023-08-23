@@ -3,6 +3,7 @@ title: "60s, 70s, 80s Movies Watch List"
 author: ["Summer Emacs"]
 date: 2023-08-22T09:09:44+02:00
 draft: false
+tags: ["movies","list","90s","80s","70s","60s"]
 ---
 
 My current (mostly 80s) movies/shows watch list. Now, i've seen a few of these already, but the goal is to 1) see it together with my GF and 2) to _also_ watch it together with our BFFs. Some of them have been seen by my GF or one of my BFFs - they remain unchecked until we've all seen it together. Usually, we dress up in 80s fashion and makeup for a weekend night or day and watch a few of them back to back. It's a fun 80s retro party that way. 🙃
