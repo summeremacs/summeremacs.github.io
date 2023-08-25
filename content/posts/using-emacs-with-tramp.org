@@ -27,5 +27,5 @@ Stuff I put to good use:
 - =crontab=
 - piping with > !
 
-* I know I said I wouldn't write much on this blog, but I feel so amazing after having done that all so flawlessly with Emacs that I just couldn't help myself. 🙃
+I know I said I wouldn't write much on this blog, but I feel so amazing after having done that all so flawlessly with Emacs that I just couldn't help myself. 🙃
 
