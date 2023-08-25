@@ -1,0 +1,31 @@
+---
+title: "Using Emacs With Tramp"
+date: 2023-08-25T12:24:40+02:00
+draft: true
+author: "Summer Emacs"
+tags: ["server","cli","emacs","tramp","rsync"]
+---
+
+* All my server stuff in Emacs
+Today, I wanted to tidy up some stuff on my server. I had a ton of photos and videos I wanted to organize on my servers. Also, it was getting a little messy with my old way of doing the directories because I had set it up before I had learned how to do most of the things that I know how to do. You see, I have a main drive on my main server, and then a backup drive off of it. But it was a bit messy. I'd dump stuff in one directory as a temp storage place at the root of that directory, but I never did the =--delete= flags for =rsync= which meant that I'd have to, every now and then, go into my backup drive and just delete all the trash by hand. I never had the time to fix that. I only learned a few things about rsync when I had set it up and even though I set up another rsync with the =--delete= flag, I never had the time to do a =--dry-run= on the important stuff I wanted to update. I'd never use a flag like that without doing a dry run. Ever.
+
+* Emacs to the rescue!
+Okay, so what did I do? First, I used =TRAMP= in Emacs to ssh right into my server directly as =sudo=. The guys from [[https://systemcrafters.net][System Crafters]] on Matrix taught me how to use =TRAMP= with =sudo= just yesterday. I had it in my notes in denote, so I put the knowledge to good use. I pulled up =vterm= and did =mosh= into my main server across the country. Then I did an =rsync= command on one of the =origin= and =target= directories after looking it up in my notes and verifying it in =crontab= on my server. I used a => rsync.txt= command to pipe the result to my home directory and ran the command. I knew it would take a few minutes to run because I had moved around a lot of stuff - that's okay. Time enough for me to use =TRAMP= to open it up in Emacs, and hit my refresh buffer global key (F5) that I use a lot.
+
+I could see the output live and go over it with a fine-toothed comb. I was making sure it wasn't erasing everything and messing up.
+
+Yay! No problems with the command! 🥳
+
+So then, thanks to my learning about piping and all that other safety stuff, I was able to run the =rsync= command again, without the =--dry-run= line, still piping it to a new log so I can keep an eye out live on it since I have the =--progress= flag on that command (on all of them).
+
+All from Emacs!
+
+Stuff I put to good use:
+- =rsync --delete --dry-run --progress=
+- =TRAMP= with =sudo= and regular login too
+- =vterm=
+- =crontab=
+- piping with > !
+
+* I know I said I wouldn't write much on this blog, but I feel so amazing after having done that all so flawlessly with Emacs that I just couldn't help myself. 🙃
+
