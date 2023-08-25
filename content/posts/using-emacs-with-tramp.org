@@ -1,7 +1,7 @@
 ---
 title: "Using Emacs With Tramp"
 date: 2023-08-25T12:24:40+02:00
-draft: true
+draft: false
 author: "Summer Emacs"
 tags: ["server","cli","emacs","tramp","rsync"]
 ---
