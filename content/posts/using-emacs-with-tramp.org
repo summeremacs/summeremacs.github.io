@@ -29,3 +29,4 @@ Stuff I put to good use:
 
 I know I said I wouldn't write much on this blog, but I feel so amazing after having done that all so flawlessly with Emacs that I just couldn't help myself. 🙃
 
+P.S. I know this was mostly about rsync but it wouldn't have happened without my learning how to use =sudo= with =TRAMP= yesterday. It's that which prompted me to learn to edit files with root access on my server (crontab) that made it possible for me to easily start working on it. And since =TRAMP= is so awesome, I had to give it all the credit. 🙃
