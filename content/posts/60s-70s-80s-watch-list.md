@@ -1,8 +1,8 @@
 ---
-title: "60s, 70s, 80s Movies Watch List"
-author: ["Summer Emacs"]
-date: 2023-08-22T09:09:44+02:00
-draft: false
+title = "60s, 70s, 80s Movies Watch List"
+author = ["Summer Emacs"]
+date = 2023-08-22T09:09:44+02:00
+draft = false
 tags: ["movies","list","90s","80s","70s","60s"]
 ---
 
@@ -11,6 +11,7 @@ My current (mostly 80s) movies/shows watch list. Now, i've seen a few of these a
 This list will continue being updated as time goes on. Also: any of my friends online can suggest things for me to put on the list. It can be 70s and 60s too, btw. It just started as an 80s list at first. 🙃
 
 Feel free to contact me to add stuff to this list!
+
 
 ## 90s Movies {#90s-movies}
 
@@ -22,7 +23,7 @@ Feel free to contact me to add stuff to this list!
 
 -   [X] A Fish Called Wanda
 -   [ ] A Land Before Time
--   [ ] After Hours
+-   [X] After Hours
 -   [ ] Amadeus
 -   [ ] Baby's Day Out
 -   [X] Back to the Future (1, 2, &amp; 3)
@@ -124,6 +125,7 @@ Feel free to contact me to add stuff to this list!
 -   [ ] Silent Movie (1976)
 -   [ ] The Twelve Chairs (1970)
 -   [X] Young Frankenstein (1974)
+-   [X] Zardoz
 
 
 ## 60s Movies {#60s-movies}
@@ -139,6 +141,7 @@ Feel free to contact me to add stuff to this list!
 -   [ ] Magnum P.I.
 -   [ ] Dynasty
 -   [ ] The Mysterious Cities of Gold (French/Japanese Anime)
+-   [ ] Twin Peaks
 
 
 ## 80s Broadway Shows {#80s-broadway-shows}
