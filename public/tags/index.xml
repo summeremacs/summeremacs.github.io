@@ -7,13 +7,113 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 SummerEmacs</copyright>
-    <lastBuildDate>Thu, 04 May 2023 12:06:16 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 13:28:31 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>comedy</title>
+      <link>https://summeremacs.github.io/tags/comedy/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/comedy/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>emacs</title>
       <link>https://summeremacs.github.io/tags/emacs/</link>
-      <pubDate>Thu, 04 May 2023 12:06:16 +0200</pubDate>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
       
       <guid>https://summeremacs.github.io/tags/emacs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>misc</title>
+      <link>https://summeremacs.github.io/tags/misc/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/misc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>satire</title>
+      <link>https://summeremacs.github.io/tags/satire/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/satire/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>screenplay</title>
+      <link>https://summeremacs.github.io/tags/screenplay/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/screenplay/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://summeremacs.github.io/tags/cli/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/cli/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>rsync</title>
+      <link>https://summeremacs.github.io/tags/rsync/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/rsync/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>https://summeremacs.github.io/tags/server/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/server/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>tramp</title>
+      <link>https://summeremacs.github.io/tags/tramp/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/tramp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>info</title>
+      <link>https://summeremacs.github.io/tags/info/</link>
+      <pubDate>Mon, 21 Aug 2023 11:09:25 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/info/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://summeremacs.github.io/tags/linux/</link>
+      <pubDate>Thu, 29 Jun 2023 18:01:52 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/linux/</guid>
       <description></description>
       
     </item>

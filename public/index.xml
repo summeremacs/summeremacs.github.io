@@ -7,24 +7,411 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 SummerEmacs</copyright>
-    <lastBuildDate>Mon, 21 Aug 2023 11:09:25 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 13:28:31 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zeus and Prot</title>
+      <link>https://summeremacs.github.io/posts/zeus-and-prot/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/zeus-and-prot/</guid>
+      <description>
+&lt;p&gt;
+After coming home, I started reviewing Prot&amp;#39;s progress with the hut this morning. I saw his video post about a pomegranate tree which had mysteriously sprouted. Also, I saw him working like crazy to build this hut. So, after putting some odd links together in my head, I came up with the following screenplay. 🙃 I wrote this really fast so I hope it comes across as okay.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Zeus and Prot - A Discussion
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+SCENE: The end of winter, 2023. Prot is typing away at his computer as evening darkens the windows.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Speaking to himself as he re-reads what he has written) So, given the societal impact of the Antikythera mechanism on ancient lives, and the philosophical foundations of machinery and fundamental programming introduced in a primitive society, we can….&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (As a disembodied and loud voice): Prot.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Startled, looks around): Eh? Is somebody there? (Look around some more) Who is this? Spyware doesn&amp;#39;t work on my GNU Linux system. What is going on?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Prot. Listen. It&amp;#39;s me. Zeus.&lt;/p&gt;
+&lt;p&gt;
+PROT: Zeus? (Takes off his glasses) What? Are you a hacker? I should inform you that I am very good with comp-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No, Prot. I&amp;#39;m not a hacker. I&amp;#39;m the God - Zeus. The King of the Gods.&lt;/p&gt;
+&lt;p&gt;
+PROT: What? Are you serious? You know I don&amp;#39;t believe in you. I&amp;#39;m an atheist. You don&amp;#39;t exist. You&amp;#39;re an interesting sociological and mythological figure from ancie-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I know, I know. Trust me, I&amp;#39;m real. It doesn&amp;#39;t matter if you don&amp;#39;t believe-&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes, and you know that belief is not counted among the virtues in ancient Greek reli-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I know! We&amp;#39;re better than the other guys. Listen, this is more important. I have a message for you.&lt;/p&gt;
+&lt;p&gt;
+PROT: What? You have a message for me? (Pauses..) What is this about? How do I know that you&amp;#39;re really Zeus?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I&amp;#39;ll show you later! Just &lt;em&gt;listen&lt;/em&gt; for a moment! (Pauses…papers can be heard shuffling in the background) I&amp;#39;m trying to find my announcement. I had it written up.&lt;/p&gt;
+&lt;p&gt;
+PROT: You know, if you had used Emacs, then you could have used &lt;code class=&#34;verbatim&#34;&gt;consult-ripgrep&lt;/code&gt; and-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes! Yes, I know. But I grew up with clay tablets and papyrus. Call me old fashioned, but it&amp;#39;s hard to change.&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes, but as you know, in philosophy, we like to think that change is reflective of a positive outloo-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Found it! (Pauses for a moment) Now, where were we? Ah…yes. Here! (Pauses for overly dramatic effect and resumes with a great booming voice) Prot! I task you with a task of momentous import! (There is silence for a little while)&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes..? What task? Is this a God-like imperative or some kind of very pressing request? Because the two would be diffe-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I&amp;#39;m sorry, I was trying to read my handwriting. It got a little smudged. Ah, here we are. (Resumes the great booming voice) Prot! I task you to go out into the wilderness! (He pauses again) I think they call it &amp;#34;Going off the grid&amp;#34; these days. You&amp;#39;re familiar with the term?&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes. Yes of course. I often take hikes in nature and-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Sounding overly pleased) &lt;strong&gt;Very good!&lt;/strong&gt; Right, then! (Resumes booming voice) Prot! I task you to go into the wilderness, find a secluded and survivable spot, and build…(there is a dramatic pause)… &lt;em&gt;a&lt;/em&gt; &lt;em&gt;hut&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;
+(There is a long pause)&lt;/p&gt;
+&lt;p&gt;
+PROT: You want me to &lt;em&gt;what&lt;/em&gt;? It sounded like you said you wanted me to build a-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: A &lt;em&gt;hut&lt;/em&gt;! Yes! I want you…to build a hut. That&amp;#39;s what is written right here. A hut. Off the grid. And there is a note in the margins here amongst the doodles which says &amp;#34;It must be self…sufficient&amp;#34;.&lt;/p&gt;
+&lt;p&gt;
+(Another pause)&lt;/p&gt;
+&lt;p&gt;
+PROT: Zeus, I do not mean to be disrespectful, especially if you really &lt;em&gt;are&lt;/em&gt; a God, but why would I do this? Why is it so important?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: It is not just important to you, but important to the world, Prot!&lt;/p&gt;
+&lt;p&gt;
+PROT: The world?!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. The world. It has a divine purpose.&lt;/p&gt;
+&lt;p&gt;
+PROT: I don&amp;#39;t understand. Why would my building a hut be so important to anything?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, you see…(He sighs deeply)…can we speak frankly for a moment?&lt;/p&gt;
+&lt;p&gt;
+PROT: I have always spoken frankly and clearly as far as I remember, Zeus. It is part of my philo-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Gives a huge sigh) Things aren&amp;#39;t going well, Prot. Things aren&amp;#39;t going well at all.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Furrows his brow and starts to clean his glasses) Oh? Maybe I can help you. I like to help create solutions to problems in many different capaci-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: It&amp;#39;s the world, Prot. You can&amp;#39;t fix the world. Not even I can do it. And Hera&amp;#39;s been nagging me for the last century to do something about it and I can&amp;#39;t shut her up! Nag, nag, nag! Well, you&amp;#39;ve heard all of the old stories, I&amp;#39;m sure.&lt;/p&gt;
+&lt;p&gt;
+PROT: Indeed. We studied this in my old class when I was a boy and-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Gives another long and depressed sigh) Prot…she won&amp;#39;t stop. I have to do &lt;em&gt;something&lt;/em&gt;! So, I&amp;#39;m going to. I&amp;#39;m going to end the world.&lt;/p&gt;
+&lt;p&gt;
+PROT: &lt;em&gt;WHAT??!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+ZEUS: By fire.&lt;/p&gt;
+&lt;p&gt;
+PROT: WHAT??!!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: …and start it over again.&lt;/p&gt;
+&lt;p&gt;
+PROT: You&amp;#39;re actually going to burn the whole world??!!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, I wanted Poseidon to flood it, but we&amp;#39;re going for more equal representation up here. So the council has voted that it&amp;#39;s Hephaestus&amp;#39; turn this time around.&lt;/p&gt;
+&lt;p&gt;
+PROT: Oh.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. It&amp;#39;s time I fixed things a little better. But, as you know, sometimes rearranging blocks of things just won&amp;#39;t fix something if it&amp;#39;s rotten to the core. Sometimes, you need to start a new buffer. (Pause) Is that terminology closer to your understanding?&lt;/p&gt;
+&lt;p&gt;
+PROT: (Doesn&amp;#39;t know what to say for a moment…) Yes…Yes I understand, but I don&amp;#39;t agree with it!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: What don&amp;#39;t you agree with?&lt;/p&gt;
+&lt;p&gt;
+PROT: Ending the world isn&amp;#39;t like wiping out a buffer! it&amp;#39;s wiping out people! These are not characters on a screen, but living and thinking beings! Can&amp;#39;t you just… (He waggles his hands and fingers) you know…aren&amp;#39;t you a &lt;em&gt;God&lt;/em&gt;? Or so you claim!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Prot. If I&amp;#39;m going to wipe out the world, won&amp;#39;t that be enough evidence for you that what I&amp;#39;m saying is true? That I &lt;em&gt;am&lt;/em&gt; a God?&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah. Interesting question! Perhaps. But you could be a malicious alien being of some kind…&lt;/p&gt;
+&lt;p&gt;
+ZEUS: This isn&amp;#39;t the time for a theological debate, Prot. I&amp;#39;m telling you: I have great plans for you. Now, listen!&lt;/p&gt;
+&lt;p&gt;
+PROT: I still can&amp;#39;t believe this is happening. I must have had some bad feta cheese tonight.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No, it wasn&amp;#39;t any bad feta cheese, Prot. I&amp;#39;m real. Now, sit down and listen.&lt;/p&gt;
+&lt;p&gt;
+(Prot sits down in his chair, staring at his screen, dumbfounded.)&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I want you to build a hut because I want you to survive this calamity. You will be amongst the very few who do. And you will spread a better philosophy to the new people - a philosophy of freedom, thought, rationality, and Emacs. I have chosen you, Prot, to spread this message. Your naturally calm demeanor and inclination to educate shall be needed to soothe them after this calamity.&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. I can see there is some thought to this, and not just an overreaction to your wife&amp;#39;s badgering, but please won&amp;#39;t you consider-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I have considered everything! Listen. You will go into the mountains and build yourself a hut. It will be isolated and there will be much hard work to prepare for the day! You will toil for months in the hot sun. But the price will be your own survival and this shall be part of your reward.&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. Let us assume that you are correct in your presentation of everything so far. What about my own place here? You want me to just move at the drop of a hat?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Oh, don&amp;#39;t worry about that. I turned your landlord into a complete jackass. He&amp;#39;ll be increasing the rent so that you can&amp;#39;t afford it.&lt;/p&gt;
+&lt;p&gt;
+PROT: &lt;em&gt;WHAT??!!&lt;/em&gt; WHY? Why would you do that??!!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, to make sure that you move, of course. To give you…what&amp;#39;s that thing that humans need? (He pauses, searching) &amp;#34;Incentive&amp;#34;! Yes! That was it! &amp;#34;Incentive!&amp;#34; I have given you…&amp;#34;&lt;em&gt;Incentive&lt;/em&gt;&amp;#34;! (He sounds very proud of himself)&lt;/p&gt;
+&lt;p&gt;
+PROT: But…but…! (He splutters in a most un-Prot-like fashion)&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Completely oblivious of his own overbearing behavior) Yes. I&amp;#39;m quite proud of my solutions overall. Some might call them &amp;#34;Draconian&amp;#34;, but I prefer to think of them as &amp;#34;resolute&amp;#34;. I like that word.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Shouting) &lt;em&gt;WHAT GIVES YOU THE RIGHT??!!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (He pauses for a moment) I&amp;#39;m…a God, Prot.&lt;/p&gt;
+&lt;p&gt;
+PROT: But, you&amp;#39;re not &lt;em&gt;real&lt;/em&gt;! None of this can be real!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Voice booming again) Oh?! Well, I shall prove it to you! I shall scorch the earth this summer as evidence of my later intentions. It shall be the hottest ever known. It shall be so hot that all of those massively popular tourist places in Greece shall close down due to the heat alone for the first time in their history! &lt;em&gt;THEN&lt;/em&gt; you shall see!&lt;/p&gt;
+&lt;p&gt;
+PROT: Wait! Wait a moment…please…&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No. No, my mind is made up. You build that hut or it&amp;#39;ll get worse. Trust me, it can. And you&amp;#39;ll want to in the end.&lt;/p&gt;
+&lt;p&gt;
+PROT: Can we not discuss this in a calm and rational mann-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Nope. I&amp;#39;m being resolute, remember? Now, listen, this is important.&lt;/p&gt;
+&lt;p&gt;
+PROT: Are you cer-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. Now… (He pauses for a moment) You shall build the hut large enough to accommodate yourself and  a family of four! So it shall be a big hut! But don&amp;#39;t ask me how big because numbers aren&amp;#39;t something that I do. I mean, look at the monetary system in ancient Greece - it was a logical disaster…&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. I am calming down. Who is this family?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: David Wilson and his family. He&amp;#39;s also a free software guy into Emacs. And he&amp;#39;s in Greece. He too shall survive the coming apocalypse.&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah. Yes. David. A good person. Does he know about this?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No. I shall reveal it to him when the time is right. If I told him beforehand, he might blurt it out by accident in one of his weekly livestreams, and then the whole operation would be ruined. Also, there will be some other survivors, but they won&amp;#39;t be staying at your hut. I don&amp;#39;t want to overly inconvenience you.&lt;/p&gt;
+&lt;p&gt;
+PROT: You don&amp;#39;t think of any of this as a catastrophic inconvenience, Zeus?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: You are as stubborn as Achilles, Prot! No, I am &lt;em&gt;saving&lt;/em&gt; you!&lt;/p&gt;
+&lt;p&gt;
+PROT: So you say. Tell me, Zeus: (Sounding very sarcastic) Do you want me to also bring in every animal two by two?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: What? No! That&amp;#39;s the other guy! I&amp;#39;ll just make all the animals again. There&amp;#39;s no need to save any. What a stupid plan that was.&lt;/p&gt;
+&lt;p&gt;
+PROT: I agree. At least we can agree on something.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Anyway, I can&amp;#39;t save the animals because I have to make new ones. I promised to correct some things this time around.&lt;/p&gt;
+&lt;p&gt;
+PROT: What? What promise? What corrections?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Weeelll….I promised to make pink horses, ponies, and unicorns this time around. And a few other things.&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Also dogs that don&amp;#39;t shed or drool, cats that don&amp;#39;t need litter boxes, bears that don&amp;#39;t bite, and new elephants. She wants new elephants.&lt;/p&gt;
+&lt;p&gt;
+PROT: Elephants?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. Pink ones. That can fly.&lt;/p&gt;
+&lt;p&gt;
+PROT: Surely, you must be jok-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I know! I know…but she made me promise. And Hera thought it was a nice idea too.&lt;/p&gt;
+&lt;p&gt;
+PROT: So who is this person?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: This girl wanted them. She&amp;#39;s one of the elect, like you.&lt;/p&gt;
+&lt;p&gt;
+PROT: …I think I know who you mean….&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. Hyperactive and sometimes a little assertive.&lt;/p&gt;
+&lt;p&gt;
+PROT: Tell me about it.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. A little corrupt in the &amp;#34;Free as in freedom&amp;#34; department, but Hera&amp;#39;s been a fan of some of her fashionable posts since a while so I had to promise.&lt;/p&gt;
+&lt;p&gt;
+PROT: I know she&amp;#39;s assertive, but &lt;em&gt;you&amp;#39;ve&lt;/em&gt; decided to wipe out the world, Zeus.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes, well…now…Back to business! I want you to live a simple life during this time. You will set the way for the new humans. It will be a better world, like it was in the beginning. I shall send you down some muses sometimes to guide you. And I shall bless your land with a pomegranate tree out of thin air.&lt;/p&gt;
+&lt;p&gt;
+PROT: A what?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: A pomegranate tree. You like pomegranates, don&amp;#39;t you?&lt;/p&gt;
+&lt;p&gt;
+PROT: Of course. They are very tasty. I often thought that if I use their seeds in a dish I like to prepa-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: And it shall appear out of nowhere! You shall be surprised!&lt;/p&gt;
+&lt;p&gt;
+PROT: But you just told me that this would happen. So how can it surprise me?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Oh that&amp;#39;s simple. I shall erase your memory of this part of the conversation. You will take it later on as a sign when you discover it.&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. You understand that you are breaking all kinds of philosophical boundaries here about free will, determinism, theo-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Never mind all of that! I shall give you this sign, unbeknownst to you, and you shall be pleased.&lt;/p&gt;
+&lt;p&gt;
+PROT: Alright. I suppose that I should thank you.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: You are welcome! Now, do you have any idea about how to build a hut?&lt;/p&gt;
+&lt;p&gt;
+PROT: No.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Are you sure? You seem to be a practical man to me, so I just assumed that you could.&lt;/p&gt;
+&lt;p&gt;
+PROT: I assure you that I have no house building experience at all.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, just do your best. I&amp;#39;m positive that you&amp;#39;ll excel at the endeavor. Okay, well that&amp;#39;s all wrapped up for now. I have to go and wash the dishes from our feast this evening or Hera will be displeased yet again.&lt;/p&gt;
+&lt;p&gt;
+PROT: Wait! You&amp;#39;re just going to leave? How do I know this isn&amp;#39;t some strange dream or hallucination?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Voice booming) REMEMBER MY PROPHECY ABOUT THE SUMMER!&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah. Yes. But you want me to start now?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Naturally.&lt;/p&gt;
+&lt;p&gt;
+PROT: But where do I go?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Into the hills! I told you! Now go! I shall check in on you later.&lt;/p&gt;
+&lt;p&gt;
+PROT: Very well. Zeus…one more thing.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes? What is it?&lt;/p&gt;
+&lt;p&gt;
+PROT: After speaking with you, I would like to say that I just wish my position on atheism had been correct, because you are one hell of a fu-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Just go! Do as I say! I shall drop in later to see if you are performing my task.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Sighing a big exhausted sigh) Okay Zeus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Using Emacs With Tramp</title>
+      <link>https://summeremacs.github.io/posts/using-emacs-with-tramp/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/using-emacs-with-tramp/</guid>
+      <description>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+All my server stuff in Emacs
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Today, I wanted to tidy up some stuff on my server. I had a ton of photos and videos I wanted to organize on my servers. Also, it was getting a little messy with my old way of doing the directories because I had set it up before I had learned how to do most of the things that I know how to do. You see, I have a main drive on my main server, and then a backup drive off of it. But it was a bit messy. I&amp;#39;d dump stuff in one directory as a temp storage place at the root of that directory, but I never did the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flags for &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; which meant that I&amp;#39;d have to, every now and then, go into my backup drive and just delete all the trash by hand. I never had the time to fix that. I only learned a few things about rsync when I had set it up and even though I set up another rsync with the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flag, I never had the time to do a &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; on the important stuff I wanted to update. I&amp;#39;d never use a flag like that without doing a dry run. Ever.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Emacs to the rescue!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Okay, so what did I do? First, I used &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; in Emacs to ssh right into my server directly as &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt;. The guys from &lt;a href=&#34;https://systemcrafters.net&#34;&gt;System Crafters&lt;/a&gt; on Matrix taught me how to use &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; just yesterday. I had it in my notes in denote, so I put the knowledge to good use. I pulled up &lt;code class=&#34;verbatim&#34;&gt;vterm&lt;/code&gt; and did &lt;code class=&#34;verbatim&#34;&gt;mosh&lt;/code&gt; into my main server across the country. Then I did an &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; command on one of the &lt;code class=&#34;verbatim&#34;&gt;origin&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;target&lt;/code&gt; directories after looking it up in my notes and verifying it in &lt;code class=&#34;verbatim&#34;&gt;crontab&lt;/code&gt; on my server. I used a &lt;code class=&#34;verbatim&#34;&gt;&amp;gt; rsync.txt&lt;/code&gt; command to pipe the result to my home directory and ran the command. I knew it would take a few minutes to run because I had moved around a lot of stuff - that&amp;#39;s okay. Time enough for me to use &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; to open it up in Emacs, and hit my refresh buffer global key (F5) that I use a lot.&lt;/p&gt;
+&lt;p&gt;
+I could see the output live and go over it with a fine-toothed comb. I was making sure it wasn&amp;#39;t erasing everything and messing up.&lt;/p&gt;
+&lt;p&gt;
+Yay! No problems with the command! 🥳&lt;/p&gt;
+&lt;p&gt;
+So then, thanks to my learning about piping and all that other safety stuff, I was able to run the &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; command again, without the &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; line, still piping it to a new log so I can keep an eye out live on it since I have the &lt;code class=&#34;verbatim&#34;&gt;--progress&lt;/code&gt; flag on that command (on all of them).&lt;/p&gt;
+&lt;p&gt;
+All from Emacs!&lt;/p&gt;
+&lt;p&gt;
+Stuff I put to good use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;rsync --delete --dry-run --progress&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; and regular login too&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;vterm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;crontab&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;piping with &amp;gt; !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I know I said I wouldn&amp;#39;t write much on this blog, but I feel so amazing after having done that all so flawlessly with Emacs that I just couldn&amp;#39;t help myself. 🙃&lt;/p&gt;
+&lt;p&gt;
+P.S. I know this was mostly about rsync but it wouldn&amp;#39;t have happened without my learning how to use &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; yesterday. It&amp;#39;s that which prompted me to learn to edit files with root access on my server (crontab) that made it possible for me to easily start working on it. And since &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; is so awesome, I had to give it all the credit. 🙃&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      
+    </item>
+    
     <item>
       <title>About - All that&#39;s interesting</title>
       <link>https://summeremacs.github.io/about/</link>
       <pubDate>Mon, 21 Aug 2023 11:09:25 +0200</pubDate>
       
       <guid>https://summeremacs.github.io/about/</guid>
-      <description>This is a test of the about page. Making this an org page.</description>
+      <description>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Hi there!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You&amp;#39;re reading my blog.&lt;/p&gt;
+&lt;p&gt;
+Ok, so what? Well, I made a huge fuss about &lt;em&gt;never&lt;/em&gt; making a blog. But after &lt;em&gt;over a year of being bothered about it&lt;/em&gt;, I finally did! Good job guys! 🤣&lt;/p&gt;
+&lt;p&gt;
+So, why? Well, it&amp;#39;s because uploading &lt;code class=&#34;verbatim&#34;&gt;org&lt;/code&gt; files in raw format to my &lt;a href=&#34;https://www.github.com/summeremacs&#34;&gt;Github account&lt;/a&gt; was looking kinda shoddy. And, as many people know, I do &lt;em&gt;NOT&lt;/em&gt; like to look shoddy.&lt;/p&gt;
+&lt;p&gt;
+So, it was prompted by a few comments online (like &lt;a href=&#34;https://lobste.rs/s/2hswwc/how_i_came_use_emacs_other_things&#34;&gt;here for instance&lt;/a&gt;) which just made me hide my face in my hands 🤦🏼‍♀️ and say ok…screw it. I&amp;#39;ll make a blog. But I didn&amp;#39;t wanna pay for a Squarespace or something like that because anyone with 1/4 of a brain can do that and &amp;#34;make a blog&amp;#34;. Instead, since I was posting about Emacs stuff (mostly), I wanted it to be where I can get geek cred: 👩🏼‍💻 on Github. So, I had to set up &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and also &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;easy-hugo&lt;/a&gt; for &lt;a href=&#34;https://github.com/d12frosted/homebrew-emacs-plus&#34;&gt;Emacs&lt;/a&gt; (yes, I linked to a Mac 🍏 version. Bite me! 😀), and then I had to look through tons of bad themes to find a good one and figure out how to set that up, and boy was that not easy to do!&lt;/p&gt;
+&lt;p&gt;
+Eventually, I &amp;#34;made it work&amp;#34;.&lt;/p&gt;
+&lt;p&gt;
+I haven&amp;#39;t finished. I do have a DNS to tie to it but I don&amp;#39;t think that I&amp;#39;ll bother for now. I just want it to park stuff I&amp;#39;ve already written and maybe will write about every few months or year or so. We&amp;#39;ll see.&lt;/p&gt;
+&lt;p&gt;
+At least it doesn&amp;#39;t look as shoddy 🗑️ as before.&lt;/p&gt;
+&lt;p&gt;
+Summer ⭐️&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
       
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>https://summeremacs.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 21 Aug 2023 11:09:25 +0200</pubDate>
+      <title>How I Came to Use Emacs and Other Things</title>
+      <link>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</link>
+      <pubDate>Thu, 29 Jun 2023 18:01:52 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/posts/my-first-post/</guid>
-      <description>This is a test. I&amp;rsquo;m deploying this with &amp;lsquo;M&amp;rsquo;.</description>
+      <guid>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</guid>
+      <description>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+This is the story of how I came to use Emacs and other things
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;I&amp;#39;m tired of repeating myself so I&amp;#39;m writing this down so I don&amp;#39;t have to. You&amp;#39;re probably only here if you asked me how I came to learn about Emacs and the CLI and other things. Well, this is the story:&lt;/p&gt;
+&lt;p&gt;
+It begins with a Pandemic. &lt;em&gt;The&lt;/em&gt; Pandemic. Yes, that one.&lt;/p&gt;
+&lt;p&gt;
+I know it&amp;#39;s a long time ago now for most people, but that&amp;#39;s where it starts. It feels like a lifetime ago for me. I was a first year overseas person working for a company to manage things, However, halfway through my time there, the Pandemic hit.&lt;/p&gt;
+&lt;p&gt;
+Paris was locked down. Everything was closed. And I mean &lt;em&gt;everything&lt;/em&gt;. It wasn&amp;#39;t like in the states - we had to have permission slips to go outside for an hour max a day (there were exceptions but most people stuck to the rules). Cafes, restaurants, stores - everything was closed. Of course, it being France, they opened the tobacco shops back up first but everything else remained closed. (Crazy, inorite?)&lt;/p&gt;
+&lt;p&gt;
+At that point, my Western Digital &amp;#34;Network Drive&amp;#34; died. It was non-responsive. I had a lot of stuff on there so I was pretty mad about that. Note: I&amp;#39;ll never trust &amp;#34;Network Drives&amp;#34; again. 😛&lt;/p&gt;
+&lt;p&gt;
+So, I needed to fix it. But I didn&amp;#39;t know how. I couldn&amp;#39;t get it fixed at a shop because no shops were open. Also, I was paid a pretty small salary at the time so I couldn&amp;#39;t really afford to spend hundreds of euros getting it fixed or recovered.&lt;/p&gt;
+&lt;p&gt;
+A friend of mine who works in tech told me to buy a Raspberry Pi because Linux could fix my drive or recover my info. I had heard of these things, but barely and very vaguely. But anyway, I followed her directions and I bought one online. It was delivered to me in a few days (I guess they had nothing better to do and deliveries were up all over the place).&lt;/p&gt;
+&lt;p&gt;
+So there I was, sitting on the floor of my living room, the Raspberry Pi hooked up to my TV. Anyway, it took me about a week to look stuff up on my MacBook Pro and figure out how to recover my stuff. &lt;em&gt;Believe me&lt;/em&gt; it was hard. I had to learn about &amp;#39;df&amp;#39; and &amp;#39;du&amp;#39; and &amp;#39;fdisk&amp;#39; and sectors and partitions - all stuff I had never, ever, heard about before. The only things I had were my computers and online sites that talked about this stuff in, honestly, really cryptic ways.&lt;/p&gt;
+&lt;p&gt;
+Anyway, I eventually got it to work after a week of pulling my hair out, sitting cross-legged on the floor. But it worked and I recovered 100% of my drive. &lt;strong&gt;100%!&lt;/strong&gt; It was at like 2 or 3am (I honestly can&amp;#39;t remember) and I ran around my apartment laughing and shouting with joy.&lt;/p&gt;
+&lt;p&gt;
+My neighbours politely never remarked on this or complained.&lt;/p&gt;
+&lt;p&gt;
+So then what happened? Well, I had this new thing in my life: My Raspberry Pi. I figured…maybe I can use it for stuff. I also figured that this would &lt;strong&gt;never&lt;/strong&gt; happen to me again. So I learned about how to make an NAS system with my Pi, and I bought some drives to do that. I watched a lot of videos on Linux and the Raspberry Pi on how to set up an NAS. And I learned about much more involving Linux and that led me to Emacs (even before Vim). See, I was using Nano before and I didn&amp;#39;t know what else there was. But I came across a video demonstrating Org Mode and I was blown away. The video was &lt;a href=&#34;https://www.youtube.com/watch?v=SzA2YODtgK4&#34;&gt; Getting Started With Org Mode&lt;/a&gt; by &lt;a href=&#34;https://harryrschwartz.com&#34;&gt;Harry Schwartz&lt;/a&gt;. I mean it really, &lt;em&gt;really&lt;/em&gt; blew me away. I don&amp;#39;t know why because his screen is so ugly, but the things you could do with text - I had never seen that before. Ever. Also, he just sounds like such a nice person in the presentation. Anyway, I was totally hooked.&lt;/p&gt;
+&lt;p&gt;
+So I installed Emacs on my MacBook which was still working fine of course. And then I learned about other things.&lt;/p&gt;
+&lt;p&gt;
+First, I started learning about &lt;a href=&#34;https://www.spacemacs.org&#34;&gt;Spacemacs&lt;/a&gt; because I saw some posts on Reddit how it was easier for newbies. Then, I switched to &lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34;&gt;Doom Emacs&lt;/a&gt;, because I heard it was faster. But then, after a very short time (and getting tired of Doom breaking every update), I went all vanilla. The videos which helped me the most in doing that (and also learning Org-Mode) were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@mzamansky&#34;&gt;Mike Zamansky&lt;/a&gt; for setting up Emacs from scratch with an org-mode config.org file. Also great quick video reviews of different packages.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@koenighaunstetten&#34;&gt;Rainer König&lt;/a&gt; for learning all things org-mode. He&amp;#39;s amazing, and he sounds like Arnold Schwarzenegger. (He is aware of this)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SystemCrafters&#34;&gt;System Crafters&lt;/a&gt; for learning extra deep stuff in Emacs and much longer videos explaining them (such as setting up mu4e in depth and other things). Also, he&amp;#39;s got a great community on &lt;a href=&#34;https://matrix.org&#34;&gt;Matrix&lt;/a&gt; and you can find his web page at &lt;a href=&#34;https://systemcrafters.net&#34;&gt;System Crafters&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, in one of the communities online, I met a guy named &lt;a href=&#34;https://universeodon.com/@remi&#34;&gt;Remi&lt;/a&gt; and he helped me with some CLI (Command Line Interface) stuff as well as Emacs in many ways.&lt;/p&gt;
+&lt;p&gt;
+Eventually that led me to my new job (which is not tech at all) because of a personal interaction I had with somebody thanks to learning about Linux/online communities. This was totally random but it wouldn&amp;#39;t have happened without me getting involved in online communities. My job has nothing to do with tech really, but I wouldn&amp;#39;t have met my new boss without going to find something out at the right place and right time. Also, I use Emacs in my job every day to organise things and I can&amp;#39;t live without it.&lt;/p&gt;
+&lt;p&gt;
+I have taken my MacBook Pro to bed with me a couple of times just to feel Emacs close to me.&lt;/p&gt;
+&lt;p&gt;
+So that&amp;#39;s how I learned about Emacs and a little bit of CLI and Linux at first.&lt;/p&gt;
+&lt;p&gt;
+I hope you enjoyed reading it.&lt;/p&gt;
+&lt;p&gt;
+Summer.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
       
     </item>
     
@@ -34,7 +421,740 @@
       <pubDate>Thu, 04 May 2023 12:06:16 +0200</pubDate>
       
       <guid>https://summeremacs.github.io/posts/how-i-use-emacs/</guid>
-      <description>An explanation of how I use Emacs I&amp;#39;m honoured that you all have invited me to share my thoughts, and I especially appreciate the $50,000 advanced speakers&amp;#39; fee. A lot of people have asked me to write down how I use Emacs because they&amp;#39;re curious how I use it every day since about a year.</description>
+      <description>
+&lt;figure&gt;
+&lt;img src=&#34;https://summeremacs.github.io/img/pink-emacs-icon.png&#34; alt=&#34;/img/pink-emacs-icon.png&#34; title=&#34;/img/pink-emacs-icon.png&#34; width=&#34;200&#34;/&gt;
+&lt;figcaption&gt;
+Emacs in Pink is your Friend.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+An explanation of how I use Emacs
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;I&amp;#39;m honoured that you all have invited me to share my thoughts, and I especially appreciate the $50,000 advanced speakers&amp;#39; fee.&lt;/li&gt;
+&lt;li&gt;A lot of people have asked me to write down how I use Emacs because they&amp;#39;re curious how I use it every day since about a year.&lt;/li&gt;
+&lt;li&gt;First thing you should know: I&amp;#39;m not a programmer. I&amp;#39;m mostly a personal assistant and researcher, as well as a few other things. So my primary use for Emacs is a central point for information gathering, linking, and organising big and small projects. However, I&amp;#39;m not a stranger to the terminal, or git, or a few other things like that (like rsync for example).&lt;/li&gt;
+&lt;li&gt;I&amp;#39;m going to explain my setup on the hardware and software side.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+The Hardware Setup:
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;I use all iOS and Mac devices (as does my boss, gf, and bffs/roomies).&lt;/li&gt;
+&lt;li&gt;I do have a Raspberry Pi and Mint Linux server in my home office. My boss said I can buy something way better and beefier but I like my little servers the way they are. They&amp;#39;re sorta proof that I have some geek-cred. 🙃&lt;/li&gt;
+&lt;li&gt;My Mac/iOS devices are all automatically synced to iCloud so all my notes and files are available on all of my devices.&lt;/li&gt;
+&lt;li&gt;I run Syncthing to sync my files to my Raspberry Pi automatically. I have an rsync script running every night to mirror the two main drives of my NAS to my mirror backup drives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+The Software Setup
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+The folders/directories:
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-5&#34;&gt;
+Everything I need is in &lt;code class=&#34;verbatim&#34;&gt;~/Documents/sync&lt;/code&gt;
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Because &lt;code class=&#34;verbatim&#34;&gt;~/Documents&lt;/code&gt; is automatically synced to iCloud without me ever having to touch anything, everything in it is mirrored to all of my devices. From there, I have a folder inside called sync. So ~/Documents/sync which is the folder where all of my org files, notes, etc are located. This folder is automatically synced to my Raspberry Pi with Syncthing every few seconds. And that gets backed up every night to my mirror drives on my Raspberry Pi. Also, since ~/Documents is automatically backed up with Time Machine on my server as well, I have a second backup (also backed up to the mirror drives at night). This way, I have more than one independent backup going at all times so I shouldn&amp;#39;t (ideally) ever lose my files. And I have access to all notes and files on all of my iOS devices at all times as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-6&#34;&gt;
+My second Linux machine
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;I also have an older Macbook in my home office. it runs Mint Linux - easy for a newbie like me to maintain and use via VNC (like I use my Raspberry Pi - I&amp;#39;m never actually at the keyboards for them, it&amp;#39;s all done via VNC). Both machines have a DuckDNS.org DNS running on them with SSH so that I can access them from the outside with a private port. On my second machine, I run Emacs so that I can use it externally from one of my iPad Pros with the magic keyboard. All of my files are also mirrored to this machine and I have a nice config for it that I update once a month along with all of my systems via the terminal. This way, my packages are always fairly up to date as well as the OSes they&amp;#39;re running on. I have a reminder on the first of every month to do this. Since I get up very early to work out every morning, I usually do this on the first of the month when I&amp;#39;m sitting down with my coffee and croissant and reviewing my daily task list etc…&lt;/p&gt;
+&lt;p&gt;
+I sorta live with reminders from Apple Reminders. They remind me on my phone, my iPads, my Macs/Macbook Pros, and my Apple Watch. I write down a reminder so I don&amp;#39;t have to remember, but I also make it a habit to check my reminders every few hours. I often add reminders via Siri (you can use Google Assistant if that&amp;#39;s what you have). I also have different reminder lists so I can categorise them on the go. That&amp;#39;s very useful and I pin the most important ones so I have easy access to them. Also, some reminders are set to go off by geolocation. Super useful. 👍&lt;/p&gt;
+&lt;p&gt;
+All reminders that are added are later reviewed and I add an Emoji in front of the reminder to categorise it (and it lets me also know that I&amp;#39;ve reviewed it and filed it where it belongs). This all happens outside of Emacs. I&amp;#39;ll get to the Emacs part soon.&lt;/p&gt;
+&lt;p&gt;
+How did I train myself to always look at my reminders and task list and calendar etc…? Well, I made reminders. Yup, I had reminders telling me every 2 hours to check my task list, my calendar, etc…I also had reminders telling me to check stuff every morning when I woke up, and reminders to do the same a few hours before bed. Computers are here to help us manage our lives, so use what they have to do just that. You don&amp;#39;t have to remember it to make it a habit - you just have to be reminded. Constantly. (Okay, I used to be a cheerleader for a little bit in high school so…please excuse my aggressively positive attitude).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-7&#34;&gt;
+Emacs
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Okay, so that&amp;#39;s the basic setup for the system. Now we get to what you guys really wanna know about, right? Emacs.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-8&#34;&gt;
+IMPORTANT: Here is how I don&amp;#39;t use Emacs:
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-8&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;I don&amp;#39;t use Emacs for reminders, or most scheduling (like meetings, fashion shows, art shows, etc…). I don&amp;#39;t use it that way because even though I have both Beorg and Plain Org for IOS, and Beorg can even remind me on my watch, I can&amp;#39;t share those like that with my boss or my roomies/gf. They don&amp;#39;t use Emacs and they barely know what it is (they know I use it and they love that it&amp;#39;s pink and looks really nice though and what I can do with it). They use iOS/Mac and so I share stuff to that system. Also, putting stuff into Apple Reminders/Calendar/Notes/Freeform etc…that&amp;#39;s a final step. It sorta means I&amp;#39;ve dealt with it on every level and it&amp;#39;s ready for dissemination to everyone. It&amp;#39;s like &amp;#34;Okay, this is dealt with&amp;#34;. It&amp;#39;s a good feeling.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-9&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-9&#34;&gt;
+How do I use Emacs?
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-9&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Well, that&amp;#39;s  a good question, and I&amp;#39;m glad you asked! I use Emacs as a central point for gathering data/info and managing it. I use it for big projects to break down in org mode. I use it to collect as much as I can from everywhere and then organise it there. Emacs is like the central point to which everything flows and from which everything flows as well. Everything gets referenced in Emacs with Denote (you can use Org Roam for this too if you want instead of Denote - it&amp;#39;s up to you). However, I use Emacs mostly at home. I don&amp;#39;t tend to use it outside of the house much (sometimes on my iPad like I said, but it&amp;#39;s rare). So how do I deal? I mean, I go out a &lt;em&gt;lot&lt;/em&gt;, so what do I do when I&amp;#39;m outside of the house? Well, again: I use Apple stuff: Photos, Notes, etc…. In meetings I generally write in Apple Notes (or GoodNotes) with my Apple Pencil. Sometimes I type on my magic keyboard, but not all of the time. Writing is nice and I love the pencil. I can also draw with it and that&amp;#39;s important. I take a lot of pictures of fashion stuff like jewelry, shoes, etc…and art (old and new) as well as antiques and the like. So how do I incorporate it into Emacs?&lt;/p&gt;
+&lt;p&gt;
+Well, it&amp;#39;s simple. On MacOS, you can (for instance) click on the &amp;#34;Share&amp;#34; button of a Note and copy the link to it. Then you can paste the link to that note into an Emacs document. When you do that, you can click that link later and it&amp;#39;ll open it up in Notes. It&amp;#39;s like a bookmark on your system. I use this a &lt;em&gt;lot&lt;/em&gt;. When I&amp;#39;m out, I&amp;#39;m always making notes of stuff if it&amp;#39;s for business and whatevs, so I&amp;#39;ll come home and review it. I&amp;#39;ll copy/paste the text bits to a new Denote file, and I&amp;#39;ll copy the link and paste it into that file so that any drawings can be referenced directly. Sometimes I&amp;#39;ll use inbox.org first to put the info inside (I&amp;#39;ll get to that).&lt;/p&gt;
+&lt;p&gt;
+In Apple Notes, I have a top level folder called &amp;#34;Field Notes&amp;#34; with subfolders where everything gets put in when I&amp;#39;m out of the house. I break that down by folders and I use tags (Apple has built in tags into their system which are universal for all your devices). I use the same tags in Emacs so it&amp;#39;s easy to organise. In Emacs, I have a master tags list that I&amp;#39;ve keyed with Consult Bookmarks. This way I can open it right away and check all necessary and relevant tags and add more tags categories/subjects as needed. I use Consult Bookmarks a lot for all the important files that I reference all of the time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-10&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-10&#34;&gt;
+Here&amp;#39;s how it works:
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-10&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;I get home (or have breakfast after my morning workout), I sit down, and I review my Apple Notes. I also review any links in Safari reading list. I have a shortcut on the Mac to share stuff from Safari directly to my inbox.org using org capture (I made it Control-Option-Command-x) This will add the Safari URL with the time and date. Once I&amp;#39;m done reviewing stuff and adding it to my inbox.org, I work in Emacs. First, I made a new Denote org note and give it the appropriate tags. Then I copy/paste or refile (I&amp;#39;ll get to that) all the info I need to the new document. It&amp;#39;s an org doc so I break it down with all the headers/subheaders that I need. If it involves emails as well, I&amp;#39;ll use my mu4e org capture to capture the link to that as well. 95% of the time, I use Apple Mail because that&amp;#39;s what we all use, but I also use mu4e to capture emails directly and easily into projects. This way I can reference them later during negotiations etc…&lt;/p&gt;
+&lt;p&gt;
+Once I put everything into that document, I also make a top level header at the start of the document which breaks down the project. All of the info I put in will end up at the bottom for reference. This way, I have a clean new project breakdown. From there, if it references other Denote notes, I&amp;#39;ll link them with org link shortcuts. If the Project references many other projects, I&amp;#39;ll typically make a master project doc that is separate as a sort of meta-project document and will reference all of the other sub-project documents that are denote docs as well.&lt;/p&gt;
+&lt;p&gt;
+Don&amp;#39;t worry, if it sounds confusing, I&amp;#39;ll detail it simply further down.&lt;/p&gt;
+&lt;p&gt;
+Big projects like this are, of course, all done and managed in Emacs in org mode.&lt;/p&gt;
+&lt;p&gt;
+After I&amp;#39;m done with all of this, and I&amp;#39;ve done further research and linked everything, I revise the project and then Copy/Paste the necessary steps/appointments/calendar events/info/reminders to shared Apple Notes/Reminders/Calendar etc…. that way everyone concerned has the processed data and reminders automatically set on their own devices. They don&amp;#39;t have to do a thing - I do it for them. That&amp;#39;s part of my job. All they have to do is do what the reminders and/or notes say. Typically I&amp;#39;ll also send a message with Messages to let them know everything is added. Usually with a ❤️😁&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-11&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-11&#34;&gt;
+The files setup
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-11&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Okay, so this is probably the part you&amp;#39;re all really interested in because it&amp;#39;s all about how I use Emacs directly. Keep in mind that I mirror this setup with the way I have my Apple Notes folders set up. That way, everything is always organised in the same structure, even if it&amp;#39;s not in Emacs. Same folder structure, same tags, etc….&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-12&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-12&#34;&gt;
+You start with &lt;code class=&#34;verbatim&#34;&gt;~/Documents/sync&lt;/code&gt;
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-12&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;sync (like I said) is my top level folder. In there, I have an &amp;#39;org&amp;#39; folder. I do this because I have other folders in sync that I use which aren&amp;#39;t necessarily related to org, but most everything is in org.&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Note:&lt;/strong&gt; Anytime I build an organising system, I always build in a few &amp;#34;misc&amp;#34; options. Meaning: I always have the option to do something that isn&amp;#39;t part of my system and figure it out later. But when I do something like that, I always make a reminder to check up on it later so I don&amp;#39;t let things gather dust. That&amp;#39;s just another little personal tip. 🙃&lt;/p&gt;
+&lt;p&gt;
+So the folder list from org is as such: (This isn&amp;#39;t everything, it&amp;#39;s just a short little demonstration)&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-13&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-13&#34;&gt;
+archives
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-13&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;div id=&#34;outline-container-headline-14&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-14&#34;&gt;
+2022
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-15&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-15&#34;&gt;
+2023
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-16&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-16&#34;&gt;
+2024
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-17&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-17&#34;&gt;
+notes
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-17&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;div id=&#34;outline-container-headline-18&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-18&#34;&gt;
+art
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-19&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-19&#34;&gt;
+articles
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-20&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-20&#34;&gt;
+fashion
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-21&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-21&#34;&gt;
+finances
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-22&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-22&#34;&gt;
+journal
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-23&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-23&#34;&gt;
+lists
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-24&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-24&#34;&gt;
+misc
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-25&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-25&#34;&gt;
+quotes
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-26&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-26&#34;&gt;
+realestate
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-27&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-27&#34;&gt;
+reference
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-28&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-28&#34;&gt;
+travel
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-29&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-29&#34;&gt;
+refile
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-29&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;div id=&#34;outline-container-headline-30&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-30&#34;&gt;
+inbox.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-31&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-31&#34;&gt;
+links-art.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-32&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-32&#34;&gt;
+links-articles.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-33&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-33&#34;&gt;
+links-comics.org (I love a few online comics)
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-34&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-34&#34;&gt;
+links-cooking.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-35&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-35&#34;&gt;
+links-emacs.org (for Emacs-related stuff only)
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-36&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-36&#34;&gt;
+links-fashion.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-37&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-37&#34;&gt;
+links-gaming.org (I love playing some games sometimes and I like to save info/commands/tuts about some)
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-38&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-38&#34;&gt;
+links-misc.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-39&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-39&#34;&gt;
+links-music.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-40&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-40&#34;&gt;
+links-realeastate.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-41&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-41&#34;&gt;
+links-tech.org (this has to do with any tech and computers but not Emacs)
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-42&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-42&#34;&gt;
+links-videos.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-43&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-43&#34;&gt;
+repeat-tasks.org (I keep this as a master list of repeat reminders/tasks I put in Apple apps)
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-44&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-44&#34;&gt;
+todo.org
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-45&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-45&#34;&gt;
+images
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-45&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;div id=&#34;outline-container-headline-46&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-46&#34;&gt;
+2022
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-47&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-47&#34;&gt;
+2023
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-48&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-48&#34;&gt;
+2024
+&lt;/h5&gt;
+&lt;div id=&#34;outline-text-headline-48&#34; class=&#34;outline-text-5&#34;&gt;
+&lt;p&gt;
+Note: I&amp;#39;m not including all the files in this setup, just the ones I typically use most. If it seems like some are missing, it&amp;#39;s cuz I just didn&amp;#39;t bother to put them in. This is just to give you an idea. Also, in my top level org folder I have some files like tags.org etc…that I use as master lists. I don&amp;#39;t put them in refile because they don&amp;#39;t belong there.&lt;/p&gt;
+&lt;p&gt;
+All my images are kept in Apple Photos, but I have images in org for things I want to reference directly in org mode, for instance. So I&amp;#39;ll copy them there into project subfolders.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-49&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-49&#34;&gt;
+Okay, so how does it work?
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-49&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Well, it&amp;#39;s pretty organic but also structured. Meaning: It just makes sense. You have major categories that you start with. All info that goes into Emacs is tagged using :tags: (C-c C-q). Because of this, I can search by tag which are the same all across my entire system of devices and computers (I have several in different locations).&lt;/p&gt;
+&lt;p&gt;
+I have org-refile set up so it can refile to anything in the &amp;#39;refile&amp;#39; directory as well as a few other locations in the &amp;#39;notes&amp;#39; directory (such as lists). Here&amp;#39;s my refile code:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;c1&#34;&gt;;; Org Agenda Files Location&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-agenda-files&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;~/Documents/sync/org/refile&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                           &lt;span class=&#34;s&#34;&gt;&amp;#34;~/Documents/sync/org/notes/lists&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                           &lt;span class=&#34;s&#34;&gt;&amp;#34;~/Documents/sync/org/notes/reference&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;c1&#34;&gt;;; There&amp;#39;s a few more but I took them out for brevity.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-refile-targets&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;org-agenda-files&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;:maxlevel&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-outline-path-complete-in-steps&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;         &lt;span class=&#34;c1&#34;&gt;; Refile in a single go&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-refile-use-outline-path&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;                  &lt;span class=&#34;c1&#34;&gt;; Show full paths for refiling&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;c1&#34;&gt;;; Allow org-refile to create parent header nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-refile-allow-creating-parent-nodes&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;confirm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Note that I do &lt;em&gt;not&lt;/em&gt; have my entire notes directory or subdirs as refile locations. The reason for this is simple: When I&amp;#39;m working with denote on a note, I typically split my frame into two windows. So if I&amp;#39;m reviewing stuff on the left side that I want to put in my note on the right side, I can just select, yank, and put it on the right side in the right location. It only takes a few keystrokes and I&amp;#39;m done. I don&amp;#39;t typically put stuff in a note with refile just because it&amp;#39;s kinda a PITA to remember where it&amp;#39;s supposed to go if I&amp;#39;m not looking at it. It&amp;#39;s just easier to see where it&amp;#39;s supposed to go when I can see all the subheaders, or need to make a new subheader etc…it just makes more sense to me, and it doesn&amp;#39;t clutter up my refile with tons of files I won&amp;#39;t be refiling to. I don&amp;#39;t have to keystroke every single thing in Emacs to get the job done quickly. You can if you want, but I&amp;#39;m not gonna.&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Info:&lt;/strong&gt; I have many lists. I love lists. They&amp;#39;re organised and nice to look at. With org mode I can make checkboxes or even tables. I use all of this for different types of lists. It&amp;#39;s practical and it&amp;#39;s part of my GTD process: make a list and then you can break it into one small step at a time to get stuff done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-50&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-50&#34;&gt;
+Tabs: A lesson in being organised
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-50&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;I use tabs in Emacs. And my tabs setup is very structured. I don&amp;#39;t have too many (Typically 10). I&amp;#39;ll sometimes add an extra tab or two if I&amp;#39;m working on a lot more documents, but generally it&amp;#39;s 10. As follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Dash (for my dashboard or scratch or messages)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Commands (I&amp;#39;ll explain this below)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Inbox (for my inbox.org)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Todo (for my todo.org)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Notes (just for taking notes so it&amp;#39;s always there)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Journal (I start a new denote journal every morning)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Apps (for when I want to pull up mu4e or other applications like dired or ibuffer etc)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Misc 1&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Misc 2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Misc 3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Misc tabs are all just that: where I open up most buffers to look at them, review them, reference them, etc…. My tabs are keyed to prev/next with Command-1 (prev) and Command-2 (Next). This would be Alt on the PC. This way, I can flip through them real fast using C-1 and C-2. I like tabs because, again, I like visual cues with what I&amp;#39;m doing or doing next or need to remember. If you like dealing with no visual cues and no organised setup and just C-x b, that&amp;#39;s your thing and please don&amp;#39;t include me in your headspace insanity. 🙃&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Note:&lt;/strong&gt; I do use C-x b a lot too, but the visual thing is a big part of me. Yes, I know that consult previews the buffers when I flip through them this way, but I like my listed buffers to be organised for the most part.&lt;/p&gt;
+&lt;p&gt;
+Okay, so Commands tab. This is where I keep a bookmarked file of all the Emacs commands I need to refer to sometimes. Like keybinds and what they do for each thing. For instance, keybinds for Consult, or Dired etc… also commands for Org mode which I don&amp;#39;t usually remember. I have each &amp;#34;App&amp;#34; or system in a subheader with the most important keybinds listed below.  This file is bookmarked with consult bookmarks and resides in my top level org directory called emacscommand.org. It&amp;#39;s almost always open because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;I often forget keybinds I haven&amp;#39;t used in a while and&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;I am literally a blonde.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;What else does this tab do? Well, it&amp;#39;s where I will &lt;em&gt;always&lt;/em&gt; open my config.org file. This file is also bookmarked with Consult Bookmarks (C-x r b). I actually don&amp;#39;t touch config all that much but when I do, I like to know where I&amp;#39;ve opened it. I don&amp;#39;t know why, but I think by now you get that I&amp;#39;m pretty organised….it&amp;#39;s just a thing for me. Also, &lt;strong&gt;before&lt;/strong&gt; I touch my config.org, I do a git and commit. Every time. And after I make a change, I restart Emacs twice to make sure nothing is screwed up before I commit again. (I took a course on git and how to use it. I love git).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Journaling: I journal every day in Denote with the denote journal command. I have a little template with headers for Weather, Goals, and &amp;#34;I&amp;#39;m grateful for&amp;#34;. I keep this open all day in that tab and add to it often. It&amp;#39;s okay to miss a day or two here and there - I do that sometimes, especially on weekends, but generally, I journal almost every day. Sometimes it&amp;#39;s just a few lines, and sometimes it&amp;#39;s a few pages. It depends. I start it with my coffee every morning before I start to review my tasks so I can add info about stuff I might need to do. I also tag things in my journal using the same tags I use everywhere. Not everything, but a lot of things. Also, I&amp;#39;ll link to other denote notes in my journal at times for either personal or business stuff so I have redundancy when I search and even more context. I don&amp;#39;t do this all the time, but sometimes if it&amp;#39;s relevant or important.&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Note:&lt;/strong&gt; When I&amp;#39;m travelling a lot, I&amp;#39;ll journal with my iPad mini or iPad Pro and the Apple Pencil. I tend to doodle when I do that. Later, I&amp;#39;ll reference those entries in my updated Journal in Emacs.&lt;/p&gt;
+&lt;p&gt;
+For search, I use consult ripgrep (M-s r) to search everything in my org files. It previews every single result as I flip through in the minibuffer into the buffer above and I love that. I get the line where the search result is and the context of the entire buffer page. It makes it super easy to find things. I use search a &lt;em&gt;lot&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-51&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-51&#34;&gt;
+Refiling
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-51&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Okay, this is a major part of my workflow and org-mode is a godsend because of this. As you see, I have a structure for everything and everything gets put into a place where I can easily find it later.  Even if ripgrep breaks one day, I can &lt;em&gt;still&lt;/em&gt; find everything very quickly and easily. I&amp;#39;m not saying that this will ever happen, but I like to keep everything neat and tidy.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-52&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-52&#34;&gt;
+Let&amp;#39;s start with my Inbox.
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-52&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;As I&amp;#39;ve said: Everything first goes to my inbox. Links from Safari, links from Apple notes, etc…they all end up here. That&amp;#39;s why it has its own tab. I just hit F5 to refresh it every time I visit and it&amp;#39;s there. I share stuff on my phone to inbox.org using Beorg (also on my iPad). It&amp;#39;s…well…my inbox. On my desk virtual desk. And it holds everything that has to be done or requires attention or reviewed etc…&lt;/p&gt;
+&lt;p&gt;
+From there, I decide if it&amp;#39;s a todo or if it goes someplace else. For instance, let&amp;#39;s say I see a funny or nice video on YouTube. I&amp;#39;ll share/capture it to inbox.org. From there, I&amp;#39;ll add tags to it (and sometimes add a quick note in properties) and then usually refile it to links-videos.org. This is all searchable so I can find whatever I like in there.&lt;/p&gt;
+&lt;p&gt;
+If it&amp;#39;s a todo for todo.org, I&amp;#39;ll refile it there. My todo.org is always open and has many different headers and subheaders broken down by subject. For instance:&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-53&#34; class=&#34;outline-4&#34;&gt;
+&lt;h4 id=&#34;headline-53&#34;&gt;
+Computer Projects&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span class=&#34;tag-computer&#34;&gt;computer&lt;/span&gt;&lt;/span&gt;
+&lt;/h4&gt;
+&lt;div id=&#34;outline-text-headline-53&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;div id=&#34;outline-container-headline-54&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-54&#34;&gt;
+General Computer Stuff&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span class=&#34;tag-general&#34;&gt;general&lt;/span&gt;&lt;/span&gt;
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-55&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-55&#34;&gt;
+Emacs Stuff&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span class=&#34;tag-emacs&#34;&gt;emacs&lt;/span&gt;&lt;/span&gt;
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-56&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-56&#34;&gt;
+Correspondence&amp;#xa0;&amp;#xa0;&amp;#xa0;&lt;span class=&#34;tags&#34;&gt;&lt;span class=&#34;tag-email&#34;&gt;email&lt;/span&gt;&amp;#xa0;&lt;span class=&#34;tag-facetime&#34;&gt;facetime&lt;/span&gt;&amp;#xa0;&lt;span class=&#34;tag-zoom&#34;&gt;zoom&lt;/span&gt;&lt;/span&gt;
+&lt;/h5&gt;
+&lt;div id=&#34;outline-text-headline-56&#34; class=&#34;outline-text-5&#34;&gt;
+&lt;p&gt;
+These subheaders can contain links to Emacs packages I want to learn about/review, general computer stuff like stuff I want to install/review on my laptops or desktops, or general correspondence I want to take care of at some point.&lt;/p&gt;
+&lt;p&gt;
+Now, I know that I&amp;#39;ve pretty much hammered in how I don&amp;#39;t use Emacs for my general daily task list, and I don&amp;#39;t. But that&amp;#39;s because &lt;em&gt;before&lt;/em&gt; stuff goes into my Apple Reminders, etc…I organise them as tasks in Emacs. They aren&amp;#39;t there as my final reminder: They&amp;#39;re there to be worked on or reviewed. It&amp;#39;s a place where I put stuff to figure out how I&amp;#39;m going to deal with it before making a final task out of it which will remind me. Anything in my todo.org means &amp;#34;Deal with this&amp;#34;. If I&amp;#39;m out and about, I won&amp;#39;t be looking at my todo.org list - ever. I&amp;#39;ll be looking at my iPhone Apple apps. I only look at todo.org when I&amp;#39;m sitting down and working at home (or maybe at a cafe or whatevs).&lt;/p&gt;
+&lt;p&gt;
+Again: my final todos/meetings/etc…are not in Emacs. I&amp;#39;ve found it very unhelpful  to have everything in Emacs as your final stuff when it&amp;#39;s a bit convoluted to deal with on the iPhone or iPad and you&amp;#39;re out and about. When I&amp;#39;m travelling or out of the house in general, I want stuff available at my fingertips with no effort. Organising your life around Emacs org-mode agenda and all that is great for people who are at their laptops 99% of the time. That&amp;#39;s not me. I go out almost every day and sometimes every night for weeks at a time. I can&amp;#39;t have all that important stuff sitting in Emacs and not being available. Even with Beorg and Plain Org, it&amp;#39;s a bit hard to deal with (much as I love them). So I don&amp;#39;t.&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;#39;re at your laptop or desktop a lot more than I am, and you want to organise everything with reminders in Emacs, I say: Go for it. I&amp;#39;m only adding another level of functionality because I need to. But it works out well for me. Always do what works best for you and gets the job done.&lt;/p&gt;
+&lt;p&gt;
+Once I&amp;#39;m done with a task, I archive it (C-c $) and it goes to the appropriate archive list in /archives sorted by year. That way, I have a list of all the tasks I dealt with. it adds a time/date stamp and I can add a note before I close it and it gets whisked away. This is also searchable.&lt;/p&gt;
+&lt;p&gt;
+Since I&amp;#39;m not contracted and I don&amp;#39;t deal with time stuff for certain projects (I mean I don&amp;#39;t need to know how much time I&amp;#39;ve spent on it), I don&amp;#39;t use that aspect for tasks in org-mode. It&amp;#39;s amazing for people who need it, but that&amp;#39;s not me so it isn&amp;#39;t an issue for me. My work is entirely results-oriented. If it gets done on schedule or ahead of schedule, that&amp;#39;s all my boss wants to know. She doesn&amp;#39;t care if I spend 1 hour on it or 3 weeks. As long as it gets done, I&amp;#39;m good. I &lt;strong&gt;do&lt;/strong&gt; add scheduled times to tasks though and I &lt;strong&gt;do&lt;/strong&gt; use agenda to see what&amp;#39;s next that I have to deal with. Usually, with business (or even some personal) tasks, I&amp;#39;ll do a C-c C-s to add a schedule time to it. You can add deadlines too if you want - it&amp;#39;s up to you. As long as you can see it in your agenda and refer to that frequently (I look at it all the time in Emacs), you&amp;#39;re good to go. You know what you need to do next and have a general idea of how long you have to deal with it.&lt;/p&gt;
+&lt;p&gt;
+So: Tasks that are done from todo.org get sent to the archives. Links and references get sent to links-whateves.org as reference. Everything is tagged, everything is filed, everything is organised. It&amp;#39;s all good, right?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-57&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-57&#34;&gt;
+Denote
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-57&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Well, no. That&amp;#39;s only the general/task stuff. Actually doing the tasks - the research, the email correspondence chains - all of that has to go into project notes. As I said: major projects are broken down like that. References, steps to be taken, all the rest is broken down. Denote is great because I don&amp;#39;t need a database that has a complex system to sync between more than one system. Prot designed denote to work out of the box on any system or setup you have - no database required. And how, you might ask? Well, you might &lt;em&gt;very&lt;/em&gt; well ask that, you might indeed! That is, if you didn&amp;#39;t pay careful attention to his demonstration video where he unveiled it.&lt;/p&gt;
+&lt;p&gt;
+Like him, I use dired. I&amp;#39;ve learned to use it for a ton of things. And because of tags (which also mirror the same tags I use Apple-wide and Emacs-wide), I can find things very easily. Each denote file is created with a timestamp (very useful) and tags. This makes organising a breeze. I love it. It&amp;#39;s simple and effective and that&amp;#39;s all that I need. I can make small notes, large ones, medium-sized ones - it all works. I can easily find stuff when I want to backlink to other notes. Everything is easy to find. I&amp;#39;ve found it much more useful than org roam for my needs. But if org roam is your thing, that&amp;#39;ll work too. I&amp;#39;m not putting it down - I&amp;#39;m just saying that I don&amp;#39;t need a database like that. I don&amp;#39;t know code and I know I&amp;#39;d just end up screwing up the database anyway. I tried it and database SQL stuff (is it even that? See? I don&amp;#39;t know.) is beyond me. I don&amp;#39;t know how to maintain it or upgrade it…it&amp;#39;s something I don&amp;#39;t want to have to deal with. SQL scares me and looks very pointy with claws. So I use Denote.&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Note:&lt;/strong&gt; I know that you don&amp;#39;t need to know SQL to use org roam - I know because, again, I did use it for a bit. But the idea of syncing databases across different computers and all that kind of scares me.&lt;/p&gt;
+&lt;p&gt;
+All of my Denote notes are org mode notes. I know that you can do other formats like .txt and .md but I just don&amp;#39;t bother since everything I need is in org mode.&lt;/p&gt;
+&lt;p&gt;
+When I&amp;#39;m working in a project, I&amp;#39;ll usually split the frame in half (I use fullscreen for Emacs half the time). On the left are the references, on the right is the note. Flipping between windows is super fast and easy and I do that all the time. I also use avy to jump to different parts of the buffer or, most of the time, I just use meow &amp;#34;visit&amp;#34; with the v key. That works really well for me. How you jump around is up to you, but jumping around is important. Like most Emacs users, I almost never, ever touch the trackpad or mouse. I don&amp;#39;t have to. I love that. I&amp;#39;m faster and better without it. Plus, I type super fast.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-58&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-58&#34;&gt;
+links-X.org
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-58&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;I structure all of my &amp;#39;links&amp;#39; notes in refile with subheaders. For instance: For music, I have subheaders for 60s, 70s, 80s, 90s, 00s, 10s, 20s to categorise music. For fashion, I have brand names like: Cartier, Valentino, Armani, Hermes, YSL, etc…. For real estate, it&amp;#39;s first broken down by country/city etc…. so like France and then subheader Paris, etc…. That sorta thing. So when I hit refile on something, I just type a few breakdown keywords and I get the relevant file and header/subheader that I need. This way, it takes me about 3 seconds to refile something at most.&lt;/p&gt;
+&lt;p&gt;
+Stuff that goes into links-X.org never gets a TODO. It&amp;#39;s not a TODO - it&amp;#39;s a reference. It&amp;#39;s a thing to look up. Everything in todo.org gets a TODO, but not stuff that goes to &amp;#34;refile&amp;#34;. It has tags, and it has a date and time and even sometimes notes, but it doesn&amp;#39;t have a TODO.&lt;/p&gt;
+&lt;p&gt;
+Also: Stuff that goes into my &amp;#39;notes&amp;#39; doesn&amp;#39;t have a TODO. If it has a TODO, it&amp;#39;s in todo.org. A todo may &lt;em&gt;reference&lt;/em&gt; something in refile or notes, but stuff in there isn&amp;#39;t an action (a TODO).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-59&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-59&#34;&gt;
+repeat-tasks.org
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-59&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;As I said: My repeats are actually in my reminders/calendar. &lt;em&gt;BUT&lt;/em&gt;, I have a repeat-tasks.org as a master list, broken down the same way, so that I can have a master list to reference to in Emacs. It&amp;#39;s just more organised that way. If you&amp;#39;re gonna put a repeat into your life, there better be a good reason for it. It better be worth it. And if it&amp;#39;s worth it, it&amp;#39;s worth noting down so you don&amp;#39;t forget any relevant details. Such as adding a note to it with pertinent info and maybe even a link to a file in notes with even more info (maybe like a journal entry) about why I wanted to add this into my life so that it bugs me every day or week or whatever. It may be important. If it&amp;#39;s gonna bug you, it probably is important, so write it down so you don&amp;#39;t forget.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-60&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-60&#34;&gt;
+With all that said
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-60&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You can see the general structure I use to organise everything. I&amp;#39;ll have a record of everything I do, about what I&amp;#39;m thinking, about events in my life, habits I want to pick up, changes I want to make, things I want to learn, business deals I need to follow up on, items of interest my boss wants to buy or look into, real estate she&amp;#39;s interested in acquiring, and more. Much more. Everything, really. It&amp;#39;s all categorised, tagged, broken down, refiled, archived, added to my notes, referenced, linked - all from Emacs. Then it gets put into the Apple system to be shared with my boss and my gf and roomies/bffs. Travel plans are broken down the same way including ticket info, prices, links to the site I got them from, etc…. meetings are set up the same way with any emails linked, links from online dealing with that info, my own notes, etc… everything is there. It&amp;#39;s also backed up in safe places (more than one) so that if anything happens, I have it all available (and still available during such a crisis) on my other devices. It&amp;#39;s all text files so anything can read it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-61&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-61&#34;&gt;
+I hope that this helped 🙃
+&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://summeremacs.github.io/posts/60s-70s-80s-watch-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/60s-70s-80s-watch-list/</guid>
+      <description>
+&lt;p&gt;
+My current (mostly 80s) movies/shows watch list. Now, i&amp;#39;ve seen a few of these already, but the goal is to 1) see it together with my GF and 2) to &lt;em&gt;also&lt;/em&gt; watch it together with our BFFs. Some of them have been seen by my GF or one of my BFFs - they remain unchecked until we&amp;#39;ve all seen it together. Usually, we dress up in 80s fashion and makeup for a weekend night or day and watch a few of them back to back. It&amp;#39;s a fun 80s retro party that way. 🙃&lt;/p&gt;
+&lt;p&gt;
+This list will continue being updated as time goes on. Also: any of my friends online can suggest things for me to put on the list. It can be 70s and 60s too, btw. It just started as an 80s list at first. 🙃&lt;/p&gt;
+&lt;p&gt;
+Feel free to contact me to add stuff to this list!&lt;/p&gt;
+&lt;p&gt;
+Updated: [2023-11-22 Wed]&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+90s Movies
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;checked&#34;&gt;Home Alone&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Robin Hood: Men in Tights (1993)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+80s Movies
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;checked&#34;&gt;A Fish Called Wanda&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;A Land Before Time&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;After Hours&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Amadeus&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Baby&amp;#39;s Day Out&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Back to the Future (1, 2, &amp;amp; 3)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Beethoven&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Better Off Dead&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Beverly Hills Cop (1 &amp;amp; 2)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Big&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Bill &amp;amp; Ted (1 &amp;amp; 2)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Blade Runner&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Brazil&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Buckaroo Banzai&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Clue&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Coming to America&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Conan the Barbarian&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Dark Crystal&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Dead Poets Society&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Dennis the Menace&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Desperately Seeking Susan&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Die Hard&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Dune&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Dutch&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;E.T.&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Fanny and Alexander&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Fast Times at Ridgemont High&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Ferris Bueller&amp;#39;s Day Off&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Field of Dreams&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Flashdance&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Footloose&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Full Metal Jacket&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Ghostbusters&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Heathers&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Highlander&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;History of the World, Part I (1981)&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Killer Klowns from Outer Space&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Kung Fury (It&amp;#39;s made in 80s style apparently)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Legend&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Liquid Sky&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Little Shop of Horrors&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Mannequin&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Mr. Mom&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Mrs. Doubtfire&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;National Lampoon&amp;#39;s Vacation&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Neverending Story&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;One Crazy Summer&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Planes, Trains and Automobiles&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Poltergeist&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Pretty in Pink&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Purple Rain&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Raiders of the Lost Ark&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Rain Man&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Real Genius&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Repo Man&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Risky Business&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Robocop&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Ronia, the Robber&amp;#39;s Daughter (1984)&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Saint Elmo&amp;#39;s Fire&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;She&amp;#39;s Having a Baby&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Short Circuit&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Sixteen Candles&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Some Kind of Wonderful&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Spaceballs (1987)&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Stand By Me&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Steel Magnolias&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Stripes&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Breakfast Club&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;The Great Outdoors&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Karate Kid (1 &amp;amp; 2)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Last Starfighter&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;The Last Unicorn&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Lost Boys&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Princess Bride&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Right Stuff&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Shining&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;The Terminator&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;This is Spinal Tap&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Time Bandits&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Tootsie&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Top Gun&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Total Recall&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Trading Places&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Tron&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Twins&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Uncle Buck&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Valley Girl&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Wall Street&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;War Games&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Weird Science&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;When Harry Met Sally&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Willow&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Working 9 to 5&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Working Girl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+70s Movies
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;checked&#34;&gt;Blazing Saddles (1974)&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Brothers Lionheart (1977)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;High Anxiety (1977)&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Silent Movie (1976)&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;The Twelve Chairs (1970)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Young Frankenstein (1974)&lt;/li&gt;
+&lt;li class=&#34;checked&#34;&gt;Zardoz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+60s Movies
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;checked&#34;&gt;The Producers (1967)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+Shows
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Beauty &amp;amp; The Beast&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Greatest American Hero&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Knight Rider&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Magnum P.I.&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Dynasty&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;The Mysterious Cities of Gold (French/Japanese Anime)&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Twin Peaks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-6&#34;&gt;
+80s Broadway Shows
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Cats&lt;/li&gt;
+&lt;li class=&#34;unchecked&#34;&gt;Phantom of the Opera&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
       
     </item>
     

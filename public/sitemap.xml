@@ -5,7 +5,54 @@
     
       <url>
             <loc>https://summeremacs.github.io/</loc>
-            <lastmod>2023-08-21T11:09:25+02:00</lastmod>
+            <lastmod>2023-08-29T13:28:31+02:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://summeremacs.github.io/posts/</loc>
+            <lastmod>2023-08-29T13:28:31+02:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://summeremacs.github.io/posts/zeus-and-prot/</loc>
+            <lastmod>2023-08-29T13:28:31+02:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://summeremacs.github.io/posts/using-emacs-with-tramp/</loc>
+            <lastmod>2023-08-25T12:24:40+02:00</lastmod>
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
@@ -21,18 +68,11 @@
     
   
     
-      <url>
-            <loc>https://summeremacs.github.io/posts/my-first-post/</loc>
-            <lastmod>2023-08-21T11:09:25+02:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
   
     
       <url>
-            <loc>https://summeremacs.github.io/posts/</loc>
-            <lastmod>2023-08-21T11:09:25+02:00</lastmod>
+            <loc>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</loc>
+            <lastmod>2023-06-29T18:01:52+02:00</lastmod>
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
@@ -51,6 +91,12 @@
   
     
   
+    
+      <url>
+            <loc>https://summeremacs.github.io/posts/60s-70s-80s-watch-list/</loc>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
     
   
     
