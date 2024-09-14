@@ -1,0 +1,10 @@
+---
+title: "New Theme - Terminal"
+date: 2024-09-14T01:00:00+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["emacs","help","tutorial","github"]
+---
+
+* Yes! It's a new theme!
+Yes! I have a new theme. I'm still working on it. The reason was that as cool and awesome as [[https://blowfish.page][blowfish]] is, it's a pain to update. It's finicky and has its own system of doing things. This is confusing to me. I'm blonde. Sue me. So I opted for something simpler which is much easier to update. I'm still figuring out how to customize it more, but for now it'll do. It's just a blog I update apparently less than once a year, so I'm not going to spend too much time on it.

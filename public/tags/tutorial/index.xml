@@ -2,17 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on The Great SummerEmacs Blog</title>
-    <link>http://localhost:1313/tags/tutorial/</link>
+    <link>https://summeremacs.github.io/tags/tutorial/</link>
     <description>Recent content in Tutorial on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Sep 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Theme - Terminal</title>
+      <link>https://summeremacs.github.io/posts/new-theme-terminal/</link>
+      <pubDate>Sat, 14 Sep 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/new-theme-terminal/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Yes! It&amp;#39;s a new theme!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Yes! I have a new theme. I&amp;#39;m still working on it. The reason was that as cool and awesome as &lt;a href=&#34;https://blowfish.page&#34;&gt;blowfish&lt;/a&gt; is, it&amp;#39;s a pain to update. It&amp;#39;s finicky and has its own system of doing things. This is confusing to me. I&amp;#39;m blonde. Sue me. So I opted for something simpler which is much easier to update. I&amp;#39;m still figuring out how to customize it more, but for now it&amp;#39;ll do. It&amp;#39;s just a blog I update apparently less than once a year, so I&amp;#39;m not going to spend too much time on it.&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Yes! It&amp;#39;s a new theme!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Yes! I have a new theme. I&amp;#39;m still working on it. The reason was that as cool and awesome as &lt;a href=&#34;https://blowfish.page&#34;&gt;blowfish&lt;/a&gt; is, it&amp;#39;s a pain to update. It&amp;#39;s finicky and has its own system of doing things. This is confusing to me. I&amp;#39;m blonde. Sue me. So I opted for something simpler which is much easier to update. I&amp;#39;m still figuring out how to customize it more, but for now it&amp;#39;ll do. It&amp;#39;s just a blog I update apparently less than once a year, so I&amp;#39;m not going to spend too much time on it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
     <item>
       <title>The Emacs Newbie Project</title>
-      <link>http://localhost:1313/posts/the-emacs-newbie-project/</link>
+      <link>https://summeremacs.github.io/posts/the-emacs-newbie-project/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/posts/the-emacs-newbie-project/</guid>
+      <guid>https://summeremacs.github.io/posts/the-emacs-newbie-project/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 It&amp;#39;s a project! But with censoring.
@@ -45,12 +69,12 @@ The idea is very simple in nature: I don&amp;#39;t want to change Emacs in any w
     
     <item>
       <title>How I Use Emacs</title>
-      <link>http://localhost:1313/posts/how-i-use-emacs/</link>
+      <link>https://summeremacs.github.io/posts/how-i-use-emacs/</link>
       <pubDate>Thu, 04 May 2023 12:06:16 +0200</pubDate>
       
-      <guid>http://localhost:1313/posts/how-i-use-emacs/</guid>
+      <guid>https://summeremacs.github.io/posts/how-i-use-emacs/</guid>
       <description>&lt;figure&gt;
-&lt;img src=&#34;http://localhost:1313/img/pink-emacs-icon.png&#34; alt=&#34;/img/pink-emacs-icon.png&#34; title=&#34;/img/pink-emacs-icon.png&#34; width=&#34;200&#34;/&gt;
+&lt;img src=&#34;https://summeremacs.github.io/img/pink-emacs-icon.png&#34; alt=&#34;/img/pink-emacs-icon.png&#34; title=&#34;/img/pink-emacs-icon.png&#34; width=&#34;200&#34;/&gt;
 &lt;figcaption&gt;
 Emacs in Pink is your Friend.
 &lt;/figcaption&gt;
@@ -99,7 +123,7 @@ Everything I need is in &lt;code class=&#34;verbatim&#34;&gt;~/Documents/sync&lt
 &lt;p&gt;Because &lt;code class=&#34;verbatim&#34;&gt;~/Documents&lt;/code&gt; is automatically synced to iCloud without me ever having to touch anything, everything in it is mirrored to all of my devices. From there, I have a folder inside called sync. So ~/Documents/sync which is the folder where all of my org files, notes, etc are located. This folder is automatically synced to my Raspberry Pi with Syncthing every few seconds. And that gets backed up every night to my mirror drives on my Raspberry Pi. Also, since ~/Documents is automatically backed up with Time Machine on my server as well, I have a second backup (also backed up to the mirror drives at night). This way, I have more than one independent backup going at all times so I shouldn&amp;#39;t (ideally) ever lose my files. And I have access to all notes and files on all of my iOS devices at all times as well.&lt;/p&gt;</description>
       <content>
 &lt;figure&gt;
-&lt;img src=&#34;http://localhost:1313/img/pink-emacs-icon.png&#34; alt=&#34;/img/pink-emacs-icon.png&#34; title=&#34;/img/pink-emacs-icon.png&#34; width=&#34;200&#34;/&gt;
+&lt;img src=&#34;https://summeremacs.github.io/img/pink-emacs-icon.png&#34; alt=&#34;/img/pink-emacs-icon.png&#34; title=&#34;/img/pink-emacs-icon.png&#34; width=&#34;200&#34;/&gt;
 &lt;figcaption&gt;
 Emacs in Pink is your Friend.
 &lt;/figcaption&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on The Great SummerEmacs Blog</title>
-    <link>http://localhost:1313/tags/linux/</link>
+    <link>https://summeremacs.github.io/tags/linux/</link>
     <description>Recent content in Linux on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jun 2023 18:01:52 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jun 2023 18:01:52 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Came to Use Emacs and Other Things</title>
-      <link>http://localhost:1313/posts/how-i-came-to-use-emacs-and-other-things/</link>
+      <link>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</link>
       <pubDate>Thu, 29 Jun 2023 18:01:52 +0200</pubDate>
       
-      <guid>http://localhost:1313/posts/how-i-came-to-use-emacs-and-other-things/</guid>
+      <guid>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 This is the story of how I came to use Emacs and other things
