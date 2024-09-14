@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Info on ⭐️ The Great SummerEmacs Blog ⭐️</title>
-    <link>https://summeremacs.github.io/tags/info/</link>
-    <description>Recent content in Info on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <title>Info on The Great SummerEmacs Blog</title>
+    <link>http://localhost:1313/tags/info/</link>
+    <description>Recent content in Info on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Mon, 21 Aug 2023 11:09:25 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Aug 2023 11:09:25 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About - All that&#39;s interesting</title>
-      <link>https://summeremacs.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 21 Aug 2023 11:09:25 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 Hi there!
@@ -21,8 +20,35 @@ Hi there!
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;You&amp;#39;re reading my blog.&lt;/p&gt;
 &lt;p&gt;
-Ok, so what? Well, I made a huge fuss about &lt;em&gt;never&lt;/em&gt; making a blog. But after &lt;em&gt;over a year of being bothered about it&lt;/em&gt;, I finally did! Good job guys! 🤣&lt;/p&gt;</description>
-      
+Ok, so what? Well, I made a huge fuss about &lt;em&gt;never&lt;/em&gt; making a blog. But after &lt;em&gt;over a year of being bothered about it&lt;/em&gt;, I finally did! Good job guys! 🤣&lt;/p&gt;
+&lt;p&gt;
+So, why? Well, it&amp;#39;s because uploading &lt;code class=&#34;verbatim&#34;&gt;org&lt;/code&gt; files in raw format to my &lt;a href=&#34;https://www.github.com/summeremacs&#34;&gt;Github account&lt;/a&gt; was looking kinda shoddy. And, as many people know, I do &lt;em&gt;NOT&lt;/em&gt; like to look shoddy.&lt;/p&gt;
+&lt;p&gt;
+So, it was prompted by a few comments online (like &lt;a href=&#34;https://lobste.rs/s/2hswwc/how_i_came_use_emacs_other_things&#34;&gt;here for instance&lt;/a&gt;) which just made me hide my face in my hands 🤦🏼‍♀️ and say ok…screw it. I&amp;#39;ll make a blog. But I didn&amp;#39;t wanna pay for a Squarespace or something like that because anyone with 1/4 of a brain can do that and &amp;#34;make a blog&amp;#34;. Instead, since I was posting about Emacs stuff (mostly), I wanted it to be where I can get geek cred: 👩🏼‍💻 on Github. So, I had to set up &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and also &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;easy-hugo&lt;/a&gt; for &lt;a href=&#34;https://github.com/d12frosted/homebrew-emacs-plus&#34;&gt;Emacs&lt;/a&gt; (yes, I linked to a Mac 🍏 version. Bite me! 😀), and then I had to look through tons of bad themes to find a good one and figure out how to set that up, and boy was that not easy to do!&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Hi there!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You&amp;#39;re reading my blog.&lt;/p&gt;
+&lt;p&gt;
+Ok, so what? Well, I made a huge fuss about &lt;em&gt;never&lt;/em&gt; making a blog. But after &lt;em&gt;over a year of being bothered about it&lt;/em&gt;, I finally did! Good job guys! 🤣&lt;/p&gt;
+&lt;p&gt;
+So, why? Well, it&amp;#39;s because uploading &lt;code class=&#34;verbatim&#34;&gt;org&lt;/code&gt; files in raw format to my &lt;a href=&#34;https://www.github.com/summeremacs&#34;&gt;Github account&lt;/a&gt; was looking kinda shoddy. And, as many people know, I do &lt;em&gt;NOT&lt;/em&gt; like to look shoddy.&lt;/p&gt;
+&lt;p&gt;
+So, it was prompted by a few comments online (like &lt;a href=&#34;https://lobste.rs/s/2hswwc/how_i_came_use_emacs_other_things&#34;&gt;here for instance&lt;/a&gt;) which just made me hide my face in my hands 🤦🏼‍♀️ and say ok…screw it. I&amp;#39;ll make a blog. But I didn&amp;#39;t wanna pay for a Squarespace or something like that because anyone with 1/4 of a brain can do that and &amp;#34;make a blog&amp;#34;. Instead, since I was posting about Emacs stuff (mostly), I wanted it to be where I can get geek cred: 👩🏼‍💻 on Github. So, I had to set up &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and also &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;easy-hugo&lt;/a&gt; for &lt;a href=&#34;https://github.com/d12frosted/homebrew-emacs-plus&#34;&gt;Emacs&lt;/a&gt; (yes, I linked to a Mac 🍏 version. Bite me! 😀), and then I had to look through tons of bad themes to find a good one and figure out how to set that up, and boy was that not easy to do!&lt;/p&gt;
+&lt;p&gt;
+Eventually, I &amp;#34;made it work&amp;#34;.&lt;/p&gt;
+&lt;p&gt;
+I haven&amp;#39;t finished. I do have a DNS to tie to it but I don&amp;#39;t think that I&amp;#39;ll bother for now. I just want it to park stuff I&amp;#39;ve already written and maybe will write about every few months or year or so. We&amp;#39;ll see.&lt;/p&gt;
+&lt;p&gt;
+At least it doesn&amp;#39;t look as shoddy 🗑️ as before.&lt;/p&gt;
+&lt;p&gt;
+Summer ⭐️&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
     </item>
     
   </channel>

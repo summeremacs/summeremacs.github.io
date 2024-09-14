@@ -1,22 +1,286 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Comedy on ⭐️ The Great SummerEmacs Blog ⭐️</title>
-    <link>https://summeremacs.github.io/tags/comedy/</link>
-    <description>Recent content in Comedy on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <title>Comedy on The Great SummerEmacs Blog</title>
+    <link>http://localhost:1313/tags/comedy/</link>
+    <description>Recent content in Comedy on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Tue, 29 Aug 2023 13:28:31 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/comedy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 13:28:31 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/comedy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zeus and Prot</title>
-      <link>https://summeremacs.github.io/posts/zeus-and-prot/</link>
+      <link>http://localhost:1313/posts/zeus-and-prot/</link>
       <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/posts/zeus-and-prot/</guid>
+      <guid>http://localhost:1313/posts/zeus-and-prot/</guid>
       <description>&lt;p&gt;
-After coming home, I started reviewing Prot&amp;#39;s progress with the hut this morning. I saw his video post about a pomegranate tree which had mysteriously sprouted. Also, I saw him working like crazy to build this hut. So, after putting some odd links together in my head, I came up with the following screenplay. 🙃 I wrote this really fast so I hope it comes across as okay.&lt;/p&gt;</description>
-      
+After coming home, I started reviewing Prot&amp;#39;s progress with the hut this morning. I saw his video post about a pomegranate tree which had mysteriously sprouted. Also, I saw him working like crazy to build this hut. So, after putting some odd links together in my head, I came up with the following screenplay. 🙃 I wrote this really fast so I hope it comes across as okay.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Zeus and Prot - A Discussion
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+SCENE: The end of winter, 2023. Prot is typing away at his computer as evening darkens the windows.&lt;/p&gt;</description>
+      <content>
+&lt;p&gt;
+After coming home, I started reviewing Prot&amp;#39;s progress with the hut this morning. I saw his video post about a pomegranate tree which had mysteriously sprouted. Also, I saw him working like crazy to build this hut. So, after putting some odd links together in my head, I came up with the following screenplay. 🙃 I wrote this really fast so I hope it comes across as okay.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Zeus and Prot - A Discussion
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+SCENE: The end of winter, 2023. Prot is typing away at his computer as evening darkens the windows.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Speaking to himself as he re-reads what he has written) So, given the societal impact of the Antikythera mechanism on ancient lives, and the philosophical foundations of machinery and fundamental programming introduced in a primitive society, we can….&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (As a disembodied and loud voice): Prot.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Startled, looks around): Eh? Is somebody there? (Look around some more) Who is this? Spyware doesn&amp;#39;t work on my GNU Linux system. What is going on?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Prot. Listen. It&amp;#39;s me. Zeus.&lt;/p&gt;
+&lt;p&gt;
+PROT: Zeus? (Takes off his glasses) What? Are you a hacker? I should inform you that I am very good with comp-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No, Prot. I&amp;#39;m not a hacker. I&amp;#39;m the God - Zeus. The King of the Gods.&lt;/p&gt;
+&lt;p&gt;
+PROT: What? Are you serious? You know I don&amp;#39;t believe in you. I&amp;#39;m an atheist. You don&amp;#39;t exist. You&amp;#39;re an interesting sociological and mythological figure from ancie-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I know, I know. Trust me, I&amp;#39;m real. It doesn&amp;#39;t matter if you don&amp;#39;t believe-&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes, and you know that belief is not counted among the virtues in ancient Greek reli-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I know! We&amp;#39;re better than the other guys. Listen, this is more important. I have a message for you.&lt;/p&gt;
+&lt;p&gt;
+PROT: What? You have a message for me? (Pauses..) What is this about? How do I know that you&amp;#39;re really Zeus?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I&amp;#39;ll show you later! Just &lt;em&gt;listen&lt;/em&gt; for a moment! (Pauses…papers can be heard shuffling in the background) I&amp;#39;m trying to find my announcement. I had it written up.&lt;/p&gt;
+&lt;p&gt;
+PROT: You know, if you had used Emacs, then you could have used &lt;code class=&#34;verbatim&#34;&gt;consult-ripgrep&lt;/code&gt; and-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes! Yes, I know. But I grew up with clay tablets and papyrus. Call me old fashioned, but it&amp;#39;s hard to change.&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes, but as you know, in philosophy, we like to think that change is reflective of a positive outloo-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Found it! (Pauses for a moment) Now, where were we? Ah…yes. Here! (Pauses for overly dramatic effect and resumes with a great booming voice) Prot! I task you with a task of momentous import! (There is silence for a little while)&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes..? What task? Is this a God-like imperative or some kind of very pressing request? Because the two would be diffe-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I&amp;#39;m sorry, I was trying to read my handwriting. It got a little smudged. Ah, here we are. (Resumes the great booming voice) Prot! I task you to go out into the wilderness! (He pauses again) I think they call it &amp;#34;Going off the grid&amp;#34; these days. You&amp;#39;re familiar with the term?&lt;/p&gt;
+&lt;p&gt;
+PROT: Yes. Yes of course. I often take hikes in nature and-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Sounding overly pleased) &lt;strong&gt;Very good!&lt;/strong&gt; Right, then! (Resumes booming voice) Prot! I task you to go into the wilderness, find a secluded and survivable spot, and build…(there is a dramatic pause)… &lt;em&gt;a&lt;/em&gt; &lt;em&gt;hut&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;
+(There is a long pause)&lt;/p&gt;
+&lt;p&gt;
+PROT: You want me to &lt;em&gt;what&lt;/em&gt;? It sounded like you said you wanted me to build a-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: A &lt;em&gt;hut&lt;/em&gt;! Yes! I want you…to build a hut. That&amp;#39;s what is written right here. A hut. Off the grid. And there is a note in the margins here amongst the doodles which says &amp;#34;It must be self…sufficient&amp;#34;.&lt;/p&gt;
+&lt;p&gt;
+(Another pause)&lt;/p&gt;
+&lt;p&gt;
+PROT: Zeus, I do not mean to be disrespectful, especially if you really &lt;em&gt;are&lt;/em&gt; a God, but why would I do this? Why is it so important?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: It is not just important to you, but important to the world, Prot!&lt;/p&gt;
+&lt;p&gt;
+PROT: The world?!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. The world. It has a divine purpose.&lt;/p&gt;
+&lt;p&gt;
+PROT: I don&amp;#39;t understand. Why would my building a hut be so important to anything?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, you see…(He sighs deeply)…can we speak frankly for a moment?&lt;/p&gt;
+&lt;p&gt;
+PROT: I have always spoken frankly and clearly as far as I remember, Zeus. It is part of my philo-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Gives a huge sigh) Things aren&amp;#39;t going well, Prot. Things aren&amp;#39;t going well at all.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Furrows his brow and starts to clean his glasses) Oh? Maybe I can help you. I like to help create solutions to problems in many different capaci-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: It&amp;#39;s the world, Prot. You can&amp;#39;t fix the world. Not even I can do it. And Hera&amp;#39;s been nagging me for the last century to do something about it and I can&amp;#39;t shut her up! Nag, nag, nag! Well, you&amp;#39;ve heard all of the old stories, I&amp;#39;m sure.&lt;/p&gt;
+&lt;p&gt;
+PROT: Indeed. We studied this in my old class when I was a boy and-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Gives another long and depressed sigh) Prot…she won&amp;#39;t stop. I have to do &lt;em&gt;something&lt;/em&gt;! So, I&amp;#39;m going to. I&amp;#39;m going to end the world.&lt;/p&gt;
+&lt;p&gt;
+PROT: &lt;em&gt;WHAT??!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+ZEUS: By fire.&lt;/p&gt;
+&lt;p&gt;
+PROT: WHAT??!!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: …and start it over again.&lt;/p&gt;
+&lt;p&gt;
+PROT: You&amp;#39;re actually going to burn the whole world??!!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, I wanted Poseidon to flood it, but we&amp;#39;re going for more equal representation up here. So the council has voted that it&amp;#39;s Hephaestus&amp;#39; turn this time around.&lt;/p&gt;
+&lt;p&gt;
+PROT: Oh.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. It&amp;#39;s time I fixed things a little better. But, as you know, sometimes rearranging blocks of things just won&amp;#39;t fix something if it&amp;#39;s rotten to the core. Sometimes, you need to start a new buffer. (Pause) Is that terminology closer to your understanding?&lt;/p&gt;
+&lt;p&gt;
+PROT: (Doesn&amp;#39;t know what to say for a moment…) Yes…Yes I understand, but I don&amp;#39;t agree with it!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: What don&amp;#39;t you agree with?&lt;/p&gt;
+&lt;p&gt;
+PROT: Ending the world isn&amp;#39;t like wiping out a buffer! it&amp;#39;s wiping out people! These are not characters on a screen, but living and thinking beings! Can&amp;#39;t you just… (He waggles his hands and fingers) you know…aren&amp;#39;t you a &lt;em&gt;God&lt;/em&gt;? Or so you claim!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Prot. If I&amp;#39;m going to wipe out the world, won&amp;#39;t that be enough evidence for you that what I&amp;#39;m saying is true? That I &lt;em&gt;am&lt;/em&gt; a God?&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah. Interesting question! Perhaps. But you could be a malicious alien being of some kind…&lt;/p&gt;
+&lt;p&gt;
+ZEUS: This isn&amp;#39;t the time for a theological debate, Prot. I&amp;#39;m telling you: I have great plans for you. Now, listen!&lt;/p&gt;
+&lt;p&gt;
+PROT: I still can&amp;#39;t believe this is happening. I must have had some bad feta cheese tonight.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No, it wasn&amp;#39;t any bad feta cheese, Prot. I&amp;#39;m real. Now, sit down and listen.&lt;/p&gt;
+&lt;p&gt;
+(Prot sits down in his chair, staring at his screen, dumbfounded.)&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I want you to build a hut because I want you to survive this calamity. You will be amongst the very few who do. And you will spread a better philosophy to the new people - a philosophy of freedom, thought, rationality, and Emacs. I have chosen you, Prot, to spread this message. Your naturally calm demeanor and inclination to educate shall be needed to soothe them after this calamity.&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. I can see there is some thought to this, and not just an overreaction to your wife&amp;#39;s badgering, but please won&amp;#39;t you consider-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I have considered everything! Listen. You will go into the mountains and build yourself a hut. It will be isolated and there will be much hard work to prepare for the day! You will toil for months in the hot sun. But the price will be your own survival and this shall be part of your reward.&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. Let us assume that you are correct in your presentation of everything so far. What about my own place here? You want me to just move at the drop of a hat?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Oh, don&amp;#39;t worry about that. I turned your landlord into a complete jackass. He&amp;#39;ll be increasing the rent so that you can&amp;#39;t afford it.&lt;/p&gt;
+&lt;p&gt;
+PROT: &lt;em&gt;WHAT??!!&lt;/em&gt; WHY? Why would you do that??!!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, to make sure that you move, of course. To give you…what&amp;#39;s that thing that humans need? (He pauses, searching) &amp;#34;Incentive&amp;#34;! Yes! That was it! &amp;#34;Incentive!&amp;#34; I have given you…&amp;#34;&lt;em&gt;Incentive&lt;/em&gt;&amp;#34;! (He sounds very proud of himself)&lt;/p&gt;
+&lt;p&gt;
+PROT: But…but…! (He splutters in a most un-Prot-like fashion)&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Completely oblivious of his own overbearing behavior) Yes. I&amp;#39;m quite proud of my solutions overall. Some might call them &amp;#34;Draconian&amp;#34;, but I prefer to think of them as &amp;#34;resolute&amp;#34;. I like that word.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Shouting) &lt;em&gt;WHAT GIVES YOU THE RIGHT??!!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (He pauses for a moment) I&amp;#39;m…a God, Prot.&lt;/p&gt;
+&lt;p&gt;
+PROT: But, you&amp;#39;re not &lt;em&gt;real&lt;/em&gt;! None of this can be real!&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Voice booming again) Oh?! Well, I shall prove it to you! I shall scorch the earth this summer as evidence of my later intentions. It shall be the hottest ever known. It shall be so hot that all of those massively popular tourist places in Greece shall close down due to the heat alone for the first time in their history! &lt;em&gt;THEN&lt;/em&gt; you shall see!&lt;/p&gt;
+&lt;p&gt;
+PROT: Wait! Wait a moment…please…&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No. No, my mind is made up. You build that hut or it&amp;#39;ll get worse. Trust me, it can. And you&amp;#39;ll want to in the end.&lt;/p&gt;
+&lt;p&gt;
+PROT: Can we not discuss this in a calm and rational mann-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Nope. I&amp;#39;m being resolute, remember? Now, listen, this is important.&lt;/p&gt;
+&lt;p&gt;
+PROT: Are you cer-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. Now… (He pauses for a moment) You shall build the hut large enough to accommodate yourself and  a family of four! So it shall be a big hut! But don&amp;#39;t ask me how big because numbers aren&amp;#39;t something that I do. I mean, look at the monetary system in ancient Greece - it was a logical disaster…&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. I am calming down. Who is this family?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: David Wilson and his family. He&amp;#39;s also a free software guy into Emacs. And he&amp;#39;s in Greece. He too shall survive the coming apocalypse.&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah. Yes. David. A good person. Does he know about this?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: No. I shall reveal it to him when the time is right. If I told him beforehand, he might blurt it out by accident in one of his weekly livestreams, and then the whole operation would be ruined. Also, there will be some other survivors, but they won&amp;#39;t be staying at your hut. I don&amp;#39;t want to overly inconvenience you.&lt;/p&gt;
+&lt;p&gt;
+PROT: You don&amp;#39;t think of any of this as a catastrophic inconvenience, Zeus?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: You are as stubborn as Achilles, Prot! No, I am &lt;em&gt;saving&lt;/em&gt; you!&lt;/p&gt;
+&lt;p&gt;
+PROT: So you say. Tell me, Zeus: (Sounding very sarcastic) Do you want me to also bring in every animal two by two?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: What? No! That&amp;#39;s the other guy! I&amp;#39;ll just make all the animals again. There&amp;#39;s no need to save any. What a stupid plan that was.&lt;/p&gt;
+&lt;p&gt;
+PROT: I agree. At least we can agree on something.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Anyway, I can&amp;#39;t save the animals because I have to make new ones. I promised to correct some things this time around.&lt;/p&gt;
+&lt;p&gt;
+PROT: What? What promise? What corrections?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Weeelll….I promised to make pink horses, ponies, and unicorns this time around. And a few other things.&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Also dogs that don&amp;#39;t shed or drool, cats that don&amp;#39;t need litter boxes, bears that don&amp;#39;t bite, and new elephants. She wants new elephants.&lt;/p&gt;
+&lt;p&gt;
+PROT: Elephants?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. Pink ones. That can fly.&lt;/p&gt;
+&lt;p&gt;
+PROT: Surely, you must be jok-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: I know! I know…but she made me promise. And Hera thought it was a nice idea too.&lt;/p&gt;
+&lt;p&gt;
+PROT: So who is this person?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: This girl wanted them. She&amp;#39;s one of the elect, like you.&lt;/p&gt;
+&lt;p&gt;
+PROT: …I think I know who you mean….&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. Hyperactive and sometimes a little assertive.&lt;/p&gt;
+&lt;p&gt;
+PROT: Tell me about it.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes. A little corrupt in the &amp;#34;Free as in freedom&amp;#34; department, but Hera&amp;#39;s been a fan of some of her fashionable posts since a while so I had to promise.&lt;/p&gt;
+&lt;p&gt;
+PROT: I know she&amp;#39;s assertive, but &lt;em&gt;you&amp;#39;ve&lt;/em&gt; decided to wipe out the world, Zeus.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes, well…now…Back to business! I want you to live a simple life during this time. You will set the way for the new humans. It will be a better world, like it was in the beginning. I shall send you down some muses sometimes to guide you. And I shall bless your land with a pomegranate tree out of thin air.&lt;/p&gt;
+&lt;p&gt;
+PROT: A what?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: A pomegranate tree. You like pomegranates, don&amp;#39;t you?&lt;/p&gt;
+&lt;p&gt;
+PROT: Of course. They are very tasty. I often thought that if I use their seeds in a dish I like to prepa-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: And it shall appear out of nowhere! You shall be surprised!&lt;/p&gt;
+&lt;p&gt;
+PROT: But you just told me that this would happen. So how can it surprise me?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Oh that&amp;#39;s simple. I shall erase your memory of this part of the conversation. You will take it later on as a sign when you discover it.&lt;/p&gt;
+&lt;p&gt;
+PROT: Okay. You understand that you are breaking all kinds of philosophical boundaries here about free will, determinism, theo-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Never mind all of that! I shall give you this sign, unbeknownst to you, and you shall be pleased.&lt;/p&gt;
+&lt;p&gt;
+PROT: Alright. I suppose that I should thank you.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: You are welcome! Now, do you have any idea about how to build a hut?&lt;/p&gt;
+&lt;p&gt;
+PROT: No.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Are you sure? You seem to be a practical man to me, so I just assumed that you could.&lt;/p&gt;
+&lt;p&gt;
+PROT: I assure you that I have no house building experience at all.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Well, just do your best. I&amp;#39;m positive that you&amp;#39;ll excel at the endeavor. Okay, well that&amp;#39;s all wrapped up for now. I have to go and wash the dishes from our feast this evening or Hera will be displeased yet again.&lt;/p&gt;
+&lt;p&gt;
+PROT: Wait! You&amp;#39;re just going to leave? How do I know this isn&amp;#39;t some strange dream or hallucination?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: (Voice booming) REMEMBER MY PROPHECY ABOUT THE SUMMER!&lt;/p&gt;
+&lt;p&gt;
+PROT: Ah. Yes. But you want me to start now?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Naturally.&lt;/p&gt;
+&lt;p&gt;
+PROT: But where do I go?&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Into the hills! I told you! Now go! I shall check in on you later.&lt;/p&gt;
+&lt;p&gt;
+PROT: Very well. Zeus…one more thing.&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Yes? What is it?&lt;/p&gt;
+&lt;p&gt;
+PROT: After speaking with you, I would like to say that I just wish my position on atheism had been correct, because you are one hell of a fu-&lt;/p&gt;
+&lt;p&gt;
+ZEUS: Just go! Do as I say! I shall drop in later to see if you are performing my task.&lt;/p&gt;
+&lt;p&gt;
+PROT: (Sighing a big exhausted sigh) Okay Zeus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
     </item>
     
   </channel>

@@ -1,26 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rsync on ⭐️ The Great SummerEmacs Blog ⭐️</title>
-    <link>https://summeremacs.github.io/tags/rsync/</link>
-    <description>Recent content in Rsync on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <title>Rsync on The Great SummerEmacs Blog</title>
+    <link>http://localhost:1313/tags/rsync/</link>
+    <description>Recent content in Rsync on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Fri, 25 Aug 2023 12:24:40 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/rsync/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 12:24:40 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/rsync/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Emacs With Tramp</title>
-      <link>https://summeremacs.github.io/posts/using-emacs-with-tramp/</link>
+      <link>http://localhost:1313/posts/using-emacs-with-tramp/</link>
       <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/posts/using-emacs-with-tramp/</guid>
+      <guid>http://localhost:1313/posts/using-emacs-with-tramp/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 All my server stuff in Emacs
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;Today, I wanted to tidy up some stuff on my server. I had a ton of photos and videos I wanted to organize on my servers. Also, it was getting a little messy with my old way of doing the directories because I had set it up before I had learned how to do most of the things that I know how to do. You see, I have a main drive on my main server, and then a backup drive off of it. But it was a bit messy. I&amp;#39;d dump stuff in one directory as a temp storage place at the root of that directory, but I never did the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flags for &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; which meant that I&amp;#39;d have to, every now and then, go into my backup drive and just delete all the trash by hand. I never had the time to fix that. I only learned a few things about rsync when I had set it up and even though I set up another rsync with the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flag, I never had the time to do a &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; on the important stuff I wanted to update. I&amp;#39;d never use a flag like that without doing a dry run. Ever.&lt;/p&gt;</description>
-      
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+All my server stuff in Emacs
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Today, I wanted to tidy up some stuff on my server. I had a ton of photos and videos I wanted to organize on my servers. Also, it was getting a little messy with my old way of doing the directories because I had set it up before I had learned how to do most of the things that I know how to do. You see, I have a main drive on my main server, and then a backup drive off of it. But it was a bit messy. I&amp;#39;d dump stuff in one directory as a temp storage place at the root of that directory, but I never did the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flags for &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; which meant that I&amp;#39;d have to, every now and then, go into my backup drive and just delete all the trash by hand. I never had the time to fix that. I only learned a few things about rsync when I had set it up and even though I set up another rsync with the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flag, I never had the time to do a &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; on the important stuff I wanted to update. I&amp;#39;d never use a flag like that without doing a dry run. Ever.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Emacs to the rescue!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Okay, so what did I do? First, I used &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; in Emacs to ssh right into my server directly as &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt;. The guys from &lt;a href=&#34;https://systemcrafters.net&#34;&gt;System Crafters&lt;/a&gt; on Matrix taught me how to use &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; just yesterday. I had it in my notes in denote, so I put the knowledge to good use. I pulled up &lt;code class=&#34;verbatim&#34;&gt;vterm&lt;/code&gt; and did &lt;code class=&#34;verbatim&#34;&gt;mosh&lt;/code&gt; into my main server across the country. Then I did an &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; command on one of the &lt;code class=&#34;verbatim&#34;&gt;origin&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;target&lt;/code&gt; directories after looking it up in my notes and verifying it in &lt;code class=&#34;verbatim&#34;&gt;crontab&lt;/code&gt; on my server. I used a &lt;code class=&#34;verbatim&#34;&gt;&amp;gt; rsync.txt&lt;/code&gt; command to pipe the result to my home directory and ran the command. I knew it would take a few minutes to run because I had moved around a lot of stuff - that&amp;#39;s okay. Time enough for me to use &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; to open it up in Emacs, and hit my refresh buffer global key (F5) that I use a lot.&lt;/p&gt;
+&lt;p&gt;
+I could see the output live and go over it with a fine-toothed comb. I was making sure it wasn&amp;#39;t erasing everything and messing up.&lt;/p&gt;
+&lt;p&gt;
+Yay! No problems with the command! 🥳&lt;/p&gt;
+&lt;p&gt;
+So then, thanks to my learning about piping and all that other safety stuff, I was able to run the &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; command again, without the &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; line, still piping it to a new log so I can keep an eye out live on it since I have the &lt;code class=&#34;verbatim&#34;&gt;--progress&lt;/code&gt; flag on that command (on all of them).&lt;/p&gt;
+&lt;p&gt;
+All from Emacs!&lt;/p&gt;
+&lt;p&gt;
+Stuff I put to good use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;rsync --delete --dry-run --progress&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; and regular login too&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;vterm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;crontab&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;piping with &amp;gt; !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I know I said I wouldn&amp;#39;t write much on this blog, but I feel so amazing after having done that all so flawlessly with Emacs that I just couldn&amp;#39;t help myself. 🙃&lt;/p&gt;
+&lt;p&gt;
+P.S. I know this was mostly about rsync but it wouldn&amp;#39;t have happened without my learning how to use &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; yesterday. It&amp;#39;s that which prompted me to learn to edit files with root access on my server (crontab) that made it possible for me to easily start working on it. And since &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; is so awesome, I had to give it all the credit. 🙃&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
     </item>
     
   </channel>

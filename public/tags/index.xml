@@ -1,131 +1,150 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ⭐️ The Great SummerEmacs Blog ⭐️</title>
-    <link>https://summeremacs.github.io/tags/</link>
-    <description>Recent content in Tags on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <title>Tags on The Great SummerEmacs Blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Tue, 29 Aug 2023 13:28:31 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Comedy</title>
-      <link>https://summeremacs.github.io/tags/comedy/</link>
-      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/comedy/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs</title>
-      <link>https://summeremacs.github.io/tags/emacs/</link>
-      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      <link>http://localhost:1313/tags/emacs/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/tags/emacs/</guid>
+      <guid>http://localhost:1313/tags/emacs/</guid>
       <description></description>
-      
+      <content></content>
     </item>
     
     <item>
-      <title>Misc</title>
-      <link>https://summeremacs.github.io/tags/misc/</link>
-      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/tags/misc/</guid>
+      <guid>http://localhost:1313/tags/github/</guid>
       <description></description>
-      
+      <content></content>
     </item>
     
     <item>
-      <title>Satire</title>
-      <link>https://summeremacs.github.io/tags/satire/</link>
-      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      <title>Help</title>
+      <link>http://localhost:1313/tags/help/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/tags/satire/</guid>
+      <guid>http://localhost:1313/tags/help/</guid>
       <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Screenplay</title>
-      <link>https://summeremacs.github.io/tags/screenplay/</link>
-      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/screenplay/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Cli</title>
-      <link>https://summeremacs.github.io/tags/cli/</link>
-      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/cli/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Rsync</title>
-      <link>https://summeremacs.github.io/tags/rsync/</link>
-      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/rsync/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Server</title>
-      <link>https://summeremacs.github.io/tags/server/</link>
-      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/server/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tramp</title>
-      <link>https://summeremacs.github.io/tags/tramp/</link>
-      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/tramp/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Info</title>
-      <link>https://summeremacs.github.io/tags/info/</link>
-      <pubDate>Mon, 21 Aug 2023 11:09:25 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/info/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://summeremacs.github.io/tags/linux/</link>
-      <pubDate>Thu, 29 Jun 2023 18:01:52 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/linux/</guid>
-      <description></description>
-      
+      <content></content>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>https://summeremacs.github.io/tags/tutorial/</link>
-      <pubDate>Thu, 04 May 2023 12:06:16 +0200</pubDate>
+      <link>http://localhost:1313/tags/tutorial/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/tags/tutorial/</guid>
+      <guid>http://localhost:1313/tags/tutorial/</guid>
       <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Comedy</title>
+      <link>http://localhost:1313/tags/comedy/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
       
+      <guid>http://localhost:1313/tags/comedy/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>http://localhost:1313/tags/misc/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/misc/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Satire</title>
+      <link>http://localhost:1313/tags/satire/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/satire/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Screenplay</title>
+      <link>http://localhost:1313/tags/screenplay/</link>
+      <pubDate>Tue, 29 Aug 2023 13:28:31 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/screenplay/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Cli</title>
+      <link>http://localhost:1313/tags/cli/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/cli/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Rsync</title>
+      <link>http://localhost:1313/tags/rsync/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/rsync/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>http://localhost:1313/tags/server/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/server/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Tramp</title>
+      <link>http://localhost:1313/tags/tramp/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/tramp/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Info</title>
+      <link>http://localhost:1313/tags/info/</link>
+      <pubDate>Mon, 21 Aug 2023 11:09:25 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/info/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Thu, 29 Jun 2023 18:01:52 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      <content></content>
     </item>
     
   </channel>

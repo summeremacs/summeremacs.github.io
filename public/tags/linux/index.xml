@@ -1,26 +1,78 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on ⭐️ The Great SummerEmacs Blog ⭐️</title>
-    <link>https://summeremacs.github.io/tags/linux/</link>
-    <description>Recent content in Linux on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <title>Linux on The Great SummerEmacs Blog</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Thu, 29 Jun 2023 18:01:52 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jun 2023 18:01:52 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Came to Use Emacs and Other Things</title>
-      <link>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</link>
+      <link>http://localhost:1313/posts/how-i-came-to-use-emacs-and-other-things/</link>
       <pubDate>Thu, 29 Jun 2023 18:01:52 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</guid>
+      <guid>http://localhost:1313/posts/how-i-came-to-use-emacs-and-other-things/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 This is the story of how I came to use Emacs and other things
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;I&amp;#39;m tired of repeating myself so I&amp;#39;m writing this down so I don&amp;#39;t have to. You&amp;#39;re probably only here if you asked me how I came to learn about Emacs and the CLI and other things. Well, this is the story:&lt;/p&gt;</description>
-      
+&lt;p&gt;I&amp;#39;m tired of repeating myself so I&amp;#39;m writing this down so I don&amp;#39;t have to. You&amp;#39;re probably only here if you asked me how I came to learn about Emacs and the CLI and other things. Well, this is the story:&lt;/p&gt;
+&lt;p&gt;
+It begins with a Pandemic. &lt;em&gt;The&lt;/em&gt; Pandemic. Yes, that one.&lt;/p&gt;
+&lt;p&gt;
+I know it&amp;#39;s a long time ago now for most people, but that&amp;#39;s where it starts. It feels like a lifetime ago for me. I was a first year overseas person working for a company to manage things, However, halfway through my time there, the Pandemic hit.&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+This is the story of how I came to use Emacs and other things
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;I&amp;#39;m tired of repeating myself so I&amp;#39;m writing this down so I don&amp;#39;t have to. You&amp;#39;re probably only here if you asked me how I came to learn about Emacs and the CLI and other things. Well, this is the story:&lt;/p&gt;
+&lt;p&gt;
+It begins with a Pandemic. &lt;em&gt;The&lt;/em&gt; Pandemic. Yes, that one.&lt;/p&gt;
+&lt;p&gt;
+I know it&amp;#39;s a long time ago now for most people, but that&amp;#39;s where it starts. It feels like a lifetime ago for me. I was a first year overseas person working for a company to manage things, However, halfway through my time there, the Pandemic hit.&lt;/p&gt;
+&lt;p&gt;
+Paris was locked down. Everything was closed. And I mean &lt;em&gt;everything&lt;/em&gt;. It wasn&amp;#39;t like in the states - we had to have permission slips to go outside for an hour max a day (there were exceptions but most people stuck to the rules). Cafes, restaurants, stores - everything was closed. Of course, it being France, they opened the tobacco shops back up first but everything else remained closed. (Crazy, inorite?)&lt;/p&gt;
+&lt;p&gt;
+At that point, my Western Digital &amp;#34;Network Drive&amp;#34; died. It was non-responsive. I had a lot of stuff on there so I was pretty mad about that. Note: I&amp;#39;ll never trust &amp;#34;Network Drives&amp;#34; again. 😛&lt;/p&gt;
+&lt;p&gt;
+So, I needed to fix it. But I didn&amp;#39;t know how. I couldn&amp;#39;t get it fixed at a shop because no shops were open. Also, I was paid a pretty small salary at the time so I couldn&amp;#39;t really afford to spend hundreds of euros getting it fixed or recovered.&lt;/p&gt;
+&lt;p&gt;
+A friend of mine who works in tech told me to buy a Raspberry Pi because Linux could fix my drive or recover my info. I had heard of these things, but barely and very vaguely. But anyway, I followed her directions and I bought one online. It was delivered to me in a few days (I guess they had nothing better to do and deliveries were up all over the place).&lt;/p&gt;
+&lt;p&gt;
+So there I was, sitting on the floor of my living room, the Raspberry Pi hooked up to my TV. Anyway, it took me about a week to look stuff up on my MacBook Pro and figure out how to recover my stuff. &lt;em&gt;Believe me&lt;/em&gt; it was hard. I had to learn about &amp;#39;df&amp;#39; and &amp;#39;du&amp;#39; and &amp;#39;fdisk&amp;#39; and sectors and partitions - all stuff I had never, ever, heard about before. The only things I had were my computers and online sites that talked about this stuff in, honestly, really cryptic ways.&lt;/p&gt;
+&lt;p&gt;
+Anyway, I eventually got it to work after a week of pulling my hair out, sitting cross-legged on the floor. But it worked and I recovered 100% of my drive. &lt;strong&gt;100%!&lt;/strong&gt; It was at like 2 or 3am (I honestly can&amp;#39;t remember) and I ran around my apartment laughing and shouting with joy.&lt;/p&gt;
+&lt;p&gt;
+My neighbours politely never remarked on this or complained.&lt;/p&gt;
+&lt;p&gt;
+So then what happened? Well, I had this new thing in my life: My Raspberry Pi. I figured…maybe I can use it for stuff. I also figured that this would &lt;strong&gt;never&lt;/strong&gt; happen to me again. So I learned about how to make an NAS system with my Pi, and I bought some drives to do that. I watched a lot of videos on Linux and the Raspberry Pi on how to set up an NAS. And I learned about much more involving Linux and that led me to Emacs (even before Vim). See, I was using Nano before and I didn&amp;#39;t know what else there was. But I came across a video demonstrating Org Mode and I was blown away. The video was &lt;a href=&#34;https://www.youtube.com/watch?v=SzA2YODtgK4&#34;&gt; Getting Started With Org Mode&lt;/a&gt; by &lt;a href=&#34;https://harryrschwartz.com&#34;&gt;Harry Schwartz&lt;/a&gt;. I mean it really, &lt;em&gt;really&lt;/em&gt; blew me away. I don&amp;#39;t know why because his screen is so ugly, but the things you could do with text - I had never seen that before. Ever. Also, he just sounds like such a nice person in the presentation. Anyway, I was totally hooked.&lt;/p&gt;
+&lt;p&gt;
+So I installed Emacs on my MacBook which was still working fine of course. And then I learned about other things.&lt;/p&gt;
+&lt;p&gt;
+First, I started learning about &lt;a href=&#34;https://www.spacemacs.org&#34;&gt;Spacemacs&lt;/a&gt; because I saw some posts on Reddit how it was easier for newbies. Then, I switched to &lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34;&gt;Doom Emacs&lt;/a&gt;, because I heard it was faster. But then, after a very short time (and getting tired of Doom breaking every update), I went all vanilla. The videos which helped me the most in doing that (and also learning Org-Mode) were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@mzamansky&#34;&gt;Mike Zamansky&lt;/a&gt; for setting up Emacs from scratch with an org-mode config.org file. Also great quick video reviews of different packages.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@koenighaunstetten&#34;&gt;Rainer König&lt;/a&gt; for learning all things org-mode. He&amp;#39;s amazing, and he sounds like Arnold Schwarzenegger. (He is aware of this)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SystemCrafters&#34;&gt;System Crafters&lt;/a&gt; for learning extra deep stuff in Emacs and much longer videos explaining them (such as setting up mu4e in depth and other things). Also, he&amp;#39;s got a great community on &lt;a href=&#34;https://matrix.org&#34;&gt;Matrix&lt;/a&gt; and you can find his web page at &lt;a href=&#34;https://systemcrafters.net&#34;&gt;System Crafters&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, in one of the communities online, I met a guy named &lt;a href=&#34;https://universeodon.com/@remi&#34;&gt;Remi&lt;/a&gt; and he helped me with some CLI (Command Line Interface) stuff as well as Emacs in many ways.&lt;/p&gt;
+&lt;p&gt;
+Eventually that led me to my new job (which is not tech at all) because of a personal interaction I had with somebody thanks to learning about Linux/online communities. This was totally random but it wouldn&amp;#39;t have happened without me getting involved in online communities. My job has nothing to do with tech really, but I wouldn&amp;#39;t have met my new boss without going to find something out at the right place and right time. Also, I use Emacs in my job every day to organise things and I can&amp;#39;t live without it.&lt;/p&gt;
+&lt;p&gt;
+I have taken my MacBook Pro to bed with me a couple of times just to feel Emacs close to me.&lt;/p&gt;
+&lt;p&gt;
+So that&amp;#39;s how I learned about Emacs and a little bit of CLI and Linux at first.&lt;/p&gt;
+&lt;p&gt;
+I hope you enjoyed reading it.&lt;/p&gt;
+&lt;p&gt;
+Summer.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
     </item>
     
   </channel>

@@ -1,41 +1,130 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cli on ⭐️ The Great SummerEmacs Blog ⭐️</title>
-    <link>https://summeremacs.github.io/tags/cli/</link>
-    <description>Recent content in Cli on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <title>Cli on The Great SummerEmacs Blog</title>
+    <link>http://localhost:1313/tags/cli/</link>
+    <description>Recent content in Cli on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Fri, 25 Aug 2023 12:24:40 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 12:24:40 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Emacs With Tramp</title>
-      <link>https://summeremacs.github.io/posts/using-emacs-with-tramp/</link>
+      <link>http://localhost:1313/posts/using-emacs-with-tramp/</link>
       <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/posts/using-emacs-with-tramp/</guid>
+      <guid>http://localhost:1313/posts/using-emacs-with-tramp/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 All my server stuff in Emacs
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;Today, I wanted to tidy up some stuff on my server. I had a ton of photos and videos I wanted to organize on my servers. Also, it was getting a little messy with my old way of doing the directories because I had set it up before I had learned how to do most of the things that I know how to do. You see, I have a main drive on my main server, and then a backup drive off of it. But it was a bit messy. I&amp;#39;d dump stuff in one directory as a temp storage place at the root of that directory, but I never did the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flags for &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; which meant that I&amp;#39;d have to, every now and then, go into my backup drive and just delete all the trash by hand. I never had the time to fix that. I only learned a few things about rsync when I had set it up and even though I set up another rsync with the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flag, I never had the time to do a &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; on the important stuff I wanted to update. I&amp;#39;d never use a flag like that without doing a dry run. Ever.&lt;/p&gt;</description>
-      
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+All my server stuff in Emacs
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Today, I wanted to tidy up some stuff on my server. I had a ton of photos and videos I wanted to organize on my servers. Also, it was getting a little messy with my old way of doing the directories because I had set it up before I had learned how to do most of the things that I know how to do. You see, I have a main drive on my main server, and then a backup drive off of it. But it was a bit messy. I&amp;#39;d dump stuff in one directory as a temp storage place at the root of that directory, but I never did the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flags for &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; which meant that I&amp;#39;d have to, every now and then, go into my backup drive and just delete all the trash by hand. I never had the time to fix that. I only learned a few things about rsync when I had set it up and even though I set up another rsync with the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flag, I never had the time to do a &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; on the important stuff I wanted to update. I&amp;#39;d never use a flag like that without doing a dry run. Ever.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Emacs to the rescue!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Okay, so what did I do? First, I used &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; in Emacs to ssh right into my server directly as &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt;. The guys from &lt;a href=&#34;https://systemcrafters.net&#34;&gt;System Crafters&lt;/a&gt; on Matrix taught me how to use &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; just yesterday. I had it in my notes in denote, so I put the knowledge to good use. I pulled up &lt;code class=&#34;verbatim&#34;&gt;vterm&lt;/code&gt; and did &lt;code class=&#34;verbatim&#34;&gt;mosh&lt;/code&gt; into my main server across the country. Then I did an &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; command on one of the &lt;code class=&#34;verbatim&#34;&gt;origin&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;target&lt;/code&gt; directories after looking it up in my notes and verifying it in &lt;code class=&#34;verbatim&#34;&gt;crontab&lt;/code&gt; on my server. I used a &lt;code class=&#34;verbatim&#34;&gt;&amp;gt; rsync.txt&lt;/code&gt; command to pipe the result to my home directory and ran the command. I knew it would take a few minutes to run because I had moved around a lot of stuff - that&amp;#39;s okay. Time enough for me to use &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; to open it up in Emacs, and hit my refresh buffer global key (F5) that I use a lot.&lt;/p&gt;
+&lt;p&gt;
+I could see the output live and go over it with a fine-toothed comb. I was making sure it wasn&amp;#39;t erasing everything and messing up.&lt;/p&gt;
+&lt;p&gt;
+Yay! No problems with the command! 🥳&lt;/p&gt;
+&lt;p&gt;
+So then, thanks to my learning about piping and all that other safety stuff, I was able to run the &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; command again, without the &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; line, still piping it to a new log so I can keep an eye out live on it since I have the &lt;code class=&#34;verbatim&#34;&gt;--progress&lt;/code&gt; flag on that command (on all of them).&lt;/p&gt;
+&lt;p&gt;
+All from Emacs!&lt;/p&gt;
+&lt;p&gt;
+Stuff I put to good use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;rsync --delete --dry-run --progress&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; and regular login too&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;vterm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;crontab&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;piping with &amp;gt; !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I know I said I wouldn&amp;#39;t write much on this blog, but I feel so amazing after having done that all so flawlessly with Emacs that I just couldn&amp;#39;t help myself. 🙃&lt;/p&gt;
+&lt;p&gt;
+P.S. I know this was mostly about rsync but it wouldn&amp;#39;t have happened without my learning how to use &lt;code class=&#34;verbatim&#34;&gt;sudo&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; yesterday. It&amp;#39;s that which prompted me to learn to edit files with root access on my server (crontab) that made it possible for me to easily start working on it. And since &lt;code class=&#34;verbatim&#34;&gt;TRAMP&lt;/code&gt; is so awesome, I had to give it all the credit. 🙃&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
     </item>
     
     <item>
       <title>How I Came to Use Emacs and Other Things</title>
-      <link>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</link>
+      <link>http://localhost:1313/posts/how-i-came-to-use-emacs-and-other-things/</link>
       <pubDate>Thu, 29 Jun 2023 18:01:52 +0200</pubDate>
       
-      <guid>https://summeremacs.github.io/posts/how-i-came-to-use-emacs-and-other-things/</guid>
+      <guid>http://localhost:1313/posts/how-i-came-to-use-emacs-and-other-things/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 This is the story of how I came to use Emacs and other things
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;I&amp;#39;m tired of repeating myself so I&amp;#39;m writing this down so I don&amp;#39;t have to. You&amp;#39;re probably only here if you asked me how I came to learn about Emacs and the CLI and other things. Well, this is the story:&lt;/p&gt;</description>
-      
+&lt;p&gt;I&amp;#39;m tired of repeating myself so I&amp;#39;m writing this down so I don&amp;#39;t have to. You&amp;#39;re probably only here if you asked me how I came to learn about Emacs and the CLI and other things. Well, this is the story:&lt;/p&gt;
+&lt;p&gt;
+It begins with a Pandemic. &lt;em&gt;The&lt;/em&gt; Pandemic. Yes, that one.&lt;/p&gt;
+&lt;p&gt;
+I know it&amp;#39;s a long time ago now for most people, but that&amp;#39;s where it starts. It feels like a lifetime ago for me. I was a first year overseas person working for a company to manage things, However, halfway through my time there, the Pandemic hit.&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+This is the story of how I came to use Emacs and other things
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;I&amp;#39;m tired of repeating myself so I&amp;#39;m writing this down so I don&amp;#39;t have to. You&amp;#39;re probably only here if you asked me how I came to learn about Emacs and the CLI and other things. Well, this is the story:&lt;/p&gt;
+&lt;p&gt;
+It begins with a Pandemic. &lt;em&gt;The&lt;/em&gt; Pandemic. Yes, that one.&lt;/p&gt;
+&lt;p&gt;
+I know it&amp;#39;s a long time ago now for most people, but that&amp;#39;s where it starts. It feels like a lifetime ago for me. I was a first year overseas person working for a company to manage things, However, halfway through my time there, the Pandemic hit.&lt;/p&gt;
+&lt;p&gt;
+Paris was locked down. Everything was closed. And I mean &lt;em&gt;everything&lt;/em&gt;. It wasn&amp;#39;t like in the states - we had to have permission slips to go outside for an hour max a day (there were exceptions but most people stuck to the rules). Cafes, restaurants, stores - everything was closed. Of course, it being France, they opened the tobacco shops back up first but everything else remained closed. (Crazy, inorite?)&lt;/p&gt;
+&lt;p&gt;
+At that point, my Western Digital &amp;#34;Network Drive&amp;#34; died. It was non-responsive. I had a lot of stuff on there so I was pretty mad about that. Note: I&amp;#39;ll never trust &amp;#34;Network Drives&amp;#34; again. 😛&lt;/p&gt;
+&lt;p&gt;
+So, I needed to fix it. But I didn&amp;#39;t know how. I couldn&amp;#39;t get it fixed at a shop because no shops were open. Also, I was paid a pretty small salary at the time so I couldn&amp;#39;t really afford to spend hundreds of euros getting it fixed or recovered.&lt;/p&gt;
+&lt;p&gt;
+A friend of mine who works in tech told me to buy a Raspberry Pi because Linux could fix my drive or recover my info. I had heard of these things, but barely and very vaguely. But anyway, I followed her directions and I bought one online. It was delivered to me in a few days (I guess they had nothing better to do and deliveries were up all over the place).&lt;/p&gt;
+&lt;p&gt;
+So there I was, sitting on the floor of my living room, the Raspberry Pi hooked up to my TV. Anyway, it took me about a week to look stuff up on my MacBook Pro and figure out how to recover my stuff. &lt;em&gt;Believe me&lt;/em&gt; it was hard. I had to learn about &amp;#39;df&amp;#39; and &amp;#39;du&amp;#39; and &amp;#39;fdisk&amp;#39; and sectors and partitions - all stuff I had never, ever, heard about before. The only things I had were my computers and online sites that talked about this stuff in, honestly, really cryptic ways.&lt;/p&gt;
+&lt;p&gt;
+Anyway, I eventually got it to work after a week of pulling my hair out, sitting cross-legged on the floor. But it worked and I recovered 100% of my drive. &lt;strong&gt;100%!&lt;/strong&gt; It was at like 2 or 3am (I honestly can&amp;#39;t remember) and I ran around my apartment laughing and shouting with joy.&lt;/p&gt;
+&lt;p&gt;
+My neighbours politely never remarked on this or complained.&lt;/p&gt;
+&lt;p&gt;
+So then what happened? Well, I had this new thing in my life: My Raspberry Pi. I figured…maybe I can use it for stuff. I also figured that this would &lt;strong&gt;never&lt;/strong&gt; happen to me again. So I learned about how to make an NAS system with my Pi, and I bought some drives to do that. I watched a lot of videos on Linux and the Raspberry Pi on how to set up an NAS. And I learned about much more involving Linux and that led me to Emacs (even before Vim). See, I was using Nano before and I didn&amp;#39;t know what else there was. But I came across a video demonstrating Org Mode and I was blown away. The video was &lt;a href=&#34;https://www.youtube.com/watch?v=SzA2YODtgK4&#34;&gt; Getting Started With Org Mode&lt;/a&gt; by &lt;a href=&#34;https://harryrschwartz.com&#34;&gt;Harry Schwartz&lt;/a&gt;. I mean it really, &lt;em&gt;really&lt;/em&gt; blew me away. I don&amp;#39;t know why because his screen is so ugly, but the things you could do with text - I had never seen that before. Ever. Also, he just sounds like such a nice person in the presentation. Anyway, I was totally hooked.&lt;/p&gt;
+&lt;p&gt;
+So I installed Emacs on my MacBook which was still working fine of course. And then I learned about other things.&lt;/p&gt;
+&lt;p&gt;
+First, I started learning about &lt;a href=&#34;https://www.spacemacs.org&#34;&gt;Spacemacs&lt;/a&gt; because I saw some posts on Reddit how it was easier for newbies. Then, I switched to &lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34;&gt;Doom Emacs&lt;/a&gt;, because I heard it was faster. But then, after a very short time (and getting tired of Doom breaking every update), I went all vanilla. The videos which helped me the most in doing that (and also learning Org-Mode) were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@mzamansky&#34;&gt;Mike Zamansky&lt;/a&gt; for setting up Emacs from scratch with an org-mode config.org file. Also great quick video reviews of different packages.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@koenighaunstetten&#34;&gt;Rainer König&lt;/a&gt; for learning all things org-mode. He&amp;#39;s amazing, and he sounds like Arnold Schwarzenegger. (He is aware of this)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SystemCrafters&#34;&gt;System Crafters&lt;/a&gt; for learning extra deep stuff in Emacs and much longer videos explaining them (such as setting up mu4e in depth and other things). Also, he&amp;#39;s got a great community on &lt;a href=&#34;https://matrix.org&#34;&gt;Matrix&lt;/a&gt; and you can find his web page at &lt;a href=&#34;https://systemcrafters.net&#34;&gt;System Crafters&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, in one of the communities online, I met a guy named &lt;a href=&#34;https://universeodon.com/@remi&#34;&gt;Remi&lt;/a&gt; and he helped me with some CLI (Command Line Interface) stuff as well as Emacs in many ways.&lt;/p&gt;
+&lt;p&gt;
+Eventually that led me to my new job (which is not tech at all) because of a personal interaction I had with somebody thanks to learning about Linux/online communities. This was totally random but it wouldn&amp;#39;t have happened without me getting involved in online communities. My job has nothing to do with tech really, but I wouldn&amp;#39;t have met my new boss without going to find something out at the right place and right time. Also, I use Emacs in my job every day to organise things and I can&amp;#39;t live without it.&lt;/p&gt;
+&lt;p&gt;
+I have taken my MacBook Pro to bed with me a couple of times just to feel Emacs close to me.&lt;/p&gt;
+&lt;p&gt;
+So that&amp;#39;s how I learned about Emacs and a little bit of CLI and Linux at first.&lt;/p&gt;
+&lt;p&gt;
+I hope you enjoyed reading it.&lt;/p&gt;
+&lt;p&gt;
+Summer.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
     </item>
     
   </channel>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on The Great SummerEmacs Blog</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in Github on The Great SummerEmacs Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Emacs Newbie Project</title>
+      <link>http://localhost:1313/posts/the-emacs-newbie-project/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-emacs-newbie-project/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+It&amp;#39;s a project! But with censoring.
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;A few days ago, &lt;a href=&#34;https://lists.gnu.org/archive/html/emacs-devel/2024-09/msg00318.html&#34;&gt;I started a thread&lt;/a&gt; on the Emacs Devel mailing list after asking some questions on Reddit. It led me to starting the project myself: &lt;a href=&#34;https://github.com/summeremacs/Emacsnewbie/blob/main/20240912T175822--emacs-welcome-newbie-screen__emacs_help_tutorial.org&#34;&gt;The Emacs Welcome Newbie Screen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+What I want is for the screen to be linked to the front welcome screen of Emacs with a big: —&amp;gt; New Emacs User? Click here! &amp;lt;— at the top of the screen. The idea is to get new users to a place where there is a tutorial for complete beginners who aren&amp;#39;t coders.&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+It&amp;#39;s a project! But with censoring.
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;A few days ago, &lt;a href=&#34;https://lists.gnu.org/archive/html/emacs-devel/2024-09/msg00318.html&#34;&gt;I started a thread&lt;/a&gt; on the Emacs Devel mailing list after asking some questions on Reddit. It led me to starting the project myself: &lt;a href=&#34;https://github.com/summeremacs/Emacsnewbie/blob/main/20240912T175822--emacs-welcome-newbie-screen__emacs_help_tutorial.org&#34;&gt;The Emacs Welcome Newbie Screen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+What I want is for the screen to be linked to the front welcome screen of Emacs with a big: —&amp;gt; New Emacs User? Click here! &amp;lt;— at the top of the screen. The idea is to get new users to a place where there is a tutorial for complete beginners who aren&amp;#39;t coders.&lt;/p&gt;
+&lt;p&gt;
+The idea is very simple in nature: I don&amp;#39;t want to change Emacs in any way - I just want a link added to the tutorial which will use the same help system which is already built into Emacs. Naturally, even this simple suggestion has already caused some…consternation.&lt;/p&gt;
+&lt;p&gt;
+ We&amp;#39;ll see how much after I&amp;#39;m done, but I&amp;#39;m currently looking for volunteers to help me continue to write and edit what I have, to add to it, to add some packages with explanations and links, and more. I&amp;#39;ll also be needing some minimal configuration files for people to try out on the fly, as well as some themes. It&amp;#39;s going to be simple for new users, but it&amp;#39;ll be a big project to get it all fleshed out and ready to roll.&lt;/p&gt;
+&lt;p&gt;
+ I was also told in no uncertain terms that I can&amp;#39;t use Melpa (or even mention it). It&amp;#39;s funny being censored by the FOSS community when they&amp;#39;re always telling me how OSX is bad and non-free software, but I can&amp;#39;t even mention another package site. Keep in mind - I&amp;#39;m not a developer. I don&amp;#39;t know what the difference is between Melpa and Elpa, nor do I really care. I also think that most people not only wouldn&amp;#39;t know, but wouldn&amp;#39;t give a flying flamingo if they did know.&lt;/p&gt;
+&lt;p&gt;
+ Either way: it doesn&amp;#39;t matter. I&amp;#39;m going to do what&amp;#39;s best for the tutorial. If they don&amp;#39;t want to put it into Emacs at the end, then that&amp;#39;s their prerogative. But at least it&amp;#39;ll exist.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
