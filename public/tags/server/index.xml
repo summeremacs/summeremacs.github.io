@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on ⭐️ The Great SummerEmacs Blog ⭐️</title>
+    <link>https://summeremacs.github.io/tags/server/</link>
+    <description>Recent content in Server on ⭐️ The Great SummerEmacs Blog ⭐️</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 25 Aug 2023 12:24:40 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Emacs With Tramp</title>
+      <link>https://summeremacs.github.io/posts/using-emacs-with-tramp/</link>
+      <pubDate>Fri, 25 Aug 2023 12:24:40 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/using-emacs-with-tramp/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+All my server stuff in Emacs
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Today, I wanted to tidy up some stuff on my server. I had a ton of photos and videos I wanted to organize on my servers. Also, it was getting a little messy with my old way of doing the directories because I had set it up before I had learned how to do most of the things that I know how to do. You see, I have a main drive on my main server, and then a backup drive off of it. But it was a bit messy. I&amp;#39;d dump stuff in one directory as a temp storage place at the root of that directory, but I never did the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flags for &lt;code class=&#34;verbatim&#34;&gt;rsync&lt;/code&gt; which meant that I&amp;#39;d have to, every now and then, go into my backup drive and just delete all the trash by hand. I never had the time to fix that. I only learned a few things about rsync when I had set it up and even though I set up another rsync with the &lt;code class=&#34;verbatim&#34;&gt;--delete&lt;/code&gt; flag, I never had the time to do a &lt;code class=&#34;verbatim&#34;&gt;--dry-run&lt;/code&gt; on the important stuff I wanted to update. I&amp;#39;d never use a flag like that without doing a dry run. Ever.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

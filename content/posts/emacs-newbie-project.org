@@ -1,0 +1,22 @@
+---
+title: "The Emacs Newbie Project"
+date: 2024-09-14T12:24:40+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["emacs","help","tutorial","github"]
+---
+
+* It's a project! But with censoring.
+A few days ago, [[https://lists.gnu.org/archive/html/emacs-devel/2024-09/msg00318.html][I started a thread]]on the Emacs Devel mailing list after asking some questions on Reddit. It led me to starting the project myself: [[https://github.com/summeremacs/Emacsnewbie/blob/main/20240912T175822--emacs-welcome-newbie-screen__emacs_help_tutorial.org][The Emacs Welcome Newbie Screen]].
+
+What I want is for the screen to be linked to the front welcome screen of Emacs with a big: ---> New Emacs User? Click here! <--- at the top of the screen. The idea is to get new users to a place where there is a tutorial for complete beginners who aren't coders.
+
+The idea is very simple in nature: I don't want to change Emacs in any way - I just want a link added to the tutorial which will use the same help system which is already built into Emacs. Naturally, even this simple suggestion has already caused some...consternation.
+
+ We'll see how much after I'm done, but I'm currently looking for volunteers to help me continue to write and edit what I have, to add to it, to add some packages with explanations and links, and more. I'll also be needing some minimal configuration files for people to try out on the fly, as well as some themes. It's going to be simple for new users, but it'll be a big project to get it all fleshed out and ready to roll.
+
+ I was also told in no uncertain terms that I can't use Melpa (or even mention it). It's funny being censored by the FOSS community when they're always telling me how OSX is bad and non-free software, but I can't even mention another package site. Keep in mind - I'm not a developer. I don't know what the difference is between Melpa and Elpa, nor do I really care. I also think that most people not only wouldn't know, but wouldn't give a flying flamingo if they did know.
+
+ Either way: it doesn't matter. I'm going to do what's best for the tutorial. If they don't want to put it into Emacs at the end, then that's their prerogative. But at least it'll exist.
+
+ 

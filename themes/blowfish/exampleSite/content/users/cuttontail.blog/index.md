@@ -2,7 +2,7 @@
                 title: "cuttontail.blog"
                 tags: [Personal site]
                 externalUrl: "https://cuttontail.blog"
-                date: 9993-08-08
+                weight: 51
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
