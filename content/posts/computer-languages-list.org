@@ -1,0 +1,24 @@
+---
+title: "Computer Languages List"
+date: 2024-09-16T01:00:00+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["humour","computers","misc"]
+---
+
+* From an IRC moment in #systemcrafters
+<SummerEmacs> C: Beautiful, fundamental, elegant
+<SummerEmacs> C++: twisted, ugly, aberration
+<SummerEmacs> C#: Abomination, child of hell, evil.
+<SummerEmacs> Lisp: Elegant, magestic, simplicity [18:24]
+<SummerEmacs> FORTRAN: Cold, statistical, inelegant.
+<SummerEmacs> COBOL: Crude, old, gnarled.
+<SummerEmacs> Javascript: Ugly, foul, filthy
+<SummerEmacs> Haskell: Incomprehensible, powerful, niche
+<SummerEmacs> Go: Base, mongrel, imposter.
+<SummerEmacs> Zig: Unknown, power, fledgeling
+<SummerEmacs> Nim: Masquerader, fraud, sham [18:28]
+<SummerEmacs> Python: Rigid, useful, practical
+<SummerEmacs> Rust: Treacherous, fraud, subversive [18:30]
+<SummerEmacs> Java: Contrived, failure, useless
+<SummerEmacs> Assembler: Foundational, obscure, curt

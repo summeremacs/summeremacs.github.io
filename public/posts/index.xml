@@ -6,7 +6,59 @@
     <description>Recent content in Posts on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Sep 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Languages List</title>
+      <link>https://summeremacs.github.io/posts/computer-languages-list/</link>
+      <pubDate>Mon, 16 Sep 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/computer-languages-list/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+From an IRC moment in #systemcrafters
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&amp;lt;SummerEmacs&amp;gt; C: Beautiful, fundamental, elegant
+&amp;lt;SummerEmacs&amp;gt; C++: twisted, ugly, aberration
+&amp;lt;SummerEmacs&amp;gt; C#: Abomination, child of hell, evil.
+&amp;lt;SummerEmacs&amp;gt; Lisp: Elegant, magestic, simplicity [18:24]
+&amp;lt;SummerEmacs&amp;gt; FORTRAN: Cold, statistical, inelegant.
+&amp;lt;SummerEmacs&amp;gt; COBOL: Crude, old, gnarled.
+&amp;lt;SummerEmacs&amp;gt; Javascript: Ugly, foul, filthy
+&amp;lt;SummerEmacs&amp;gt; Haskell: Incomprehensible, powerful, niche
+&amp;lt;SummerEmacs&amp;gt; Go: Base, mongrel, imposter.
+&amp;lt;SummerEmacs&amp;gt; Zig: Unknown, power, fledgeling
+&amp;lt;SummerEmacs&amp;gt; Nim: Masquerader, fraud, sham [18:28]
+&amp;lt;SummerEmacs&amp;gt; Python: Rigid, useful, practical
+&amp;lt;SummerEmacs&amp;gt; Rust: Treacherous, fraud, subversive [18:30]
+&amp;lt;SummerEmacs&amp;gt; Java: Contrived, failure, useless
+&amp;lt;SummerEmacs&amp;gt; Assembler: Foundational, obscure, curt&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+From an IRC moment in #systemcrafters
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&amp;lt;SummerEmacs&amp;gt; C: Beautiful, fundamental, elegant
+&amp;lt;SummerEmacs&amp;gt; C++: twisted, ugly, aberration
+&amp;lt;SummerEmacs&amp;gt; C#: Abomination, child of hell, evil.
+&amp;lt;SummerEmacs&amp;gt; Lisp: Elegant, magestic, simplicity [18:24]
+&amp;lt;SummerEmacs&amp;gt; FORTRAN: Cold, statistical, inelegant.
+&amp;lt;SummerEmacs&amp;gt; COBOL: Crude, old, gnarled.
+&amp;lt;SummerEmacs&amp;gt; Javascript: Ugly, foul, filthy
+&amp;lt;SummerEmacs&amp;gt; Haskell: Incomprehensible, powerful, niche
+&amp;lt;SummerEmacs&amp;gt; Go: Base, mongrel, imposter.
+&amp;lt;SummerEmacs&amp;gt; Zig: Unknown, power, fledgeling
+&amp;lt;SummerEmacs&amp;gt; Nim: Masquerader, fraud, sham [18:28]
+&amp;lt;SummerEmacs&amp;gt; Python: Rigid, useful, practical
+&amp;lt;SummerEmacs&amp;gt; Rust: Treacherous, fraud, subversive [18:30]
+&amp;lt;SummerEmacs&amp;gt; Java: Contrived, failure, useless
+&amp;lt;SummerEmacs&amp;gt; Assembler: Foundational, obscure, curt&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
     <item>
       <title>New Theme - Terminal</title>
       <link>https://summeremacs.github.io/posts/new-theme-terminal/</link>
