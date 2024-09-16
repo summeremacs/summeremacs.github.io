@@ -7,18 +7,34 @@ tags: ["humour","computers","misc"]
 ---
 
 * From an IRC moment in #systemcrafters
+
 <SummerEmacs> C: Beautiful, fundamental, elegant
+
 <SummerEmacs> C++: twisted, ugly, aberration
+
 <SummerEmacs> C#: Abomination, child of hell, evil.
-<SummerEmacs> Lisp: Elegant, magestic, simplicity [18:24]
+
+<SummerEmacs> Lisp: Elegant, majestic, simpliciy
+
 <SummerEmacs> FORTRAN: Cold, statistical, inelegant.
+
 <SummerEmacs> COBOL: Crude, old, gnarled.
+
 <SummerEmacs> Javascript: Ugly, foul, filthy
+
 <SummerEmacs> Haskell: Incomprehensible, powerful, niche
+
 <SummerEmacs> Go: Base, mongrel, imposter.
-<SummerEmacs> Zig: Unknown, power, fledgeling
-<SummerEmacs> Nim: Masquerader, fraud, sham [18:28]
+
+<SummerEmacs> Zig: Unknown, power, fledgling
+
+<SummerEmacs> Nim: Masquerader, fraud, sham
+
 <SummerEmacs> Python: Rigid, useful, practical
-<SummerEmacs> Rust: Treacherous, fraud, subversive [18:30]
+
+<SummerEmacs> Rust: Treacherous, fraud, subversive
+
 <SummerEmacs> Java: Contrived, failure, useless
+
 <SummerEmacs> Assembler: Foundational, obscure, curt
+
