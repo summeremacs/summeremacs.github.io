@@ -1,0 +1,50 @@
+---
+title: "Off to the Uranium Mines!"
+date: 2024-09-18T01:00:00+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["humour","computers","misc"]
+---
+
+* Another IRC moment in #systemcrafters
+
+*<trev>* oh well [12:42]
+
+*<alternateved>* what's the verdict? [12:43]
+
+*<SummerEmacs>* alternateved: GUILTY! GUILTY! GUILTY!!! 😀  [12:45]
+
+*<alternateved>* :D
+
+*<SummerEmacs>* 👩🏼‍⚖️
+
+*<SummerEmacs>* off to the uranium mines with him!!! [12:46]
+
+*<SummerEmacs>* ./force trev /join #uraniumminesforlifesentence [12:49]
+
+*<alternateved>* haha [12:50]
+
+*<SummerEmacs>* (defun magnifyTheScreams (magnify (erc-window
+	      (#uraniumminesforlifesentence,#systemcrafters)) (100)))
+									[12:51]
+									
+*<SummerEmacs>* muahahahaha
+
+*<SummerEmacs>* yes i...learned elisp to commit evil. [12:52]
+
+*<alternateved>* You could setup apheleia
+
+*<daviwil>* lol, SummerEmacs I'm glad you're around regularly again
+
+*<SummerEmacs>* lol
+
+*<SummerEmacs>* sorry i'm having some good wine with my lunch 😀
+
+*<alternateved>* For that sweet sweet automatic indenting and formatting [12:53]
+
+*<daviwil>* Please continue
+
+*<SummerEmacs>* well i finished dhe lunch i'm still enjoying the wine 😀
+
+*<alternateved>* yeah, good to have you back SummerEmacs
+

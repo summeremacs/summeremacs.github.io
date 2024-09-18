@@ -6,7 +6,97 @@
     <description>Recent content in Humour on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Sep 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/humour/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Sep 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/humour/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Off to the Uranium Mines!</title>
+      <link>https://summeremacs.github.io/posts/uranium-mines/</link>
+      <pubDate>Wed, 18 Sep 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/uranium-mines/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Another IRC moment in #systemcrafters
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;trev&amp;gt;&lt;/strong&gt; oh well [12:42]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; what&amp;#39;s the verdict? [12:43]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; alternateved: GUILTY! GUILTY! GUILTY!!! 😀  [12:45]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; :D&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; 👩🏼‍⚖️&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; off to the uranium mines with him!!! [12:46]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; ./force trev /join #uraniumminesforlifesentence [12:49]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; haha [12:50]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; (defun magnifyTheScreams (magnify (erc-window
+       (#uraniumminesforlifesentence,#systemcrafters)) (100)))
+         [12:51]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; muahahahaha&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; yes i…learned elisp to commit evil. [12:52]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; You could setup apheleia&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;daviwil&amp;gt;&lt;/strong&gt; lol, SummerEmacs I&amp;#39;m glad you&amp;#39;re around regularly again&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Another IRC moment in #systemcrafters
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;trev&amp;gt;&lt;/strong&gt; oh well [12:42]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; what&amp;#39;s the verdict? [12:43]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; alternateved: GUILTY! GUILTY! GUILTY!!! 😀  [12:45]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; :D&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; 👩🏼‍⚖️&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; off to the uranium mines with him!!! [12:46]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; ./force trev /join #uraniumminesforlifesentence [12:49]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; haha [12:50]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; (defun magnifyTheScreams (magnify (erc-window
+       (#uraniumminesforlifesentence,#systemcrafters)) (100)))
+         [12:51]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; muahahahaha&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; yes i…learned elisp to commit evil. [12:52]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; You could setup apheleia&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;daviwil&amp;gt;&lt;/strong&gt; lol, SummerEmacs I&amp;#39;m glad you&amp;#39;re around regularly again&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; lol&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; sorry i&amp;#39;m having some good wine with my lunch 😀&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; For that sweet sweet automatic indenting and formatting [12:53]&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;daviwil&amp;gt;&lt;/strong&gt; Please continue&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;SummerEmacs&amp;gt;&lt;/strong&gt; well i finished dhe lunch i&amp;#39;m still enjoying the wine 😀&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;&amp;lt;alternateved&amp;gt;&lt;/strong&gt; yeah, good to have you back SummerEmacs&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
     <item>
       <title>Computer Languages List</title>
       <link>https://summeremacs.github.io/posts/computer-languages-list/</link>
@@ -18,41 +108,65 @@
 From an IRC moment in #systemcrafters
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;&amp;lt;SummerEmacs&amp;gt; C: Beautiful, fundamental, elegant
-&amp;lt;SummerEmacs&amp;gt; C++: twisted, ugly, aberration
-&amp;lt;SummerEmacs&amp;gt; C#: Abomination, child of hell, evil.
-&amp;lt;SummerEmacs&amp;gt; Lisp: Elegant, magestic, simplicity [18:24]
-&amp;lt;SummerEmacs&amp;gt; FORTRAN: Cold, statistical, inelegant.
-&amp;lt;SummerEmacs&amp;gt; COBOL: Crude, old, gnarled.
-&amp;lt;SummerEmacs&amp;gt; Javascript: Ugly, foul, filthy
-&amp;lt;SummerEmacs&amp;gt; Haskell: Incomprehensible, powerful, niche
-&amp;lt;SummerEmacs&amp;gt; Go: Base, mongrel, imposter.
-&amp;lt;SummerEmacs&amp;gt; Zig: Unknown, power, fledgeling
-&amp;lt;SummerEmacs&amp;gt; Nim: Masquerader, fraud, sham [18:28]
-&amp;lt;SummerEmacs&amp;gt; Python: Rigid, useful, practical
-&amp;lt;SummerEmacs&amp;gt; Rust: Treacherous, fraud, subversive [18:30]
-&amp;lt;SummerEmacs&amp;gt; Java: Contrived, failure, useless
-&amp;lt;SummerEmacs&amp;gt; Assembler: Foundational, obscure, curt&lt;/p&gt;</description>
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; C: Beautiful, fundamental, elegant&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; C++: twisted, ugly, aberration&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; C#: Abomination, child of hell, evil.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Lisp: Elegant, majestic, simpliciy&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; FORTRAN: Cold, statistical, inelegant.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; COBOL: Crude, old, gnarled.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Javascript: Ugly, foul, filthy&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Haskell: Incomprehensible, powerful, niche&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Go: Base, mongrel, imposter.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Zig: Unknown, power, fledgling&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Nim: Masquerader, fraud, sham&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Python: Rigid, useful, practical&lt;/p&gt;</description>
       <content>
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 From an IRC moment in #systemcrafters
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;&amp;lt;SummerEmacs&amp;gt; C: Beautiful, fundamental, elegant
-&amp;lt;SummerEmacs&amp;gt; C++: twisted, ugly, aberration
-&amp;lt;SummerEmacs&amp;gt; C#: Abomination, child of hell, evil.
-&amp;lt;SummerEmacs&amp;gt; Lisp: Elegant, magestic, simplicity [18:24]
-&amp;lt;SummerEmacs&amp;gt; FORTRAN: Cold, statistical, inelegant.
-&amp;lt;SummerEmacs&amp;gt; COBOL: Crude, old, gnarled.
-&amp;lt;SummerEmacs&amp;gt; Javascript: Ugly, foul, filthy
-&amp;lt;SummerEmacs&amp;gt; Haskell: Incomprehensible, powerful, niche
-&amp;lt;SummerEmacs&amp;gt; Go: Base, mongrel, imposter.
-&amp;lt;SummerEmacs&amp;gt; Zig: Unknown, power, fledgeling
-&amp;lt;SummerEmacs&amp;gt; Nim: Masquerader, fraud, sham [18:28]
-&amp;lt;SummerEmacs&amp;gt; Python: Rigid, useful, practical
-&amp;lt;SummerEmacs&amp;gt; Rust: Treacherous, fraud, subversive [18:30]
-&amp;lt;SummerEmacs&amp;gt; Java: Contrived, failure, useless
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; C: Beautiful, fundamental, elegant&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; C++: twisted, ugly, aberration&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; C#: Abomination, child of hell, evil.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Lisp: Elegant, majestic, simpliciy&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; FORTRAN: Cold, statistical, inelegant.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; COBOL: Crude, old, gnarled.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Javascript: Ugly, foul, filthy&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Haskell: Incomprehensible, powerful, niche&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Go: Base, mongrel, imposter.&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Zig: Unknown, power, fledgling&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Nim: Masquerader, fraud, sham&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Python: Rigid, useful, practical&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Rust: Treacherous, fraud, subversive&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;SummerEmacs&amp;gt; Java: Contrived, failure, useless&lt;/p&gt;
+&lt;p&gt;
 &amp;lt;SummerEmacs&amp;gt; Assembler: Foundational, obscure, curt&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
