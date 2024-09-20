@@ -2,29 +2,17 @@
 <html lang="en">
 <head>
   
-    <title>Off to the Uranium Mines! :: The Great SummerEmacs Blog</title>
+    <title>Emacs tabs as desktops :: The Great SummerEmacs Blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" Another IRC moment in #systemcrafters &lt;trev&gt; oh well [12:42]
-&lt;alternateved&gt; what&#39;s the verdict? [12:43]
-&lt;SummerEmacs&gt; alternateved: GUILTY! GUILTY! GUILTY!!! 😀 [12:45]
-&lt;alternateved&gt; :D
-&lt;SummerEmacs&gt; 👩🏼‍⚖️
-&lt;SummerEmacs&gt; off to the uranium mines with him!!! [12:46]
-&lt;SummerEmacs&gt; ./force trev /join #uraniumminesforlifesentence [12:49]
-&lt;alternateved&gt; haha [12:50]
-&lt;SummerEmacs&gt; (defun magnifyTheScreams (magnify (erc-window (#uraniumminesforlifesentence,#systemcrafters)) (100))) [12:51]
-&lt;SummerEmacs&gt; muahahahaha
-&lt;SummerEmacs&gt; yes i…learned elisp to commit evil. [12:52]
-&lt;alternateved&gt; You could setup apheleia
-&lt;daviwil&gt; lol, SummerEmacs I&#39;m glad you&#39;re around regularly again
+<meta name="description" content=" I figured out a way to explain it Earlier today, I figured out how to explain my use of tabs in Emacs to Emacs users who don&#39;t use them and wonder why they&#39;re useful. It&#39;s simple: Think of tabs as different kinds of desktops. They can be full screen desktops, or split into different buffers. That&#39;s one way of looking at it. So you end up with a set of Emacs &#34;desktops&#34; which are even saved when you restart Emacs.
 " />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="https://summeremacs.github.io/posts/uranium-mines/" />
+<link rel="canonical" href="https://summeremacs.github.io/posts/tabs-as-desktops/" />
 
 
 
@@ -93,22 +81,10 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Off to the Uranium Mines!">
-<meta property="og:description" content=" Another IRC moment in #systemcrafters &lt;trev&gt; oh well [12:42]
-&lt;alternateved&gt; what&#39;s the verdict? [12:43]
-&lt;SummerEmacs&gt; alternateved: GUILTY! GUILTY! GUILTY!!! 😀 [12:45]
-&lt;alternateved&gt; :D
-&lt;SummerEmacs&gt; 👩🏼‍⚖️
-&lt;SummerEmacs&gt; off to the uranium mines with him!!! [12:46]
-&lt;SummerEmacs&gt; ./force trev /join #uraniumminesforlifesentence [12:49]
-&lt;alternateved&gt; haha [12:50]
-&lt;SummerEmacs&gt; (defun magnifyTheScreams (magnify (erc-window (#uraniumminesforlifesentence,#systemcrafters)) (100))) [12:51]
-&lt;SummerEmacs&gt; muahahahaha
-&lt;SummerEmacs&gt; yes i…learned elisp to commit evil. [12:52]
-&lt;alternateved&gt; You could setup apheleia
-&lt;daviwil&gt; lol, SummerEmacs I&#39;m glad you&#39;re around regularly again
+<meta property="og:title" content="Emacs tabs as desktops">
+<meta property="og:description" content=" I figured out a way to explain it Earlier today, I figured out how to explain my use of tabs in Emacs to Emacs users who don&#39;t use them and wonder why they&#39;re useful. It&#39;s simple: Think of tabs as different kinds of desktops. They can be full screen desktops, or split into different buffers. That&#39;s one way of looking at it. So you end up with a set of Emacs &#34;desktops&#34; which are even saved when you restart Emacs.
 " />
-<meta property="og:url" content="https://summeremacs.github.io/posts/uranium-mines/" />
+<meta property="og:url" content="https://summeremacs.github.io/posts/tabs-as-desktops/" />
 <meta property="og:site_name" content="The Great SummerEmacs Blog" />
 
   <meta property="og:image" content="https://summeremacs.github.io/og-image.png">
@@ -117,7 +93,7 @@
 <meta property="og:image:height" content="627">
 
 
-  <meta property="article:published_time" content="2024-09-18 01:00:00 &#43;0200 CEST" />
+  <meta property="article:published_time" content="2024-09-20 01:00:00 &#43;0200 CEST" />
 
 
 
@@ -186,18 +162,16 @@
     
 <article class="post">
   <h1 class="post-title">
-    <a href="https://summeremacs.github.io/posts/uranium-mines/">Off to the Uranium Mines!</a>
+    <a href="https://summeremacs.github.io/posts/tabs-as-desktops/">Emacs tabs as desktops</a>
   </h1>
-  <div class="post-meta"><time class="post-date">2024-09-18</time><span class="post-author">Summer Emacs</span></div>
+  <div class="post-meta"><time class="post-date">2024-09-20</time><span class="post-author">Summer Emacs</span></div>
 
   
     <span class="post-tags">
       
-      #<a href="https://summeremacs.github.io/tags/humour/">humour</a>&nbsp;
-      
       #<a href="https://summeremacs.github.io/tags/computers/">computers</a>&nbsp;
       
-      #<a href="https://summeremacs.github.io/tags/misc/">misc</a>&nbsp;
+      #<a href="https://summeremacs.github.io/tags/emacs/">emacs</a>&nbsp;
       
     </span>
   
@@ -210,49 +184,15 @@
         
 <div id="outline-container-headline-1" class="outline-2">
 <h2 id="headline-1">
-Another IRC moment in #systemcrafters
+I figured out a way to explain it
 </h2>
 <div id="outline-text-headline-1" class="outline-text-2">
 <p>
-<strong>&lt;trev&gt;</strong> oh well [12:42]</p>
+Earlier today, I figured out how to explain my use of tabs in Emacs to Emacs users who don&#39;t use them and wonder why they&#39;re useful. It&#39;s simple: Think of tabs as different kinds of desktops. They can be full screen desktops, or split into different buffers. That&#39;s one way of looking at it. So you end up with a set of Emacs &#34;desktops&#34; which are even saved when you restart Emacs.</p>
 <p>
-<strong>&lt;alternateved&gt;</strong> what&#39;s the verdict? [12:43]</p>
+I came to this realization after talking to David Wilson in #systemcrafters. He uses wayland and has different desktops with different Emacs frames. The way he described it was the way I use tabs in Emacs.</p>
 <p>
-<strong>&lt;SummerEmacs&gt;</strong> alternateved: GUILTY! GUILTY! GUILTY!!! 😀  [12:45]</p>
-<p>
-<strong>&lt;alternateved&gt;</strong> :D</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> 👩🏼‍⚖️</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> off to the uranium mines with him!!! [12:46]</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> ./force trev /join #uraniumminesforlifesentence [12:49]</p>
-<p>
-<strong>&lt;alternateved&gt;</strong> haha [12:50]</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> (defun magnifyTheScreams (magnify (erc-window
-       (#uraniumminesforlifesentence,#systemcrafters)) (100)))
-         [12:51]</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> muahahahaha</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> yes i…learned elisp to commit evil. [12:52]</p>
-<p>
-<strong>&lt;alternateved&gt;</strong> You could setup apheleia</p>
-<p>
-<strong>&lt;daviwil&gt;</strong> lol, SummerEmacs I&#39;m glad you&#39;re around regularly again</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> lol</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> sorry i&#39;m having some good wine with my lunch 😀</p>
-<p>
-<strong>&lt;alternateved&gt;</strong> For that sweet sweet automatic indenting and formatting [12:53]</p>
-<p>
-<strong>&lt;daviwil&gt;</strong> Please continue</p>
-<p>
-<strong>&lt;SummerEmacs&gt;</strong> well i finished dhe lunch i&#39;m still enjoying the wine 😀</p>
-<p>
-<strong>&lt;alternateved&gt;</strong> yeah, good to have you back SummerEmacs</p>
+Now, maybe, you have something you can sink your teeth into! 😁</p>
 </div>
 </div>
 
@@ -267,16 +207,10 @@ Another IRC moment in #systemcrafters
   </div>
   <div class="pagination__buttons">
     
-      <a href="https://summeremacs.github.io/posts/tabs-as-desktops/" class="button inline prev">
-        Emacs tabs as desktops
-      </a>
     
     
-      ::
-    
-    
-      <a href="https://summeremacs.github.io/posts/computer-languages-list/" class="button inline next">
-        Computer Languages List
+      <a href="https://summeremacs.github.io/posts/uranium-mines/" class="button inline next">
+        Off to the Uranium Mines!
       </a>
     
   </div>

@@ -1,0 +1,16 @@
+---
+title: "Emacs tabs as desktops"
+date: 2024-09-20T01:00:00+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["computers","emacs"]
+---
+
+* I figured out a way to explain it
+
+Earlier today, I figured out how to explain my use of tabs in Emacs to Emacs users who don't use them and wonder why they're useful. It's simple: Think of tabs as different kinds of desktops. They can be full screen desktops, or split into different buffers. That's one way of looking at it. So you end up with a set of Emacs "desktops" which are even saved when you restart Emacs.
+
+I came to this realization after talking to David Wilson in #systemcrafters. He uses wayland and has different desktops with different Emacs frames. The way he described it was the way I use tabs in Emacs.
+
+Now, maybe, you have something you can sink your teeth into! 😁
+
