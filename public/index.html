@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.134.2">
+	<meta name="generator" content="Hugo 0.135.0">
   
     <title>The Great SummerEmacs Blog</title>
   
@@ -170,6 +170,53 @@
     
     
 
+    
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="https://summeremacs.github.io/posts/open-with-eww/">Open with EWW</a>
+        </h2>
+
+        <div class="post-meta"><time class="post-date">2024-10-02</time><span class="post-author">Summer Emacs</span></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://summeremacs.github.io/tags/web/">web</a>&nbsp;
+            
+            #<a href="https://summeremacs.github.io/tags/emacs/">emacs</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+EWW
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+No! Not ewwwwwwwww! But EWW (or eww). It&#39;s the text browser which comes in Emacs, and it&#39;s fantastic for quickly reading articles and doing even more than that.</p>
+<p>
+Recently, I started using it every day. Here&#39;s a quick summary of how I work:</p>
+<ol>
+<li>I am reading something in Safari (usually I get it from RSS). I see a wall of text and I want to send it to Emacs instead for better viewing. <strong>OR</strong>, I come across org-mode text in Github - usually lots of helpful instructions on a package or something. Well, that belongs in Emacs too, really.</li>
+<li>I either capture the link (more below), or I&#39;ll open it directly with Emacs in EWW. Now, if I capture the link, it goes to my inbox.org (I&#39;ve written about this previously and I review a ton of articles every day from various places). If I&#39;m in inbox.org and it&#39;s a mostly text site (I know from the sites I visit), I can just put the pointer on the link and hit C-q o o, which gives me the choice: open in eww or safari (choice in minibuffer). Safari is my main browser but you can modify the action for your own needs. (Code below).</li>
+<li>Once you&#39;re in EWW (or eww), you can capture the entire text however you want, or portions of it. If it&#39;s an org document, you can switch to org mode and do it that way too. It&#39;s up to you. It&#39;s really great to save whole sections of Github package instructions into denote files for reference (I have a lot of these). That way, you can search your own files with context (using something like consult), before you start trying to find what you want on the web.</li>
+</ol>
+<p>Here&#39;s the code to open a link in Emacs with either your preferred browser or eww:</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button inline" href="/posts/open-with-eww/">Read more</a>
+          </div>
+        
+      </article>
     
       <article class="post on-list">
         <h2 class="post-title">
@@ -378,50 +425,6 @@ Yes! It&#39;s a new theme!
         
           <div>
             <a class="read-more button inline" href="/posts/new-theme-terminal/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="https://summeremacs.github.io/posts/the-emacs-newbie-project/">The Emacs Newbie Project</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-09-14</time><span class="post-author">Summer Emacs</span></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="https://summeremacs.github.io/tags/emacs/">emacs</a>&nbsp;
-            
-            #<a href="https://summeremacs.github.io/tags/help/">help</a>&nbsp;
-            
-            #<a href="https://summeremacs.github.io/tags/tutorial/">tutorial</a>&nbsp;
-            
-            #<a href="https://summeremacs.github.io/tags/github/">github</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <div id="outline-container-headline-1" class="outline-2">
-<h2 id="headline-1">
-It&#39;s a project! But with censoring.
-</h2>
-<div id="outline-text-headline-1" class="outline-text-2">
-<p>A few days ago, <a href="https://lists.gnu.org/archive/html/emacs-devel/2024-09/msg00318.html">I started a thread</a> on the Emacs Devel mailing list after asking some questions on Reddit. It led me to starting the project myself: <a href="https://github.com/summeremacs/Emacsnewbie/blob/main/20240912T175822--emacs-welcome-newbie-screen__emacs_help_tutorial.org">The Emacs Welcome Newbie Screen</a>.</p>
-<p>
-What I want is for the screen to be linked to the front welcome screen of Emacs with a big: —&gt; New Emacs User? Click here! &lt;— at the top of the screen. The idea is to get new users to a place where there is a tutorial for complete beginners who aren&#39;t coders.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/the-emacs-newbie-project/">Read more</a>
           </div>
         
       </article>

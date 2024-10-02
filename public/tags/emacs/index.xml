@@ -6,7 +6,108 @@
     <description>Recent content in Emacs on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Sep 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open with EWW</title>
+      <link>https://summeremacs.github.io/posts/open-with-eww/</link>
+      <pubDate>Wed, 02 Oct 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/open-with-eww/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+EWW
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+No! Not ewwwwwwwww! But EWW (or eww). It&amp;#39;s the text browser which comes in Emacs, and it&amp;#39;s fantastic for quickly reading articles and doing even more than that.&lt;/p&gt;
+&lt;p&gt;
+Recently, I started using it every day. Here&amp;#39;s a quick summary of how I work:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I am reading something in Safari (usually I get it from RSS). I see a wall of text and I want to send it to Emacs instead for better viewing. &lt;strong&gt;OR&lt;/strong&gt;, I come across org-mode text in Github - usually lots of helpful instructions on a package or something. Well, that belongs in Emacs too, really.&lt;/li&gt;
+&lt;li&gt;I either capture the link (more below), or I&amp;#39;ll open it directly with Emacs in EWW. Now, if I capture the link, it goes to my inbox.org (I&amp;#39;ve written about this previously and I review a ton of articles every day from various places). If I&amp;#39;m in inbox.org and it&amp;#39;s a mostly text site (I know from the sites I visit), I can just put the pointer on the link and hit C-q o o, which gives me the choice: open in eww or safari (choice in minibuffer). Safari is my main browser but you can modify the action for your own needs. (Code below).&lt;/li&gt;
+&lt;li&gt;Once you&amp;#39;re in EWW (or eww), you can capture the entire text however you want, or portions of it. If it&amp;#39;s an org document, you can switch to org mode and do it that way too. It&amp;#39;s up to you. It&amp;#39;s really great to save whole sections of Github package instructions into denote files for reference (I have a lot of these). That way, you can search your own files with context (using something like consult), before you start trying to find what you want on the web.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here&amp;#39;s the code to open a link in Emacs with either your preferred browser or eww:&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+EWW
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+No! Not ewwwwwwwww! But EWW (or eww). It&amp;#39;s the text browser which comes in Emacs, and it&amp;#39;s fantastic for quickly reading articles and doing even more than that.&lt;/p&gt;
+&lt;p&gt;
+Recently, I started using it every day. Here&amp;#39;s a quick summary of how I work:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I am reading something in Safari (usually I get it from RSS). I see a wall of text and I want to send it to Emacs instead for better viewing. &lt;strong&gt;OR&lt;/strong&gt;, I come across org-mode text in Github - usually lots of helpful instructions on a package or something. Well, that belongs in Emacs too, really.&lt;/li&gt;
+&lt;li&gt;I either capture the link (more below), or I&amp;#39;ll open it directly with Emacs in EWW. Now, if I capture the link, it goes to my inbox.org (I&amp;#39;ve written about this previously and I review a ton of articles every day from various places). If I&amp;#39;m in inbox.org and it&amp;#39;s a mostly text site (I know from the sites I visit), I can just put the pointer on the link and hit C-q o o, which gives me the choice: open in eww or safari (choice in minibuffer). Safari is my main browser but you can modify the action for your own needs. (Code below).&lt;/li&gt;
+&lt;li&gt;Once you&amp;#39;re in EWW (or eww), you can capture the entire text however you want, or portions of it. If it&amp;#39;s an org document, you can switch to org mode and do it that way too. It&amp;#39;s up to you. It&amp;#39;s really great to save whole sections of Github package instructions into denote files for reference (I have a lot of these). That way, you can search your own files with context (using something like consult), before you start trying to find what you want on the web.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here&amp;#39;s the code to open a link in Emacs with either your preferred browser or eww:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; Open link in eww or browser&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defun open-link-at-point-or-minibuffer-with-choice ()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Use `consult` to select a link at point, in the buffer, from `consult-omni` results, or prompt for a URL.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    Then choose to open it in macOS default browser or eww.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    If &amp;#39;eww&amp;#39; is chosen, the link is opened in a window that occupies 80% of the frame height below the current one.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (interactive)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (let* ((url (or (thing-at-point &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;url&lt;/span&gt;)                             &lt;span style=&#34;color:#75715e&#34;&gt;;; Check if there&amp;#39;s a URL at point&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  		  (consult--read (thing-at-point--list &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;url&lt;/span&gt;))       &lt;span style=&#34;color:#75715e&#34;&gt;;; Use consult to select a URL from the buffer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  		  (consult-omni)                                    &lt;span style=&#34;color:#75715e&#34;&gt;;; Use consult-omni results to select a link&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  		  (&lt;span style=&#34;color:#a6e22e&#34;&gt;read-string&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter URL: &amp;#34;&lt;/span&gt;))))                    &lt;span style=&#34;color:#75715e&#34;&gt;;; Fall back to manual URL entry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (if url
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	(let ((choice (&lt;span style=&#34;color:#a6e22e&#34;&gt;completing-read&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Open link in: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;macOS Browser&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;eww&amp;#34;&lt;/span&gt;))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	  (cond
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	   ((&lt;span style=&#34;color:#a6e22e&#34;&gt;string-equal&lt;/span&gt; choice &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;macOS Browser&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	    (shell-command (&lt;span style=&#34;color:#a6e22e&#34;&gt;concat&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;open &amp;#34;&lt;/span&gt; (shell-quote-argument url))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	   ((&lt;span style=&#34;color:#a6e22e&#34;&gt;string-equal&lt;/span&gt; choice &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;eww&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	    &lt;span style=&#34;color:#75715e&#34;&gt;;; Calculate the height for the top window (20% of the frame height)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	    (let ((window (&lt;span style=&#34;color:#a6e22e&#34;&gt;selected-window&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  		  (top-window-height (&lt;span style=&#34;color:#a6e22e&#34;&gt;floor&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.2&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;window-total-height&lt;/span&gt;)))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	      &lt;span style=&#34;color:#75715e&#34;&gt;;; Split window with 20% height on top and 80% height for eww on the bottom&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	      (&lt;span style=&#34;color:#a6e22e&#34;&gt;select-window&lt;/span&gt; (split-window window top-window-height))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  	      (eww url)))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (&lt;span style=&#34;color:#a6e22e&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;No URL provided.&amp;#34;&lt;/span&gt;))))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+And here&amp;#39;s a handy little bit of extra code. I&amp;#39;ve tied this to C-q w c (for window close), so I don&amp;#39;t get a ton of eww buffers hanging around if I just want to close the article after I&amp;#39;m done, but it&amp;#39;s handy for any window closing as well:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; close buffer and window&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defun close-buffer-and-window ()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Close the current buffer and the window it&amp;#39;s in.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (interactive)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (let ((window (&lt;span style=&#34;color:#a6e22e&#34;&gt;selected-window&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (&lt;span style=&#34;color:#a6e22e&#34;&gt;kill-buffer&lt;/span&gt;)               &lt;span style=&#34;color:#75715e&#34;&gt;;; Kill the current buffer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (when (&lt;span style=&#34;color:#a6e22e&#34;&gt;window-live-p&lt;/span&gt; window) &lt;span style=&#34;color:#75715e&#34;&gt;;; Check if the window is still live&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (delete-window))))         &lt;span style=&#34;color:#75715e&#34;&gt;;; Delete the window if it exists&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Now, like I said, I tie these to my universal key binding which  is C-q for me as it&amp;#39;s super fast and easy to type if you use Caps Lock as your Control key (which I do). But I&amp;#39;ll leave that up to you on how you want to do that.&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s where I got the &amp;#34;capture URL to inbox&amp;#34; setup. It&amp;#39;s for Mac but I&amp;#39;m sure Linux users can mod it to suit their needs.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://macowners.club/posts/org-capture-from-everywhere-macos/&#34;&gt;Mac Owner&amp;#39;s Club: Org capture from everywhere in macOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+And here&amp;#39;s the post where I got the &amp;#34;send Safari url to eww&amp;#34;. He uses Chrome but the Mac Owners Club guy posts the Safari snippet at the bottom of the page. Also, keep in mind that you want to take &lt;code class=&#34;verbatim&#34;&gt;-c&lt;/code&gt; out of the Applescript if you want it to appear in the existing frame, or it&amp;#39;ll create a new frame when it opens up eww with the link.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://gist.github.com/agzam/e90123c0820991ae39fbe61fed5a57df&#34;&gt;Github: agzam/send-browser-urls-to-emacs-eww&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+I want to thank those guys because it&amp;#39;s made Emacs and MacOS even better than ever before. 🙃&lt;/p&gt;
+&lt;p&gt;
+And since I just posted it on Mastodon, I&amp;#39;ll include this really nice link of text-based sites for different kinds of sources (NPR, CNN, NYT, and other places including tech ones):&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://greycoder.com/a-list-of-text-only-new-sites/&#34;&gt;Greycoder: A List Of Text-Only &amp;amp; Minimalist News Sites&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+Remember: with any page in eww, you can just use Emacs Bookmarks to get to it immediately again. So if you want to check NYT articles daily or even a few times a day, just head to that portal, bookmark it with like &lt;code class=&#34;verbatim&#34;&gt;nyt&lt;/code&gt; and then use that as your instant news source for them. Get into the habit of using bookmarks, people! (Thank you for reminding me of this use, Fade@libera).&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s all for today!&lt;/p&gt;
+&lt;p&gt;
+👋&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
     <item>
       <title>Emacs tabs as desktops</title>
       <link>https://summeremacs.github.io/posts/tabs-as-desktops/</link>

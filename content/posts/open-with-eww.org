@@ -1,0 +1,87 @@
+---
+title: "Open with EWW"
+date: 2024-10-02T01:00:00+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["web","emacs"]
+---
+
+* EWW
+
+No! Not ewwwwwwwww! But EWW (or eww). It's the text browser which comes in Emacs, and it's fantastic for quickly reading articles and doing even more than that.
+
+Recently, I started using it every day. Here's a quick summary of how I work:
+
+1) I am reading something in Safari (usually I get it from RSS). I see a wall of text and I want to send it to Emacs instead for better viewing. *OR*, I come across org-mode text in Github - usually lots of helpful instructions on a package or something. Well, that belongs in Emacs too, really.
+
+2) I either capture the link (more below), or I'll open it directly with Emacs in EWW. Now, if I capture the link, it goes to my inbox.org (I've written about this previously and I review a ton of articles every day from various places). If I'm in inbox.org and it's a mostly text site (I know from the sites I visit), I can just put the pointer on the link and hit C-q o o, which gives me the choice: open in eww or safari (choice in minibuffer). Safari is my main browser but you can modify the action for your own needs. (Code below).
+
+3) Once you're in EWW (or eww), you can capture the entire text however you want, or portions of it. If it's an org document, you can switch to org mode and do it that way too. It's up to you. It's really great to save whole sections of Github package instructions into denote files for reference (I have a lot of these). That way, you can search your own files with context (using something like consult), before you start trying to find what you want on the web.
+
+Here's the code to open a link in Emacs with either your preferred browser or eww:
+
+#+begin_src emacs-lisp
+
+  ;; Open link in eww or browser
+  (defun open-link-at-point-or-minibuffer-with-choice ()
+    "Use `consult` to select a link at point, in the buffer, from `consult-omni` results, or prompt for a URL.
+    Then choose to open it in macOS default browser or eww.
+    If 'eww' is chosen, the link is opened in a window that occupies 80% of the frame height below the current one."
+    (interactive)
+    (let* ((url (or (thing-at-point 'url)                             ;; Check if there's a URL at point
+  		  (consult--read (thing-at-point--list 'url))       ;; Use consult to select a URL from the buffer
+  		  (consult-omni)                                    ;; Use consult-omni results to select a link
+  		  (read-string "Enter URL: "))))                    ;; Fall back to manual URL entry
+      (if url
+  	(let ((choice (completing-read "Open link in: " '("macOS Browser" "eww"))))
+  	  (cond
+  	   ((string-equal choice "macOS Browser")
+  	    (shell-command (concat "open " (shell-quote-argument url))))
+  	   ((string-equal choice "eww")
+  	    ;; Calculate the height for the top window (20% of the frame height)
+  	    (let ((window (selected-window))
+  		  (top-window-height (floor (* 0.2 (window-total-height)))))
+  	      ;; Split window with 20% height on top and 80% height for eww on the bottom
+  	      (select-window (split-window window top-window-height))
+  	      (eww url)))))
+        (message "No URL provided."))))
+
+#+end_src
+
+And here's a handy little bit of extra code. I've tied this to C-q w c (for window close), so I don't get a ton of eww buffers hanging around if I just want to close the article after I'm done, but it's handy for any window closing as well:
+
+#+begin_src emacs-lisp
+
+  ;; close buffer and window
+  (defun close-buffer-and-window ()
+    "Close the current buffer and the window it's in."
+    (interactive)
+    (let ((window (selected-window)))
+      (kill-buffer)               ;; Kill the current buffer
+      (when (window-live-p window) ;; Check if the window is still live
+        (delete-window))))         ;; Delete the window if it exists
+
+#+end_src
+
+Now, like I said, I tie these to my universal key binding which  is C-q for me as it's super fast and easy to type if you use Caps Lock as your Control key (which I do). But I'll leave that up to you on how you want to do that.
+
+Here's where I got the "capture URL to inbox" setup. It's for Mac but I'm sure Linux users can mod it to suit their needs.
+
+[[https://macowners.club/posts/org-capture-from-everywhere-macos/][Mac Owner's Club: Org capture from everywhere in macOS]]
+
+And here's the post where I got the "send Safari url to eww". He uses Chrome but the Mac Owners Club guy posts the Safari snippet at the bottom of the page. Also, keep in mind that you want to take =-c= out of the Applescript if you want it to appear in the existing frame, or it'll create a new frame when it opens up eww with the link.
+
+[[https://gist.github.com/agzam/e90123c0820991ae39fbe61fed5a57df][Github: agzam/send-browser-urls-to-emacs-eww]]
+
+I want to thank those guys because it's made Emacs and MacOS even better than ever before. 🙃
+
+And since I just posted it on Mastodon, I'll include this really nice link of text-based sites for different kinds of sources (NPR, CNN, NYT, and other places including tech ones):
+
+[[https://greycoder.com/a-list-of-text-only-new-sites/][Greycoder: A List Of Text-Only & Minimalist News Sites]]
+
+Remember: with any page in eww, you can just use Emacs Bookmarks to get to it immediately again. So if you want to check NYT articles daily or even a few times a day, just head to that portal, bookmark it with like =nyt= and then use that as your instant news source for them. Get into the habit of using bookmarks, people! (Thank you for reminding me of this use, Fade@libera).
+
+That's all for today!
+
+👋
+

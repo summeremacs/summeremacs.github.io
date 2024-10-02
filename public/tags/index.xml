@@ -6,23 +6,33 @@
     <description>Recent content in Tags on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Sep 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs</title>
+      <link>https://summeremacs.github.io/tags/emacs/</link>
+      <pubDate>Wed, 02 Oct 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/emacs/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://summeremacs.github.io/tags/web/</link>
+      <pubDate>Wed, 02 Oct 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/web/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>Computers</title>
       <link>https://summeremacs.github.io/tags/computers/</link>
       <pubDate>Fri, 20 Sep 2024 01:00:00 +0200</pubDate>
       
       <guid>https://summeremacs.github.io/tags/computers/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Emacs</title>
-      <link>https://summeremacs.github.io/tags/emacs/</link>
-      <pubDate>Fri, 20 Sep 2024 01:00:00 +0200</pubDate>
-      
-      <guid>https://summeremacs.github.io/tags/emacs/</guid>
       <description></description>
       <content></content>
     </item>
