@@ -1,0 +1,276 @@
+---
+title: "Universal Keybind"
+date: 2024-10-22T01:00:00+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["emacs"]
+---
+
+* My Universal Keybind
+
+Okay, I'm finally getting around to writing this because so many people have asked me about it: I have a "universal keybind" set. I stole it from [[https://protesilaos.com][Prot]], so you can thank him. He uses =C-z=, last I checked, but I changed it to =C-q=, and I'll explain why:
+
+* So, why C-q? And what the heck are you talking about?
+
+I'm glad you asked! Okay: There's a lot of commands I use in Emacs for org mode and other things which, by default, are kinda all over the place. Why not just put them into one hydra instead? So the ones I use most, I put there and it all starts with the command =C-q=. It's a lot easier to make your own mnemonic sets this way instead of remembering a ton of stuff. This way, I don't have to use =M-x= nearly as often because I forgot how to invoke something.
+
+Why =C-q= in particular? Well, if you're on a QWERTY keyboard, and if you use =Caps Lock= as your =Control (C)= key, then lay your pinky on =Caps Lock= and your next finger goes automatically on =Q=. At least, mine does. Which makes it really nifty for hitting very, /very/ quickly. So I don't think of something as "=C-q=". Instead, I think of it more along the lines of "invoke". If you want to make yours something different, then feel free! It is Emacs, after all.
+
+I'm sharing what I have for my hydras but keep in mind, it's always growing /and/ it's always changing! That's right. Sometimes I put something in there that I later on feel could be in a better place, so I rearrange it around a bit, or make a new category and rearrange a bunch of stuff. As you'll see with the code, it's pretty easy to do.
+
+#+begin_src emacs-lisp
+
+  ;; Global Prefix/Leader Key
+
+  (defvar-keymap prefix-buffer-map-0
+    :doc "Prefix map for C-q for 0x0"
+    "f" #'0x0-upload-file
+    "t" #'0x0-upload-text)
+
+  (defvar-keymap prefix-buffer-map-a
+    :doc "Prefix map for C-q for gpt/ollama"
+    "c" #'ellama-chat
+    "g" #'ellama-improve-grammar
+    "w" #'ellama-enhance-wording
+    "l" #'ellama-make-list
+    "t" #'ellama-make-table
+    "d" #'ellama-define-word
+    "a" #'ellama-code-add
+    )
+
+  (defvar-keymap prefix-buffer-map-b
+    :doc "Prefix map for C-q for buffers"
+    "g" #'switch-to-buffer
+    "c" #'clean-buffer-list
+    "i" #'ibuffer
+    "m" #'buffer-menu)
+
+  (defvar-keymap prefix-buffer-map-c
+    :doc "Prefix map for C-q for consult"
+    "b" #'consult-bookmark
+    "m" #'bookmark-set
+    "d" #'consult-dir
+    "o" #'consult-outline
+    "g" #'consult-grep
+    "i" #'consult-imenu
+    "s" #'consult-notes-search-in-all-notes
+    "@" #'consult-mu
+    "f" #'consult-denote-find
+    "r" #'consult-denote-grep
+    )
+
+  (defvar-keymap prefix-buffer-map-denote
+    :doc "Prefix map for C-q d d for Denote"
+    "l" #'denote-menu-list-notes
+    "f" #'denote-menu-filter
+    "k" #'denote-menu-filter-by-keyword
+    "c" #'denote-menu-clear-filters
+    "-" #'denote-menu-filter-out-keyword
+    "s" #'denote-org-extras-link-to-heading
+    )
+
+  (defvar-keymap prefix-buffer-map-d
+    :doc "Prefix map for C-q for dired/Denote"
+    "j" #'dired
+    "u" #'my/dired-du
+    "s" #'denote-sort-dired
+    "d" prefix-buffer-map-denote
+    )
+
+    (defvar-keymap prefix-buffer-map-bubble
+    :doc "Prefix map for C-q d d for Bubble"
+    "e" #'bubble-expand
+    "s" #'bubble-shrink
+    )
+
+  (defvar-keymap prefix-buffer-map-e
+    :doc "Prefix map for C-q for editing"
+    "w" #'mark-word
+    "s" #'mark-end-of-sentence
+    "p" #'mark-paragraph
+    "g" #'mark-whole-buffer
+    "b" prefix-buffer-map-bubble
+    )
+
+  (defvar-keymap prefix-buffer-map-f
+    :doc "Prefix map for C-q for fzf"
+    "f" #'fzf
+    "d" #'fzf-directory
+    )
+
+  (defvar-keymap prefix-buffer-map-i
+    :doc "Prefix map for C-q for ement/erc"
+    "m" #'ement-connect
+    "t" #'ement-disconnect
+    "z" #'connect-to-znc
+    "o" #'erc-occur
+    "d" #'disconnect-from-znc
+    )
+
+  (defvar-keymap prefix-buffer-map-j
+    :doc "Prefix map for C-q for jump"
+    "j" #'avy-goto-char-timer
+    "i" #'imenu
+    "o" #'occur
+    "d" #'dired-jump)
+
+  (defvar-keymap prefix-buffer-map-l
+    :doc "Prefix map for C-q line"
+    "f" #'fixup-whitespace
+    )
+
+  (defvar-keymap prefix-buffer-map-casual
+    :doc "Prefix map for C-q for casual"
+    "a" #'casual-avy-tmenu
+    "g" #'casual-agenda-tmenu
+    "i" #'casual-ibuffer-tmenu
+    "c" #'casual-calc-tmenu
+    "n" #'casual-info-tmenu
+    "r" #'casual-re-builder-tmenu
+    "b" #'casual-bookmarks-tmenu
+    "d" #'casual-dired-tmenu
+    "e" #'casual-editkit-main-tmenu)
+
+  (defvar-keymap prefix-buffer-map-narrow
+    :doc "Prefix map for C-q for narrow/widen"
+    "n" #'narrow-to-region
+    "b" #'org-narrow-to-block
+    "e" #'org-narrow-to-element
+    "s" #'org-narrow-to-subtree
+    "d" #'narrow-to-defun
+    "p" #'narrow-to-page
+    "w" #'widen)
+
+  (defvar-keymap prefix-buffer-map-m
+    :doc "Prefix map for C-q for misc/Mark"
+    "a" #'accent-menu
+    "f" #'follow-mode
+    "p" #'pass
+    "c" prefix-buffer-map-casual
+    "n" prefix-buffer-map-narrow
+    "s" #'scroll-lock-mode
+    "w" #'world-clock)
+
+  (defvar-keymap prefix-buffer-map-o
+    :doc "Prefix map for C-q for Org"
+    "t" #'org-tags-view
+    "a" #'org-archive-subtree
+    "i" #'org-time-stamp-inactive
+    "d" #'org-time-stamp
+    "r" #'org-refile
+    "o" #'open-link-at-point-or-minibuffer-with-choice
+    )
+
+  (defvar-keymap prefix-buffer-map-p
+    :doc "Prefix map for C-q for packages/programming"
+    "l" #'list-packages
+    "r" #'package-refresh-contents
+    "i" #'send-to-idle
+    )
+
+  (defvar-keymap prefix-buffer-map-q
+    :doc "Prefix map for C-q for org-ql"
+    "s" #'org-ql-search
+    "r" #'org-ql-refile
+    "l" #'org-ql-open-link
+    "b" #'org-ql-view-sidebar
+    "f" #'org-ql-find
+    "v" #'org-ql-view
+    "a" #'org-ql-find-in-agenda
+    "d" #'org-ql-find-in-org-directory
+    "i" #'org-ql-view-recent-items)
+
+  (defvar-keymap prefix-buffer-map-s
+    :doc "Prefix map for C-q for spelling"
+    "o" #'osx-dictionary-search-word-at-point
+    "i" #'osx-dictionary-search-input
+    "l" #'jinx-languages
+    "c" #'jinx-correct
+    "t" #'powerthesaurus-transient
+    "s" #'dictionary-search)
+
+  (defvar-keymap prefix-buffer-map-t
+    :doc "Prefix map for C-q for terminals"
+    "e" #'eat
+    "v" #'multi-vterm)
+
+  (defvar-keymap prefix-buffer-map-u
+    :doc "Prefix map for C-q for undo"
+    "v" #'undo-tree-visualize
+    "u" #'undo-tree-undo
+    "r" #'undo-tree-redo)
+
+  (defvar-keymap prefix-buffer-map-w
+    :doc "Prefix map for C-q for window/frame"
+    "c" #'close-buffer-and-window
+    )
+  (defvar-keymap prefix-buffer-map-.
+    :doc "Prefix map for C-q for consult omni"
+    "d" #'consult-omni-dictionary
+    "w" #'consult-omni-wikipedia
+    "y" #'consult-omni-youtube
+    "a" #'consult-omni-apps
+    "o" #'consult-omni-org-agenda
+    "g" #'consult-omni-grep
+    "m" #'consult-omni-multi
+    )
+
+  (defvar-keymap prefix-command-q
+    :doc "Prefix Map for C-q:"
+    "0" prefix-buffer-map-0
+    "a" prefix-buffer-map-a
+    "b" prefix-buffer-map-b
+    "c" prefix-buffer-map-c
+    "d" prefix-buffer-map-d
+    "e" prefix-buffer-map-e
+    "i" prefix-buffer-map-i
+    "f" prefix-buffer-map-f
+    "g" 'magit-status
+    "j" prefix-buffer-map-j
+    "h" help-map
+    "l" prefix-buffer-map-l
+    "m" prefix-buffer-map-m
+    "o" prefix-buffer-map-o
+    "p" prefix-buffer-map-p
+    "q" 'prefix-buffer-map-q
+    "s" prefix-buffer-map-s
+    "t" prefix-buffer-map-t
+    "u" prefix-buffer-map-u
+    "w" prefix-buffer-map-w
+    "." prefix-buffer-map-.
+    )
+
+  (which-key-add-keymap-based-replacements prefix-command-q
+    "0" `("0x0" . ,prefix-buffer-map-0)
+    "a" `("ollama" . ,prefix-buffer-map-a)
+    "b" `("Buffer" . ,prefix-buffer-map-b)
+    "c" `("Consult" . ,prefix-buffer-map-c)
+    "d" `("Dired/Denote" . ,prefix-buffer-map-d)
+    "e" `("Edit" . ,prefix-buffer-map-e)
+    "i" `("Ement/ERC" . ,prefix-buffer-map-i)
+    "f" `("Fzf" . ,prefix-buffer-map-f)
+    "j" `("Jump" . ,prefix-buffer-map-j)
+    "h" `("Help Map" . ,help-map)
+    "l" `("Line" . ,prefix-buffer-map-l)
+    "m" `("Misc" . ,prefix-buffer-map-m)
+    "o" `("Org" . ,prefix-buffer-map-o)
+    "p" `("Packages/Programming" . ,prefix-buffer-map-p)
+    "q" `("Org-ql" . ,prefix-buffer-map-q)
+    "s" `("Spelling/Dictionary/Jinx" . ,prefix-buffer-map-s)
+    "t" `("Terminals" . ,prefix-buffer-map-t)
+    "u" `("Undo Tree" . ,prefix-buffer-map-u)
+    "w" `("Window/Buffers" . ,prefix-buffer-map-w)
+    "." `("Consult Omni" . ,prefix-buffer-map-.)
+    "d d" `("Denote" . ,prefix-buffer-map-denote)
+    "m c" `("Casual Menus" . ,prefix-buffer-map-casual)
+    ;; "m m" `("Mark" . ,prefix-buffer-map-mark)
+    "m n" `("Narrow/Widen" . ,prefix-buffer-map-narrow))
+
+  (keymap-set global-map "C-q" prefix-command-q)
+
+#+end_src
+
+I won't bother to explain what this does because you can figure it out really easily I think. It's just an example set. I hope this helps people. Have fun with it and feel free to ask me anything if you want me to clarify something.
+
+👋 
+

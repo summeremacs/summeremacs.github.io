@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Universal Keybind :: The Great SummerEmacs Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" My Universal Keybind Okay, I&#39;m finally getting around to writing this because so many people have asked me about it: I have a &#34;universal keybind&#34; set. I stole it from Prot, so you can thank him. He uses C-z, last I checked, but I changed it to C-q, and I&#39;ll explain why:
+So, why C-q? And what the heck are you talking about? I&#39;m glad you asked! Okay: There&#39;s a lot of commands I use in Emacs for org mode and other things which, by default, are kinda all over the place. Why not just put them into one hydra instead? So the ones I use most, I put there and it all starts with the command C-q. It&#39;s a lot easier to make your own mnemonic sets this way instead of remembering a ton of stuff. This way, I don&#39;t have to use M-x nearly as often because I forgot how to invoke something.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://summeremacs.github.io/posts/universal-keybind/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/terminal.min.736caf886baa67df630c4cde30fbdc5115122eb74c6246f15a31401344bfa2f0.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://summeremacs.github.io/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://summeremacs.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://summeremacs.github.io/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Summer Emacs" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Universal Keybind">
+<meta property="og:description" content=" My Universal Keybind Okay, I&#39;m finally getting around to writing this because so many people have asked me about it: I have a &#34;universal keybind&#34; set. I stole it from Prot, so you can thank him. He uses C-z, last I checked, but I changed it to C-q, and I&#39;ll explain why:
+So, why C-q? And what the heck are you talking about? I&#39;m glad you asked! Okay: There&#39;s a lot of commands I use in Emacs for org mode and other things which, by default, are kinda all over the place. Why not just put them into one hydra instead? So the ones I use most, I put there and it all starts with the command C-q. It&#39;s a lot easier to make your own mnemonic sets this way instead of remembering a ton of stuff. This way, I don&#39;t have to use M-x nearly as often because I forgot how to invoke something.
+" />
+<meta property="og:url" content="https://summeremacs.github.io/posts/universal-keybind/" />
+<meta property="og:site_name" content="The Great SummerEmacs Blog" />
+
+  <meta property="og:image" content="https://summeremacs.github.io/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-10-22 01:00:00 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://summeremacs.github.io/posts/universal-keybind/">Universal Keybind</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-10-22</time><span class="post-author">Summer Emacs</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://summeremacs.github.io/tags/emacs/">emacs</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+My Universal Keybind
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+Okay, I&#39;m finally getting around to writing this because so many people have asked me about it: I have a &#34;universal keybind&#34; set. I stole it from <a href="https://protesilaos.com">Prot</a>, so you can thank him. He uses <code class="verbatim">C-z</code>, last I checked, but I changed it to <code class="verbatim">C-q</code>, and I&#39;ll explain why:</p>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+So, why C-q? And what the heck are you talking about?
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<p>
+I&#39;m glad you asked! Okay: There&#39;s a lot of commands I use in Emacs for org mode and other things which, by default, are kinda all over the place. Why not just put them into one hydra instead? So the ones I use most, I put there and it all starts with the command <code class="verbatim">C-q</code>. It&#39;s a lot easier to make your own mnemonic sets this way instead of remembering a ton of stuff. This way, I don&#39;t have to use <code class="verbatim">M-x</code> nearly as often because I forgot how to invoke something.</p>
+<p>
+Why <code class="verbatim">C-q</code> in particular? Well, if you&#39;re on a QWERTY keyboard, and if you use <code class="verbatim">Caps Lock</code> as your <code class="verbatim">Control (C)</code> key, then lay your pinky on <code class="verbatim">Caps Lock</code> and your next finger goes automatically on <code class="verbatim">Q</code>. At least, mine does. Which makes it really nifty for hitting very, <em>very</em> quickly. So I don&#39;t think of something as &#34;<code class="verbatim">C-q</code>&#34;. Instead, I think of it more along the lines of &#34;invoke&#34;. If you want to make yours something different, then feel free! It is Emacs, after all.</p>
+<p>
+I&#39;m sharing what I have for my hydras but keep in mind, it&#39;s always growing <em>and</em> it&#39;s always changing! That&#39;s right. Sometimes I put something in there that I later on feel could be in a better place, so I rearrange it around a bit, or make a new category and rearrange a bunch of stuff. As you&#39;ll see with the code, it&#39;s pretty easy to do.</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>  <span style="color:#75715e">;; Global Prefix/Leader Key</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-0
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for 0x0&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#a6e22e">#&#39;</span>0x0-upload-file
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#a6e22e">#&#39;</span>0x0-upload-text)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-a
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for gpt/ollama&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> <span style="color:#a6e22e">#&#39;</span>ellama-chat
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;g&#34;</span> <span style="color:#a6e22e">#&#39;</span>ellama-improve-grammar
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;w&#34;</span> <span style="color:#a6e22e">#&#39;</span>ellama-enhance-wording
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#a6e22e">#&#39;</span>ellama-make-list
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#a6e22e">#&#39;</span>ellama-make-table
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>ellama-define-word
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#a6e22e">#&#39;</span>ellama-code-add
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-b
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for buffers&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;g&#34;</span> <span style="color:#a6e22e">#&#39;</span>switch-to-buffer
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> <span style="color:#a6e22e">#&#39;</span>clean-buffer-list
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>ibuffer
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m&#34;</span> <span style="color:#a6e22e">#&#39;</span>buffer-menu)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-c
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for consult&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;b&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-bookmark
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m&#34;</span> <span style="color:#a6e22e">#&#39;</span>bookmark-set
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-dir
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-outline
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;g&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-grep
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-imenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-notes-search-in-all-notes
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;@&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-mu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-denote-find
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;r&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-denote-grep
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-denote
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q d d for Denote&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#a6e22e">#&#39;</span>denote-menu-list-notes
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#a6e22e">#&#39;</span>denote-menu-filter
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;k&#34;</span> <span style="color:#a6e22e">#&#39;</span>denote-menu-filter-by-keyword
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> <span style="color:#a6e22e">#&#39;</span>denote-menu-clear-filters
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;-&#34;</span> <span style="color:#a6e22e">#&#39;</span>denote-menu-filter-out-keyword
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>denote-org-extras-link-to-heading
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-d
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for dired/Denote&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;j&#34;</span> <span style="color:#a6e22e">#&#39;</span>dired
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;u&#34;</span> <span style="color:#a6e22e">#&#39;</span>my/dired-du
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>denote-sort-dired
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> prefix-buffer-map-denote
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    (defvar-keymap prefix-buffer-map-bubble
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q d d for Bubble&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;e&#34;</span> <span style="color:#a6e22e">#&#39;</span>bubble-expand
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>bubble-shrink
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-e
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for editing&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;w&#34;</span> <span style="color:#a6e22e">#&#39;</span>mark-word
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>mark-end-of-sentence
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;p&#34;</span> <span style="color:#a6e22e">#&#39;</span>mark-paragraph
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;g&#34;</span> <span style="color:#a6e22e">#&#39;</span>mark-whole-buffer
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;b&#34;</span> prefix-buffer-map-bubble
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-f
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for fzf&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#a6e22e">#&#39;</span>fzf
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>fzf-directory
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-i
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for ement/erc&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m&#34;</span> <span style="color:#a6e22e">#&#39;</span>ement-connect
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#a6e22e">#&#39;</span>ement-disconnect
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;z&#34;</span> <span style="color:#a6e22e">#&#39;</span>connect-to-znc
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#a6e22e">#&#39;</span>erc-occur
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>disconnect-from-znc
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-j
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for jump&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;j&#34;</span> <span style="color:#a6e22e">#&#39;</span>avy-goto-char-timer
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>imenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#a6e22e">#&#39;</span>occur
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>dired-jump)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-l
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q line&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#a6e22e">#&#39;</span>fixup-whitespace
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-casual
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for casual&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-avy-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;g&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-agenda-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-ibuffer-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-calc-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;n&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-info-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;r&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-re-builder-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;b&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-bookmarks-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-dired-tmenu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;e&#34;</span> <span style="color:#a6e22e">#&#39;</span>casual-editkit-main-tmenu)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-narrow
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for narrow/widen&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;n&#34;</span> <span style="color:#a6e22e">#&#39;narrow-to-region</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;b&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-narrow-to-block
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;e&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-narrow-to-element
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-narrow-to-subtree
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>narrow-to-defun
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;p&#34;</span> <span style="color:#a6e22e">#&#39;</span>narrow-to-page
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;w&#34;</span> <span style="color:#a6e22e">#&#39;widen</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-m
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for misc/Mark&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#a6e22e">#&#39;</span>accent-menu
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#a6e22e">#&#39;</span>follow-mode
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;p&#34;</span> <span style="color:#a6e22e">#&#39;</span>pass
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> prefix-buffer-map-casual
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;n&#34;</span> prefix-buffer-map-narrow
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>scroll-lock-mode
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;w&#34;</span> <span style="color:#a6e22e">#&#39;</span>world-clock)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-o
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for Org&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-tags-view
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-archive-subtree
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-time-stamp-inactive
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-time-stamp
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;r&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-refile
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#a6e22e">#&#39;</span>open-link-at-point-or-minibuffer-with-choice
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-p
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for packages/programming&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#a6e22e">#&#39;</span>list-packages
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;r&#34;</span> <span style="color:#a6e22e">#&#39;</span>package-refresh-contents
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>send-to-idle
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-q
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for org-ql&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-search
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;r&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-refile
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-open-link
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;b&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-view-sidebar
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-find
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;v&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-view
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-find-in-agenda
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-find-in-org-directory
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>org-ql-view-recent-items)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-s
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for spelling&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#a6e22e">#&#39;</span>osx-dictionary-search-word-at-point
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#a6e22e">#&#39;</span>osx-dictionary-search-input
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#a6e22e">#&#39;</span>jinx-languages
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> <span style="color:#a6e22e">#&#39;</span>jinx-correct
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#a6e22e">#&#39;</span>powerthesaurus-transient
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#a6e22e">#&#39;</span>dictionary-search)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-t
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for terminals&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;e&#34;</span> <span style="color:#a6e22e">#&#39;</span>eat
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;v&#34;</span> <span style="color:#a6e22e">#&#39;</span>multi-vterm)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-u
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for undo&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;v&#34;</span> <span style="color:#a6e22e">#&#39;</span>undo-tree-visualize
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;u&#34;</span> <span style="color:#a6e22e">#&#39;</span>undo-tree-undo
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;r&#34;</span> <span style="color:#a6e22e">#&#39;</span>undo-tree-redo)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-w
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for window/frame&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> <span style="color:#a6e22e">#&#39;</span>close-buffer-and-window
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-buffer-map-.
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix map for C-q for consult omni&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-omni-dictionary
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;w&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-omni-wikipedia
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;y&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-omni-youtube
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-omni-apps
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-omni-org-agenda
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;g&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-omni-grep
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m&#34;</span> <span style="color:#a6e22e">#&#39;</span>consult-omni-multi
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (defvar-keymap prefix-command-q
+</span></span><span style="display:flex;"><span>    :doc <span style="color:#e6db74">&#34;Prefix Map for C-q:&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;0&#34;</span> prefix-buffer-map-0
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> prefix-buffer-map-a
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;b&#34;</span> prefix-buffer-map-b
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> prefix-buffer-map-c
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> prefix-buffer-map-d
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;e&#34;</span> prefix-buffer-map-e
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> prefix-buffer-map-i
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> prefix-buffer-map-f
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;g&#34;</span> <span style="color:#e6db74">&#39;magit-status</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;j&#34;</span> prefix-buffer-map-j
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;h&#34;</span> help-map
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;l&#34;</span> prefix-buffer-map-l
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m&#34;</span> prefix-buffer-map-m
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> prefix-buffer-map-o
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;p&#34;</span> prefix-buffer-map-p
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;q&#34;</span> <span style="color:#e6db74">&#39;prefix-buffer-map-q</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> prefix-buffer-map-s
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;t&#34;</span> prefix-buffer-map-t
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;u&#34;</span> prefix-buffer-map-u
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;w&#34;</span> prefix-buffer-map-w
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;.&#34;</span> prefix-buffer-map-.
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (which-key-add-keymap-based-replacements prefix-command-q
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;0x0&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-0)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;ollama&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-a)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;b&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Buffer&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-b)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;c&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Consult&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-c)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Dired/Denote&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-d)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;e&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Edit&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-e)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Ement/ERC&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-i)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;f&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Fzf&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-f)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;j&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Jump&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-j)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;h&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Help Map&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>help-map)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Line&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-l)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Misc&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-m)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Org&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-o)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;p&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Packages/Programming&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-p)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;q&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Org-ql&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-q)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Spelling/Dictionary/Jinx&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-s)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Terminals&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-t)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;u&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Undo Tree&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-u)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;w&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Window/Buffers&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-w)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;.&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Consult Omni&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-.)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;d d&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Denote&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-denote)
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m c&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Casual Menus&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-casual)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">;; &#34;m m&#34; `(&#34;Mark&#34; . ,prefix-buffer-map-mark)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;m n&#34;</span> <span style="color:#f92672">`</span>(<span style="color:#e6db74">&#34;Narrow/Widen&#34;</span> <span style="color:#f92672">.</span> <span style="color:#f92672">,</span>prefix-buffer-map-narrow))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (keymap-set global-map <span style="color:#e6db74">&#34;C-q&#34;</span> prefix-command-q)</span></span></code></pre></div>
+</div>
+<p>
+I won&#39;t bother to explain what this does because you can figure it out really easily I think. It&#39;s just an example set. I hope this helps people. Have fun with it and feel free to ask me anything if you want me to clarify something.</p>
+<p>
+👋 </p>
+</div>
+</div>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://summeremacs.github.io/posts/open-with-eww/" class="button inline next">
+        Open with EWW
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
