@@ -1,0 +1,38 @@
+---
+title: "ERC Flipping Buffers"
+date: 2024-10-25T01:00:00+02:00
+draft: false
+author: "Summer Emacs"
+tags: ["emacs","irc"]
+---
+
+* ERC Flipping Buffers
+
+On the subject of simple keybinds, here's another one: Are you on IRC? Do you use ERC in Emacs as your client? Well, if so, you're in luck! If you're like me, you probably are in a lot of channels and going through all of your channels can be a little bit of a pain. No, it's not because Emacs is a pain, but flipping through them quickly in the same buffer/window is kinda a drag. So, I have a little function which binds =C-'= to flip through all open ERC buffers. Here it is:
+
+#+begin_src emacs-lisp
+
+  ;; Cycle thorugh ERC Buffers
+  (defun cycle-erc-buffers ()
+    "Cycle through ERC buffers in alphabetical order."
+    (interactive)
+    (let* ((erc-buffers (seq-filter (lambda (buf)
+      				    (with-current-buffer buf
+      				      (derived-mode-p 'erc-mode)))
+      				  (buffer-list)))
+      	 (sorted-erc-buffers (sort erc-buffers
+      				   (lambda (a b)
+      				     (string< (buffer-name a) (buffer-name b)))))
+      	 (current-buffer-pos (cl-position (current-buffer) sorted-erc-buffers)))
+      (if sorted-erc-buffers
+      	(switch-to-buffer
+      	 (nth (mod (1+ (or current-buffer-pos -1)) (length sorted-erc-buffers)) sorted-erc-buffers))
+        (message "No ERC buffers found."))))
+
+  (global-set-key (kbd "C-'") 'cycle-erc-buffers)
+
+#+end_src
+
+I find it really useful when trying to scan through stuff very quickly. I hope this helps!
+
+👋 

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>ERC Flipping Buffers :: The Great SummerEmacs Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" ERC Flipping Buffers On the subject of simple keybinds, here&#39;s another one: Are you on IRC? Do you use ERC in Emacs as your client? Well, if so, you&#39;re in luck! If you&#39;re like me, you probably are in a lot of channels and going through all of your channels can be a little bit of a pain. No, it&#39;s not because Emacs is a pain, but flipping through them quickly in the same buffer/window is kinda a drag. So, I have a little function which binds C-&#39; to flip through all open ERC buffers. Here it is:
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://summeremacs.github.io/posts/erc-flipping/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/terminal.min.736caf886baa67df630c4cde30fbdc5115122eb74c6246f15a31401344bfa2f0.css">
+
+  
+  <link rel="stylesheet" href="https://summeremacs.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://summeremacs.github.io/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://summeremacs.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://summeremacs.github.io/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Summer Emacs" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="ERC Flipping Buffers">
+<meta property="og:description" content=" ERC Flipping Buffers On the subject of simple keybinds, here&#39;s another one: Are you on IRC? Do you use ERC in Emacs as your client? Well, if so, you&#39;re in luck! If you&#39;re like me, you probably are in a lot of channels and going through all of your channels can be a little bit of a pain. No, it&#39;s not because Emacs is a pain, but flipping through them quickly in the same buffer/window is kinda a drag. So, I have a little function which binds C-&#39; to flip through all open ERC buffers. Here it is:
+" />
+<meta property="og:url" content="https://summeremacs.github.io/posts/erc-flipping/" />
+<meta property="og:site_name" content="The Great SummerEmacs Blog" />
+
+  <meta property="og:image" content="https://summeremacs.github.io/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-10-25 01:00:00 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://summeremacs.github.io/posts/erc-flipping/">ERC Flipping Buffers</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-10-25</time><span class="post-author">Summer Emacs</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://summeremacs.github.io/tags/emacs/">emacs</a>&nbsp;
+      
+      #<a href="https://summeremacs.github.io/tags/irc/">irc</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+ERC Flipping Buffers
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+On the subject of simple keybinds, here&#39;s another one: Are you on IRC? Do you use ERC in Emacs as your client? Well, if so, you&#39;re in luck! If you&#39;re like me, you probably are in a lot of channels and going through all of your channels can be a little bit of a pain. No, it&#39;s not because Emacs is a pain, but flipping through them quickly in the same buffer/window is kinda a drag. So, I have a little function which binds <code class="verbatim">C-&#39;</code> to flip through all open ERC buffers. Here it is:</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>  <span style="color:#75715e">;; Cycle thorugh ERC Buffers</span>
+</span></span><span style="display:flex;"><span>  (defun cycle-erc-buffers ()
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;Cycle through ERC buffers in alphabetical order.&#34;</span>
+</span></span><span style="display:flex;"><span>    (interactive)
+</span></span><span style="display:flex;"><span>    (let* ((erc-buffers (seq-filter (lambda (buf)
+</span></span><span style="display:flex;"><span>      				    (with-current-buffer buf
+</span></span><span style="display:flex;"><span>      				      (derived-mode-p <span style="color:#e6db74">&#39;erc-mode</span>)))
+</span></span><span style="display:flex;"><span>      				  (<span style="color:#a6e22e">buffer-list</span>)))
+</span></span><span style="display:flex;"><span>      	 (sorted-erc-buffers (<span style="color:#a6e22e">sort</span> erc-buffers
+</span></span><span style="display:flex;"><span>      				   (lambda (a b)
+</span></span><span style="display:flex;"><span>      				     (string&lt; (<span style="color:#a6e22e">buffer-name</span> a) (<span style="color:#a6e22e">buffer-name</span> b)))))
+</span></span><span style="display:flex;"><span>      	 (current-buffer-pos (cl-position (<span style="color:#a6e22e">current-buffer</span>) sorted-erc-buffers)))
+</span></span><span style="display:flex;"><span>      (if sorted-erc-buffers
+</span></span><span style="display:flex;"><span>      	(switch-to-buffer
+</span></span><span style="display:flex;"><span>      	 (<span style="color:#a6e22e">nth</span> (<span style="color:#a6e22e">mod</span> (<span style="color:#a6e22e">1+</span> (or current-buffer-pos <span style="color:#ae81ff">-1</span>)) (<span style="color:#a6e22e">length</span> sorted-erc-buffers)) sorted-erc-buffers))
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">message</span> <span style="color:#e6db74">&#34;No ERC buffers found.&#34;</span>))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (global-set-key (kbd <span style="color:#e6db74">&#34;C-&#39;&#34;</span>) <span style="color:#e6db74">&#39;cycle-erc-buffers</span>)</span></span></code></pre></div>
+</div>
+<p>
+I find it really useful when trying to scan through stuff very quickly. I hope this helps!</p>
+<p>
+👋 </p>
+</div>
+</div>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://summeremacs.github.io/posts/universal-keybind/" class="button inline next">
+        Universal Keybind
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

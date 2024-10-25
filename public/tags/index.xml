@@ -6,13 +6,23 @@
     <description>Recent content in Tags on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Oct 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs</title>
       <link>https://summeremacs.github.io/tags/emacs/</link>
-      <pubDate>Tue, 22 Oct 2024 01:00:00 +0200</pubDate>
+      <pubDate>Fri, 25 Oct 2024 01:00:00 +0200</pubDate>
       
       <guid>https://summeremacs.github.io/tags/emacs/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Irc</title>
+      <link>https://summeremacs.github.io/tags/irc/</link>
+      <pubDate>Fri, 25 Oct 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/tags/irc/</guid>
       <description></description>
       <content></content>
     </item>

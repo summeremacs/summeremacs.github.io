@@ -6,7 +6,57 @@
     <description>Recent content in Posts on The Great SummerEmacs Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Oct 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2024 01:00:00 +0200</lastBuildDate><atom:link href="https://summeremacs.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ERC Flipping Buffers</title>
+      <link>https://summeremacs.github.io/posts/erc-flipping/</link>
+      <pubDate>Fri, 25 Oct 2024 01:00:00 +0200</pubDate>
+      
+      <guid>https://summeremacs.github.io/posts/erc-flipping/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+ERC Flipping Buffers
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+On the subject of simple keybinds, here&amp;#39;s another one: Are you on IRC? Do you use ERC in Emacs as your client? Well, if so, you&amp;#39;re in luck! If you&amp;#39;re like me, you probably are in a lot of channels and going through all of your channels can be a little bit of a pain. No, it&amp;#39;s not because Emacs is a pain, but flipping through them quickly in the same buffer/window is kinda a drag. So, I have a little function which binds &lt;code class=&#34;verbatim&#34;&gt;C-&amp;#39;&lt;/code&gt; to flip through all open ERC buffers. Here it is:&lt;/p&gt;</description>
+      <content>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+ERC Flipping Buffers
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+On the subject of simple keybinds, here&amp;#39;s another one: Are you on IRC? Do you use ERC in Emacs as your client? Well, if so, you&amp;#39;re in luck! If you&amp;#39;re like me, you probably are in a lot of channels and going through all of your channels can be a little bit of a pain. No, it&amp;#39;s not because Emacs is a pain, but flipping through them quickly in the same buffer/window is kinda a drag. So, I have a little function which binds &lt;code class=&#34;verbatim&#34;&gt;C-&amp;#39;&lt;/code&gt; to flip through all open ERC buffers. Here it is:&lt;/p&gt;
+&lt;div class=&#34;src src-emacs-lisp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;;; Cycle thorugh ERC Buffers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (defun cycle-erc-buffers ()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Cycle through ERC buffers in alphabetical order.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (interactive)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (let* ((erc-buffers (seq-filter (lambda (buf)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      				    (with-current-buffer buf
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      				      (derived-mode-p &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;erc-mode&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      				  (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-list&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      	 (sorted-erc-buffers (&lt;span style=&#34;color:#a6e22e&#34;&gt;sort&lt;/span&gt; erc-buffers
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      				   (lambda (a b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      				     (string&amp;lt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-name&lt;/span&gt; a) (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-name&lt;/span&gt; b)))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      	 (current-buffer-pos (cl-position (&lt;span style=&#34;color:#a6e22e&#34;&gt;current-buffer&lt;/span&gt;) sorted-erc-buffers)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (if sorted-erc-buffers
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      	(switch-to-buffer
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      	 (&lt;span style=&#34;color:#a6e22e&#34;&gt;nth&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;mod&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;1+&lt;/span&gt; (or current-buffer-pos &lt;span style=&#34;color:#ae81ff&#34;&gt;-1&lt;/span&gt;)) (&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt; sorted-erc-buffers)) sorted-erc-buffers))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        (&lt;span style=&#34;color:#a6e22e&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;No ERC buffers found.&amp;#34;&lt;/span&gt;))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (global-set-key (kbd &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C-&amp;#39;&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;cycle-erc-buffers&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+I find it really useful when trying to scan through stuff very quickly. I hope this helps!&lt;/p&gt;
+&lt;p&gt;
+👋 &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    </item>
+    
     <item>
       <title>Universal Keybind</title>
       <link>https://summeremacs.github.io/posts/universal-keybind/</link>
