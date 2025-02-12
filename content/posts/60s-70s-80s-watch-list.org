@@ -17,7 +17,7 @@ Updated: [2023-11-22 Wed]
 
 * 90s Movies
 - [X] Home Alone
-- [ ] Robin Hood: Men in Tights (1993)
+- [X] Robin Hood: Men in Tights (1993)
    
 * 80s Movies
 - [X] A Fish Called Wanda
@@ -40,21 +40,21 @@ Updated: [2023-11-22 Wed]
 - [X] Dark Crystal
 - [X] Dead Poets Society
 - [ ] Dennis the Menace
-- [ ] Desperately Seeking Susan
+- [X] Desperately Seeking Susan
 - [X] Die Hard
 - [X] Dune
 - [ ] Dutch
 - [X] E.T.
 - [ ] Fanny and Alexander
-- [ ] Fast Times at Ridgemont High
+- [X] Fast Times at Ridgemont High
 - [X] Ferris Bueller's Day Off
-- [ ] Field of Dreams
+- [X] Field of Dreams
 - [X] Flashdance
 - [X] Footloose
-- [ ] Full Metal Jacket
+- [X] Full Metal Jacket
 - [X] Ghostbusters
 - [X] Heathers
-- [ ] Highlander
+- [X] Highlander
 - [X] History of the World, Part I (1981)
 - [ ] Killer Klowns from Outer Space
 - [ ] Kung Fury (It's made in 80s style apparently)
@@ -62,13 +62,14 @@ Updated: [2023-11-22 Wed]
 - [X] Liquid Sky
 - [X] Little Shop of Horrors
 - [X] Mannequin
-- [ ] Mr. Mom
-- [ ] Mrs. Doubtfire
+- [X] Mr. Mom
+- [X] Mrs. Doubtfire
 - [ ] National Lampoon's Vacation
 - [X] Neverending Story
-- [ ] One Crazy Summer
+- [X] One Crazy Summer
 - [X] Planes, Trains and Automobiles
-- [ ] Poltergeist
+- [X] Poltergeist
+- [X] Poltergeist II
 - [X] Pretty in Pink
 - [X] Purple Rain
 - [X] Raiders of the Lost Ark
@@ -76,17 +77,17 @@ Updated: [2023-11-22 Wed]
 - [X] Real Genius
 - [X] Repo Man
 - [X] Risky Business
-- [ ] Robocop
+- [X] Robocop
 - [ ] Ronia, the Robber's Daughter (1984)
 - [ ] Saint Elmo's Fire
 - [ ] She's Having a Baby
-- [ ] Short Circuit
+- [X] Short Circuit
 - [X] Sixteen Candles
 - [ ] Some Kind of Wonderful
 - [X] Spaceballs (1987)
-- [ ] Stand By Me
+- [X] Stand By Me
 - [ ] Steel Magnolias
-- [ ] Stripes
+- [X] Stripes
 - [X] The Breakfast Club
 - [ ] The Great Outdoors
 - [X] The Karate Kid (1 & 2)
@@ -97,22 +98,22 @@ Updated: [2023-11-22 Wed]
 - [X] The Right Stuff
 - [X] The Shining
 - [X] The Terminator
-- [ ] This is Spinal Tap
+- [X] This is Spinal Tap
 - [X] Time Bandits
-- [ ] Tootsie
+- [X] Tootsie
 - [X] Top Gun
 - [X] Total Recall
 - [X] Trading Places
-- [ ] Tron
-- [ ] Twins
-- [ ] Uncle Buck
+- [X] Tron
+- [X] Twins
+- [X] Uncle Buck
 - [X] Valley Girl
-- [ ] Wall Street
+- [X] Wall Street
 - [X] War Games
 - [X] Weird Science
 - [X] When Harry Met Sally
 - [X] Willow
-- [ ] Working 9 to 5
+- [X] Working 9 to 5
 - [X] Working Girl
 
 * 70s Movies
